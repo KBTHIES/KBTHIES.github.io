@@ -1,0 +1,52 @@
+/* Variable for scaling */
+:root{
+    --scalar: 250; /*A multiplier for dimensions*/
+    --grid-gutter: 0.5px; /*Spacing between grid items */
+}
+header {
+    display: flex;
+    height: 6vh;
+    position: sticky;
+    width: 100%;
+    background-color: gray;
+    top: 0;
+}
+grid-wrapper {
+  display: flex;
+  justify-content: center; /* Center the grid horizontally */  
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, calc(0.7px * var(--scalar))); /* Main grid */
+  column-gap: calc(1 * var(--grid-gutter) * var(--scalar)); /* Space between the cells */
+  row-gap: calc(0.4 * var(--grid-gutter) * var(--scalar)); /* Space between the cells */
+  justify-content: center; /* Center the grid on the page */
+  justify-items: center; /* Center the grid on the page */
+}
+.grid-item {
+  width: calc(1px * var(--scalar));
+  height: calc(1.618px * var(--scalar));
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 30px;
+  text-align: center;
+}
+.section {
+    flex: 1; /* Allow main content to grow and fill available space */
+    height: 100vh;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+    padding-left: 10vw; /* Padding around the grid */
+    padding-right: 10vw; /* Padding around the grid */
+}
+footer {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: 4vh;
+    background-color: gray;
+}
+body {
+    margin: 0;
+    height: 100%;
+}
