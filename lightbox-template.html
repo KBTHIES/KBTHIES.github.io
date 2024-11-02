@@ -1,0 +1,29 @@
+<link rel="stylesheet" href="styles.css">
+<div class="lightbox-content">
+    <!-- Close button -->
+    <span class="close">&times;</span>
+
+    <!-- Project title -->
+    <p class="lightbox-header">
+        <span id="lightbox-title">Default Title</span>
+    </p>
+
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+        <!-- The slideshow images will be dynamically inserted here -->
+        <div id="slideshow-images"></div>
+
+        <!-- Navigation arrows -->
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+    </div>
+    
+    <!-- Image description -->
+    <p id="image-description">Default image description</p>
+    
+    <!-- Thumbnail navigation (will be hidden if only one image) -->
+    <div id="thumbnail-navigation" class="row"></div>
+
+    <!-- Project description -->
+    <p id="project-description">Default HTML content</p>
+</div>
