@@ -15,14 +15,17 @@ header {
     font-weight: 600;
     align-items: center;
 }
+
 nav {
     padding-left: 5vw;
     justify-content: right;
 }
+
 grid-wrapper {
     justify-content: center; /* Center the grid horizontally */
     margin-top: 500px;
 }
+
 nav button {
     font-family:
         Instrument Sans,
@@ -41,13 +44,15 @@ nav button {
     background: none;
     transition: 0.3s;
 }
+
 nav button:hover {
     opacity: 0.75;
     background-color: darkgray;
     cursor: pointer;
 }
+
 nav button.active {
-    border-color: cornsilk;
+    border-color: lightgray;
     /*background-color: rgba(0, 0, 0, 0.20);
     color: white;*/
     text-decoration: underline;
@@ -59,15 +64,25 @@ nav button.active {
         Instrument Sans,
         sans-serif;
 }
+
 .filter-container {
     position: absolute;
     top: 7vh;
     left: 2vw;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.25);
     padding: 10px;
     border-radius: 15px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
+
+.filter-container h3 {
+    text-decoration: underline;
+    font-size: 1.2em; /* Adjust size as needed */
+    margin-top: 0;
+    margin-bottom: 0; /* Space between header and checkboxes */
+    text-align: left; /* Align left, change if needed */
+}
+
 .filter-container label {
     display: block;
     margin-bottom: 5px;
@@ -75,27 +90,19 @@ nav button.active {
     padding: 5px; /* Add some padding for better click area */
     border-radius: 3px; /* Add rounded corners */
 }
+
 .filter-container label:hover {
     background-color: #e0e0e0; /* Change background on hover */
 }
+
 .selected-filter {
-    background-color: cornsilk; /* Color for selected filters */
-}
-.filter-card {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    padding: 10px;
-    border-radius: 15px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    max-width: 200px;
+    background-color: rgba(0, 0, 0, 0.25); /* Color for selected filters */
 }
 
 .portfolio {
     padding-top: 50px;
 }
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, calc(0.7px * var(--scalar))); /* Main grid */
@@ -104,6 +111,7 @@ nav button.active {
     justify-content: center; /* Center the grid on the page */
     justify-items: center; /* Center the grid on the page */
 }
+
 .grid-item {
     font-family: Alumni Sans Pinstripe;
     width: calc(1px * var(--scalar));
@@ -118,15 +126,18 @@ nav button.active {
     transition: 0.2s ease-in-out;
     transition-delay: 0.1s;
 }
+
 .grid-item:hover {
     transform: scale(1.05);
     transition: 0.2s ease-in-out;
     box-shadow: 0 0 15px darkgray;
 }
+
 .grid-item:hover .grid-overlay {
     opacity: 1;
     text-shadow: 0 0 15px gray;
 }
+
 .grid-overlay {
     font-family:
         Instrument Sans,
@@ -140,6 +151,7 @@ nav button.active {
     opacity: 0;
     transition: 0.5s ease;
 }
+
 .lightbox {
     position: fixed;
     top: 0;
@@ -152,6 +164,7 @@ nav button.active {
     align-items: center;
     z-index: 1000; /* Make sure the lightbox is above other content */
 }
+
 .lightbox-content {
     font-family:
         Instrument Sans,
@@ -162,16 +175,20 @@ nav button.active {
     max-width: 1000px;
     width: 90vw; /* Responsive width */
 }
+
 #lightbox-title {
     text-align: left;
 }
+
 #lightbox-timeline {
     float: right;
 }
+
 .collaborators {
     background-color: antiquewhite;
     display: none;
 }
+
 /* Slideshow container */
 .slideshow-container {
     position: relative;
@@ -264,6 +281,7 @@ nav button.active {
     padding-left: 10vw; /* Padding around the grid */
     padding-right: 10vw; /* Padding around the grid */
 }
+
 footer {
     font-family:
         Instrument Sans,
@@ -278,6 +296,7 @@ footer {
     height: 4vh;
     background-color: gray;
 }
+
 .footer-content {
     padding-top: 0.3vh;
     align-items: center;

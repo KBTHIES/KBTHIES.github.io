@@ -51,6 +51,7 @@ function changeSlide(direction) {
     // Update the image description
     document.getElementById('image-description').textContent = descriptions[currentSlideIndex].Description || "No description available";
 }
+
 // Add event listeners to the buttons
 document.getElementById('home-btn').addEventListener('click', function() {
     showSection('home');
@@ -68,6 +69,9 @@ document.getElementById('portfolio-btn').addEventListener('click', function() {
 
 document.addEventListener('DOMContentLoaded', function() {
     console.log("page loaded");
+    
+        // Declare the tags Set
+    const tags = new Set(); // Initialize the Set to collect tags
 
     // Event listeners for section buttons
     document.getElementById('home-btn').addEventListener('click', function() {
@@ -95,8 +99,14 @@ document.addEventListener('DOMContentLoaded', function() {
             const gridContainer = document.querySelector('.grid-container');
 
             projects.forEach((project) => {
+                // Add tags to the set
+                if (project.Tags && Array.isArray(project.Tags)) {
+                    project.Tags.forEach(tag => tags.add(tag));
+                }
+
                 const gridItem = document.createElement('div');
                 gridItem.classList.add('grid-item');
+                gridItem.dataset.tags = project.Tags ? project.Tags.join(',') : '';
 
                 let imageUrl = project.ThumbnailImage && project.ThumbnailImage !== "" ? project.ThumbnailImage : 'images/placeholder.jpg';
                 gridItem.style.backgroundImage = `url(${imageUrl})`;
@@ -113,9 +123,77 @@ document.addEventListener('DOMContentLoaded', function() {
                     showLightbox(project);
                 });
             });
+
+            // Add filter container to the portfolio section
+            const portfolioSection = document.getElementById('portfolio');
+            let filterContainer = document.createElement('div');
+            filterContainer.classList.add('filter-container');
+        
+            // Create the "Filters" header
+            const filtersHeader = document.createElement("h3");
+            filtersHeader.textContent = "Filters";
+            filterContainer.appendChild(filtersHeader); // Append the header to the filter container
+
+            portfolioSection.insertBefore(filterContainer, portfolioSection.firstChild);
+
+            // Populate filter checkboxes
+            tags.forEach(tag => {
+                const label = document.createElement('label');
+                label.textContent = tag;
+
+                const checkbox = document.createElement('input');
+                checkbox.type = 'checkbox';
+                checkbox.value = tag;
+                checkbox.style.display = 'none'; // Hide the checkbox
+
+                // Add click event to label
+                label.addEventListener('click', () => {
+                    checkbox.checked = !checkbox.checked; // Toggle the checkbox state
+                    // Toggle the selected-filter class based on checkbox state
+                    if (checkbox.checked) {
+                        label.classList.add('selected-filter'); // Add class if checked
+                    } else {
+                        label.classList.remove('selected-filter'); // Remove class if unchecked
+                    }
+                    handleTagFilter(); // Call the filter function
+                });
+
+                label.prepend(checkbox);
+                filterContainer.appendChild(label);
+            });
         })
         .catch(error => console.error('Error fetching the JSON file:', error));
+    
+    function handleTagFilter() {
+        const selectedTags = Array.from(document.querySelectorAll('.filter-container input:checked')).map(input => input.value);
 
+        // Display all projects if no tags are selected
+        if (selectedTags.length === 0) {
+            document.querySelectorAll('.grid-item').forEach(item => item.style.display = 'block');
+            return;
+        }
+
+        // Filter projects based on selected tags
+        document.querySelectorAll('.grid-item').forEach(item => {
+            const projectTags = item.dataset.tags ? item.dataset.tags.split(',') : [];
+            if (selectedTags.some(tag => projectTags.includes(tag))) {
+                item.style.display = 'block';
+            } else {
+                item.style.display = 'none';
+            }
+        });
+    }
+
+        // Filter projects based on selected tags
+        document.querySelectorAll('.grid-item').forEach(item => {
+            const projectTags = item.dataset.tags ? item.dataset.tags.split(',') : [];
+            if (selectedTags.some(tag => projectTags.includes(tag))) {
+                item.style.display = 'block';
+            } else {
+                item.style.display = 'none';
+            }
+        });
+    
     function showLightbox(selectedProject) {
         project = selectedProject; // Store the current project
 
