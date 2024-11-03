@@ -5,85 +5,234 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Markdown Editor</title>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .project {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            display: none; /* Initially hide all projects */
+        }
+.progress-bar {
+    width: 100%;
+    height: 30px;
+    background-color: #e0e0e0; /* Light gray background */
+    border-radius: 5px;
+    position: relative;
+    margin: 10px 0; /* Add some space around it */
+}
+
+.progress-bar span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+
+
+        input, textarea {
+            width: 100%;
+            margin: 5px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        textarea {
+            height: 100px;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Markdown Editor</h1>
-    <textarea id="markdown-input" rows="10" cols="50"></textarea>
+<h1 id="project-title"></h1>
+<div id="progress-bar" class="progress-bar">
+    <span id="project-index"></span>
+</div>
+<div id="navigation">
+    <button id="prev-btn">Previous</button>
+    <span id="prev-title" class="nav-title"></span>
+    <br>
+    <button id="next-btn">Next</button>
+    <span id="next-title" class="nav-title"></span>
+</div>
+
+
+    <div id="projects-container"></div>
     <button id="save-btn">Save as JSON</button>
     <div id="preview"></div>
 
-    <script>
+<script>
+    let projects = [];
+    let currentIndex = 0;
+
+    // Wait for the DOM to load
+    document.addEventListener('DOMContentLoaded', () => {
         // Load the existing projects.json data
         fetch('projects.json')
             .then(response => response.json())
             .then(data => {
-                // Convert data to Markdown and set it in the textarea
-                const markdown = convertToMarkdown(data);
-                document.getElementById('markdown-input').value = markdown;
-                updatePreview(markdown);
+                projects = data.projects;
+                // Populate the projects into the UI
+                populateProjects();
+                displayProject(currentIndex);
             });
+    });
 
-        // Function to convert JSON to Markdown
-        function convertToMarkdown(data) {
-            return data.projects.map(project => 
-                `# ${project.Title}\n\n${project.BodyContent}\n\n---\n`
-            ).join('');
-        }
+    // Function to populate the projects into the UI
+    function populateProjects() {
+        const container = document.getElementById('projects-container');
+        projects.forEach((project, index) => {
+            const projectDiv = document.createElement('div');
+            projectDiv.classList.add('project');
+            projectDiv.innerHTML = `
+                <label>Title</label>
+                <input type="text" class="title" value="${project.Title}">
+                
+                <label>Body Content (Markdown)</label>
+                <textarea class="bodyContent">${project.BodyContent}</textarea>
+                
+                <label>Timeframe Sortable</label>
+                <input type="text" class="timeframeSortable" value="${project.Timeframe.Sortable}">
+                
+                <label>Timeframe Display</label>
+                <input type="text" class="timeframeDisplay" value="${project.Timeframe.Display}">
+                
+                <label>Description</label>
+                <textarea class="description">${project.Description}</textarea>
+                
+                <label>Thumbnail Image URL</label>
+                <input type="text" class="thumbnailImage" value="${project.ThumbnailImage}">
+                
+                <label>Collaborators (JSON format)</label>
+                <textarea class="collaborators">${JSON.stringify(project.Collaborators, null, 2)}</textarea>
+                
+                <label>Tags (comma-separated)</label>
+                <input type="text" class="tags" value="${project.Tags.join(', ')}">
+                
+                <label>Images (JSON format)</label>
+                <textarea class="images">${JSON.stringify(project.Images, null, 2)}</textarea>
+            `;
+            container.appendChild(projectDiv);
+        });
+    }
 
-        // Update preview from Markdown input
-        document.getElementById('markdown-input').addEventListener('input', function() {
-            const markdown = this.value;
-            updatePreview(markdown);
+    // Display the current project
+    function displayProject(index) {
+        const allProjects = document.querySelectorAll('.project');
+        allProjects.forEach((project, i) => {
+            project.style.display = (i === index) ? 'block' : 'none';
+        });
+        document.getElementById('project-title').innerText = projects[index].Title || 'Untitled Project';
+        
+        // Update project index in (x/y) format
+        document.getElementById('project-index').innerText = `(${index + 1}/${projects.length})`;
+        
+        // Update the progress bar width
+        updateProgressBar(index);
+        
+        updateNavigationButtons(index);
+    }
+
+    // Update navigation button titles
+    function updateNavigationButtons(index) {
+        const prevTitle = document.getElementById('prev-title');
+        const nextTitle = document.getElementById('next-title');
+
+        // Set titles for the previous and next projects
+        prevTitle.innerText = projects[index === 0 ? projects.length - 1 : index - 1].Title; // Loop back to the last project if at the first
+        nextTitle.innerText = projects[index === projects.length - 1 ? 0 : index + 1].Title; // Loop to the first project if at the last
+    }
+
+    // Update the progress bar to reflect the current index
+    function updateProgressBar(index) {
+        const progressBar = document.getElementById('progress-bar');
+        const progressPercent = ((index + 1) / projects.length) * 100; // Calculate progress percentage
+        progressBar.style.background = `linear-gradient(to right, #4caf50 ${progressPercent}%, #e0e0e0 ${progressPercent}%)`; // Change color dynamically
+    }
+
+    // Navigate to the previous project
+    document.getElementById('prev-btn').addEventListener('click', function() {
+        currentIndex = currentIndex === 0 ? projects.length - 1 : currentIndex - 1; // Loop to last project if at the first
+        displayProject(currentIndex);
+    });
+
+    // Navigate to the next project
+    document.getElementById('next-btn').addEventListener('click', function() {
+        currentIndex = currentIndex === projects.length - 1 ? 0 : currentIndex + 1; // Loop to first project if at the last
+        displayProject(currentIndex);
+    });
+
+    // Save JSON functionality
+    document.getElementById('save-btn').addEventListener('click', function() {
+        const updatedProjects = Array.from(document.querySelectorAll('.project')).map(projectDiv => {
+            return {
+                Title: projectDiv.querySelector('.title').value,
+                BodyContent: projectDiv.querySelector('.bodyContent').value,
+                Timeframe: {
+                    Sortable: projectDiv.querySelector('.timeframeSortable').value,
+                    Display: projectDiv.querySelector('.timeframeDisplay').value
+                },
+                Description: projectDiv.querySelector('.description').value,
+                ThumbnailImage: projectDiv.querySelector('.thumbnailImage').value,
+                Collaborators: JSON.parse(projectDiv.querySelector('.collaborators').value || '[]'),
+                Tags: projectDiv.querySelector('.tags').value.split(',').map(tag => tag.trim()),
+                Images: JSON.parse(projectDiv.querySelector('.images').value || '[]')
+            };
         });
 
-        // Function to update the HTML preview
-        function updatePreview(markdown) {
-            document.getElementById('preview').innerHTML = marked(markdown);
-        }
+        const json = JSON.stringify({ projects: updatedProjects }, null, 2);
+        downloadJSON(json, 'updated_projects.json');
+    });
 
-        // Save JSON functionality
-        document.getElementById('save-btn').addEventListener('click', function() {
-            const markdown = document.getElementById('markdown-input').value;
-            const json = convertToJSON(markdown);
-            downloadJSON(json, 'updated_projects.json');
-        });
+    // Function to trigger a download of the JSON file
+    function downloadJSON(json, filename) {
+        const blob = new Blob([json], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
 
-        // Function to convert Markdown back to JSON
-        function convertToJSON(markdown) {
-            const projects = markdown.split('---\n').map(section => {
-                const [title, body] = section.split('\n\n');
-                return {
-                    Title: title.replace('# ', ''),
-                    BodyContent: body || ''
-                };
-            }).filter(project => project.Title);
-            return JSON.stringify({ projects: projects }, null, 2);
-        }
+        // Use window.open to bypass sandboxing issues
+        window.open(url);
 
-        // Function to trigger a download of the JSON file
-        function downloadJSON(json, filename) {
-            const blob = new Blob([json], { type: 'application/json' });
-            const url = URL.createObjectURL(blob);
+        // Create an anchor element for download
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = filename;
 
-            // Use window.open to bypass sandboxing issues
-            window.open(url);
+        // Append to the body to ensure it works across all browsers
+        document.body.appendChild(a);
+        a.click();
 
-            // Create an anchor element for download
-            const a = document.createElement('a');
-            a.href = url;
-            a.download = filename;
+        // Cleanup
+        setTimeout(() => {
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url); // Release memory
+        }, 0);
+    }
+</script>
 
-            // Append to the body to ensure it works across all browsers
-            document.body.appendChild(a);
-            a.click();
 
-            // Cleanup
-            setTimeout(() => {
-                document.body.removeChild(a);
-                URL.revokeObjectURL(url); // Release memory
-            }, 0);
-        }
 
-    </script>
+
+
 </body>
 </html>

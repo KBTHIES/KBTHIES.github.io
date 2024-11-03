@@ -1,0 +1,146 @@
+{
+  "projects": [
+    {
+      "Title": "Debug Project 1",
+      "BodyContent": "<p>This is the real HTML content for Project 1.</p>",
+      "Timeframe": {
+        "Sortable": "2024-10-19",
+        "Display": "October 2024"
+      },
+      "Collaborators": [],
+      "Description": "The first debug project.",
+      "ThumbnailImage": "images/project1thumb.jpg",
+      "Images": [
+        {
+          "ImageURL": "images/project1thumb.jpg",
+          "Description": "sample image 1."
+        },
+        {
+          "ImageURL": "images/project1thumb.jpg",
+          "Description": "sample image 2."
+        }
+      ],
+      "Tags": [
+          "test project", "small project"
+      ]
+    },
+    {
+      "Title": "Debug Project 2",
+      "BodyContent": "<p>This is the HTML content for Project 2.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": ""
+      },
+      "Collaborators": [
+        {
+          "Name": "Collaborator 1",
+          "Role": "Designer"
+        },
+        {
+          "Name": "Collaborator 2",
+          "Role": "Developer"
+        }
+      ],
+      "Description": "A short project with collaborators",
+      "ThumbnailImage": "",
+      "Images": [
+        {
+          "ImageURL": "images/project1thumb.jpg",
+          "Description": "sample image 1."
+        }
+      ],
+      "Tags": [
+          "Big project", "Academic", "Work"
+      ]
+    },
+    {
+      "Title": "Debug Project 2",
+      "BodyContent": "<p>This is the HTML content for Project 2.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": ""
+      },
+      "Collaborators": [
+        {
+          "Name": "Collaborator 1",
+          "Role": "Designer"
+        },
+        {
+          "Name": "Collaborator 2",
+          "Role": "Developer"
+        }
+      ],
+      "Description": "A short project with collaborators",
+      "ThumbnailImage": "",
+      "Images": [
+        {
+          "ImageURL": "images/project1thumb.jpg",
+          "Description": "sample image 1."
+        }
+      ],
+      "Tags": [
+          "Big project", "Academic", "Work"
+      ]
+    },
+    {
+      "Title": "Debug Project 2",
+      "BodyContent": "<p>This is the HTML content for Project 2.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": ""
+      },
+      "Collaborators": [
+        {
+          "Name": "Collaborator 1",
+          "Role": "Designer"
+        },
+        {
+          "Name": "Collaborator 2",
+          "Role": "Developer"
+        }
+      ],
+      "Description": "A short project with collaborators",
+      "ThumbnailImage": "",
+      "Images": [
+        {
+          "ImageURL": "images/project1thumb.jpg",
+          "Description": "sample image 1."
+        }
+      ],
+      "Tags": [
+          "Big project", "Academic", "Work"
+      ]
+    },
+    {
+      "Title": "Debug Project 2",
+      "BodyContent": "<p>This is the HTML content for Project 2.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": ""
+      },
+      "Collaborators": [
+        {
+          "Name": "Collaborator 1",
+          "Role": "Designer"
+        },
+        {
+          "Name": "Collaborator 2",
+          "Role": "Developer"
+        }
+      ],
+      "Description": "A short project with collaborators",
+      "ThumbnailImage": "",
+      "Images": [
+        {
+          "ImageURL": "images/project1thumb.jpg",
+          "Description": "sample image 1."
+        }
+      ],
+      "Tags": [
+          "Big project", "Academic", "Work"
+      ]
+    }
+  ]
+}
+
+

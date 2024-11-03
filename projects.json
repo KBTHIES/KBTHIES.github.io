@@ -1,15 +1,19 @@
 {
   "projects": [
     {
-      "Title": "Debug Project 1",
+      "Title": "Airships",
       "BodyContent": "<p>This is the real HTML content for Project 1.</p>",
       "Timeframe": {
         "Sortable": "2024-10-19",
         "Display": "October 2024"
       },
-      "Collaborators": [],
       "Description": "The first debug project.",
-      "ThumbnailImage": "images/project1thumb.jpg",
+      "ThumbnailImage": "\"images/Airships/thumbnail.jpg\"",
+      "Collaborators": [],
+      "Tags": [
+        "Personal",
+        "3D Modelling"
+      ],
       "Images": [
         {
           "ImageURL": "images/project1thumb.jpg",
@@ -19,18 +23,17 @@
           "ImageURL": "images/project1thumb.jpg",
           "Description": "sample image 2."
         }
-      ],
-      "Tags": [
-          "test project", "small project"
       ]
     },
     {
-      "Title": "Debug Project 2",
+      "Title": "Arches",
       "BodyContent": "<p>This is the HTML content for Project 2.</p>",
       "Timeframe": {
         "Sortable": "",
         "Display": ""
       },
+      "Description": "A short project with collaborators",
+      "ThumbnailImage": "\"images/Arches/thumbnail.jpg\"",
       "Collaborators": [
         {
           "Name": "Collaborator 1",
@@ -41,103 +44,103 @@
           "Role": "Developer"
         }
       ],
-      "Description": "A short project with collaborators",
-      "ThumbnailImage": "",
+      "Tags": [
+        "Academic",
+        "Studio"
+      ],
       "Images": [
         {
           "ImageURL": "images/project1thumb.jpg",
           "Description": "sample image 1."
         }
-      ],
-      "Tags": [
-          "Big project", "Academic", "Work"
       ]
     },
     {
-      "Title": "Debug Project 2",
+      "Title": "Saco Lake Bathhouse",
       "BodyContent": "<p>This is the HTML content for Project 2.</p>",
       "Timeframe": {
         "Sortable": "",
         "Display": ""
       },
-      "Collaborators": [
-        {
-          "Name": "Collaborator 1",
-          "Role": "Designer"
-        },
-        {
-          "Name": "Collaborator 2",
-          "Role": "Developer"
-        }
-      ],
       "Description": "A short project with collaborators",
-      "ThumbnailImage": "",
+      "ThumbnailImage": "\"images/BathHouse/thumbnail.jpg\"",
+      "Collaborators": [],
+      "Tags": [
+        "Academic",
+        "Studio"
+      ],
       "Images": [
         {
           "ImageURL": "images/project1thumb.jpg",
           "Description": "sample image 1."
         }
-      ],
-      "Tags": [
-          "Big project", "Academic", "Work"
       ]
     },
     {
-      "Title": "Debug Project 2",
+      "Title": "Building Study",
+      "BodyContent": "<p>Architecture has been around for a while now, and architecture of the past has a lot to teach us today. In this project, our group was assigned to get really familiar with an architectural precedent. Our group was assigned the Fredensborg Houses by Jorn Utzon. The project involved getting familiar with the buildings, knowing the measurements and ideas behind them, and finally culminated in a scale model of the buildings and site. Since the Fredensborg Houses are a housing project, the three of us focused on three houses on the east end of the site.<br><br>As a group we had to construct the site model and each of us made our own model of the house, although each individual made their own set of drafts. I had a lot of fun with the drafts, since it was very satisfying when all the lines intersected perfectly, which took a lot of trust in yourself and in the process. Plus, the heavy-weight Strathmore paper we used wasn't cheap, especially for a student.<br><br>However, the part that I found the most enjoyable was making the models. All you had was a cutting mat, an architect's scale, a straight edge metal rule and an Exacto blade, and you had to do all of your measurements twice before committing to the cut and gluing it all together. If I had done this later in architecture school I would have used a laser cutter, but in a way it was great having to learn how to do it by hand!<p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": ""
+      },
+      "Description": "",
+      "ThumbnailImage": "\"images/BuildingStudy/thumbnail.jpg\"",
+      "Collaborators": [
+        {
+          "Name": "Curran Zhang",
+          "Role": ""
+        },
+        {
+          "Name": "Crystal Xue",
+          "Role": ""
+        }
+      ],
+      "Tags": [
+        "Academic",
+        "Studio"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/BuildingStudy/Plan.jpg",
+          "Description": "My hand-drafted Plan drawing of one of Jorn Utzon's Fredensborg Houses."
+        },
+        {
+          "ImageURL": "images/BuildingStudy/section.jpg",
+          "Description": "My hand-drafted Section drawing of one of Jorn Utzon's Fredensborg Houses."
+        },
+        {
+          "ImageURL": "images/BuildingStudy/elevation.jpg",
+          "Description": "My hand-drafted Elevation drawing of one of Jorn Utzon's Fredensborg Houses."
+        },
+        {
+          "ImageURL": "images/BuildingStudy/Paraline.jpg",
+          "Description": "My hand-drafted Paraline drawing of one of Jorn Utzon's Fredensborg Houses."
+        },
+        {
+          "ImageURL": "images/BuildingStudy/FBH1.jpg",
+          "Description": "Physical model of three isolated Fredensborg Houses."
+        }
+      ]
+    },
+    {
+      "Title": "Cube House",
       "BodyContent": "<p>This is the HTML content for Project 2.</p>",
       "Timeframe": {
         "Sortable": "",
         "Display": ""
       },
-      "Collaborators": [
-        {
-          "Name": "Collaborator 1",
-          "Role": "Designer"
-        },
-        {
-          "Name": "Collaborator 2",
-          "Role": "Developer"
-        }
-      ],
       "Description": "A short project with collaborators",
-      "ThumbnailImage": "",
+      "ThumbnailImage": "\"images\\CubeHouse\\thumbnail.jpg\"",
+      "Collaborators": [],
+      "Tags": [
+        "Academic",
+        "Studio"
+      ],
       "Images": [
         {
           "ImageURL": "images/project1thumb.jpg",
           "Description": "sample image 1."
         }
-      ],
-      "Tags": [
-          "Big project", "Academic", "Work"
-      ]
-    },
-    {
-      "Title": "Debug Project 2",
-      "BodyContent": "<p>This is the HTML content for Project 2.</p>",
-      "Timeframe": {
-        "Sortable": "",
-        "Display": ""
-      },
-      "Collaborators": [
-        {
-          "Name": "Collaborator 1",
-          "Role": "Designer"
-        },
-        {
-          "Name": "Collaborator 2",
-          "Role": "Developer"
-        }
-      ],
-      "Description": "A short project with collaborators",
-      "ThumbnailImage": "",
-      "Images": [
-        {
-          "ImageURL": "images/project1thumb.jpg",
-          "Description": "sample image 1."
-        }
-      ],
-      "Tags": [
-          "Big project", "Academic", "Work"
       ]
     }
   ]
