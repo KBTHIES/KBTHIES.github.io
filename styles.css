@@ -175,6 +175,7 @@ nav button.active {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.8);
+    overflow: hidden; /* Prevent default scrolling of the lightbox */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -182,18 +183,41 @@ nav button.active {
 }
 
 .lightbox-content {
-    font-family:
-        Instrument Sans,
-        sans-serif;
+    font-family: Instrument Sans, sans-serif;
     background-color: white;
     padding: 20px;
     border-radius: 8px;
-    max-width: 1000px;
     width: 90vw; /* Responsive width */
+    max-width: 1000px;
+    max-height: 80vh; /* Limit overall height */
+    overflow-y: auto; /* Allow vertical scrolling */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+}
+
+.lightbox-header {
+    font-family: Alumni Sans Pinstripe;
+    display: flex;                  /* Use flexbox for alignment */
+    text-align: center;
+    justify-content: space-between; /* Space between title and close button */
+    margin: 0;                     /* Remove default margin */
+    padding: 10px 0;               /* Add padding for spacing */
+    color: black;                  /* Set the title color */
+    background-color: white;       /* Background color for readability */
+    position: sticky;              /* Make the header sticky */
+    top: 0;                        /* Stick to the top of the lightbox */
+    z-index: 1;                    /* Ensure it's above other content */
+    box-shadow: 0 -20px 0 10px white;
 }
 
 #lightbox-title {
     text-align: left;
+    font-size: 2em;
+}
+
+.close {
+    cursor: pointer;
+    font-size: 2.5em;
 }
 
 #lightbox-timeline {
@@ -207,12 +231,10 @@ nav button.active {
 
 /* Slideshow container */
 .slideshow-container {
-    position: relative;
-    max-width: 100%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-grow: 1;                  /* Allow this to take remaining space */
+    display: flex;                 /* Align children in a flex container */
+    justify-content: center;       /* Center items */
+    position: relative;            /* Allow absolute positioning of arrows */
 }
 
 /* Hide the slides by default */
@@ -239,12 +261,10 @@ nav button.active {
 
 .next {
     right: 0;
-    border-radius: 3px 0 0 3px;
 }
 
 .prev {
     left: 0;
-    border-radius: 3px 0 0 3px;
 }
 
 /* Description text */
@@ -281,14 +301,6 @@ nav button.active {
 #image-description {
     text-align: center;
     margin-top: 10px;
-}
-
-.close {
-    cursor: pointer;
-    font-size: 28px;
-    position: absolute;
-    top: 10px;
-    right: 20px;
 }
 
 .section {
