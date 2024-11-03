@@ -183,6 +183,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     }
+    
 
         // Filter projects based on selected tags
         document.querySelectorAll('.grid-item').forEach(item => {

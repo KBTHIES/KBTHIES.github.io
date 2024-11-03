@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown Editor</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <h1>Markdown Editor</h1>
+    <textarea id="markdown-input" rows="10" cols="50"></textarea>
+    <button id="save-btn">Save as JSON</button>
+    <div id="preview"></div>
+
+    <script>
+        // Load the existing projects.json data
+        fetch('projects.json')
+            .then(response => response.json())
+            .then(data => {
+                // Convert data to Markdown and set it in the textarea
+                const markdown = convertToMarkdown(data);
+                document.getElementById('markdown-input').value = markdown;
+                updatePreview(markdown);
+            });
+
+        // Function to convert JSON to Markdown
+        function convertToMarkdown(data) {
+            return data.projects.map(project => 
+                `# ${project.Title}\n\n${project.BodyContent}\n\n---\n`
+            ).join('');
+        }
+
+        // Update preview from Markdown input
+        document.getElementById('markdown-input').addEventListener('input', function() {
+            const markdown = this.value;
+            updatePreview(markdown);
+        });
+
+        // Function to update the HTML preview
+        function updatePreview(markdown) {
+            document.getElementById('preview').innerHTML = marked(markdown);
+        }
+
+        // Save JSON functionality
+        document.getElementById('save-btn').addEventListener('click', function() {
+            const markdown = document.getElementById('markdown-input').value;
+            const json = convertToJSON(markdown);
+            downloadJSON(json, 'updated_projects.json');
+        });
+
+        // Function to convert Markdown back to JSON
+        function convertToJSON(markdown) {
+            const projects = markdown.split('---\n').map(section => {
+                const [title, body] = section.split('\n\n');
+                return {
+                    Title: title.replace('# ', ''),
+                    BodyContent: body || ''
+                };
+            }).filter(project => project.Title);
+            return JSON.stringify({ projects: projects }, null, 2);
+        }
+
+        // Function to trigger a download of the JSON file
+        function downloadJSON(json, filename) {
+            const blob = new Blob([json], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+
+            // Use window.open to bypass sandboxing issues
+            window.open(url);
+
+            // Create an anchor element for download
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+
+            // Append to the body to ensure it works across all browsers
+            document.body.appendChild(a);
+            a.click();
+
+            // Cleanup
+            setTimeout(() => {
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url); // Release memory
+            }, 0);
+        }
+
+    </script>
+</body>
+</html>
