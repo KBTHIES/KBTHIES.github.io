@@ -158,7 +158,6 @@ nav button.active {
     font-family:
         Instrument Sans,
         sans-serif;
-    font-size: x-large;
     background-color: rgba(0, 0, 0, 0.25);
     width: calc(1px * var(--scalar));
     height: calc(1.618px * var(--scalar));
@@ -166,6 +165,31 @@ nav button.active {
     color: white;
     opacity: 0;
     transition: 0.5s ease;
+}
+
+.grid-overlay h3 {
+    font-size: x-large;
+    font-weight: 300;
+    opacity: 0;
+    margin: 0; 
+    transition: opacity 0.3s ease-in-out; 
+}
+
+.grid-overlay .description {
+    font-size: medium; /* Smaller font size for the description */
+    margin: 10px 10px auto 10px;
+    opacity: 0; /* Hide the description by default */
+    transition: opacity 0.3s ease-in-out; 
+}
+
+/* Make the description visible when hovered */
+.grid-item:hover .grid-overlay .description {
+    opacity: 1;
+}
+
+/* Make the title visible when hovered */
+.grid-item:hover .grid-overlay h3 {
+    opacity: 1;
 }
 
 .lightbox {

@@ -111,7 +111,8 @@ document.addEventListener("DOMContentLoaded", function () {
             const sortedProjects = [...projectsWithTimeframe, ...projectsWithoutTimeframe];
         
             const gridContainer = document.querySelector(".grid-container");
-
+        
+            // Loop through all projects (sorted and unsorted)
             sortedProjects.forEach((project) => {
                 // Add tags to the set
                 if (project.Tags && Array.isArray(project.Tags)) {
@@ -130,7 +131,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 const gridOverlay = document.createElement("div");
                 gridOverlay.classList.add("grid-overlay");
-                gridOverlay.textContent = project.Title;
+                
+                // Title
+                const title = document.createElement('h3');
+                title.textContent = project.Title;
+                gridOverlay.appendChild(title);
+                
+                // Description (if it exists)
+                if (project.Description) {
+                    const description = document.createElement('p');
+                    description.classList.add('description');
+                    description.textContent = project.Description;
+                    gridOverlay.appendChild(description);
+                }
 
                 gridItem.appendChild(gridOverlay);
                 gridContainer.appendChild(gridItem);
