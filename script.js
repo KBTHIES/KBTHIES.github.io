@@ -97,10 +97,12 @@ document.addEventListener("DOMContentLoaded", function () {
         .then((response) => response.json())
         .then((data) => {
             const projects = data.projects;
-        
+
             // Split the projects into those with and without Timeframe.Sortable
-            const projectsWithTimeframe = projects.filter(project => project.Timeframe && project.Timeframe.Sortable);
-            const projectsWithoutTimeframe = projects.filter(project => !project.Timeframe || !project.Timeframe.Sortable);
+            const projectsWithTimeframe = projects.filter((project) => project.Timeframe && project.Timeframe.Sortable);
+            const projectsWithoutTimeframe = projects.filter(
+                (project) => !project.Timeframe || !project.Timeframe.Sortable
+            );
 
             // Sort projects by Timeframe.Sortable (newest first)
             projectsWithTimeframe.sort((a, b) => {
@@ -109,9 +111,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
             // Combine the two arrays: sorted projects first, then unsorted projects
             const sortedProjects = [...projectsWithTimeframe, ...projectsWithoutTimeframe];
-        
+
             const gridContainer = document.querySelector(".grid-container");
-        
+
             // Loop through all projects (sorted and unsorted)
             sortedProjects.forEach((project) => {
                 // Add tags to the set
@@ -131,16 +133,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 const gridOverlay = document.createElement("div");
                 gridOverlay.classList.add("grid-overlay");
-                
+
                 // Title
-                const title = document.createElement('h3');
+                const title = document.createElement("h3");
                 title.textContent = project.Title;
                 gridOverlay.appendChild(title);
-                
+
                 // Description (if it exists)
                 if (project.Description) {
-                    const description = document.createElement('p');
-                    description.classList.add('description');
+                    const description = document.createElement("p");
+                    description.classList.add("description");
                     description.textContent = project.Description;
                     gridOverlay.appendChild(description);
                 }
@@ -192,10 +194,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 label.prepend(checkbox);
                 filterContainer.appendChild(label);
             });
-        
+
             portfolioSection.insertBefore(filterContainer, portfolioSection.firstChild);
         })
-    
+
         .catch((error) => console.error("Error fetching the JSON file:", error));
 
     function handleTagFilter() {
@@ -230,105 +232,147 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-function showLightbox(selectedProject) {
-    project = selectedProject; // Store the current project
+    function showLightbox(selectedProject) {
+        project = selectedProject; // Store the current project
 
-    // Load the lightbox template
-    fetch('lightbox-template.html')
-        .then(response => response.text())
-        .then(template => {
-            lightbox.innerHTML = template;
+        // Load the lightbox template
+        fetch("lightbox-template.html")
+            .then((response) => response.text())
+            .then((template) => {
+                lightbox.innerHTML = template;
 
-            // Insert project title and timeframe
-            document.getElementById('lightbox-title').textContent = project.Title;
-            document.getElementById('lightbox-timeframe').textContent = project.Timeframe.Display;
+                // Insert project title and timeframe
+                document.getElementById("lightbox-title").textContent = project.Title;
+                document.getElementById("lightbox-timeframe").textContent = project.Timeframe.Display;
 
-            // Insert BodyContent as HTML (to handle <iframe> and other HTML tags)
-            document.getElementById('project-description').innerHTML = project.BodyContent;
+                // Insert BodyContent as HTML (to handle <iframe> and other HTML tags)
+                document.getElementById("project-description").innerHTML = project.BodyContent;
 
-            const slideshowContainer = document.getElementById('slideshow-images');
-            const thumbnailContainer = document.getElementById('thumbnail-navigation');
-            const prevArrow = document.querySelector('.prev');
-            const nextArrow = document.querySelector('.next');
-            const descriptionElement = document.getElementById('image-description');
+                const slideshowContainer = document.getElementById("slideshow-images");
+                const thumbnailContainer = document.getElementById("thumbnail-navigation");
+                const prevArrow = document.querySelector(".prev");
+                const nextArrow = document.querySelector(".next");
+                const descriptionElement = document.getElementById("image-description");
 
-            if (project.Images && project.Images.length > 0) {
-                // Process images as before
-                project.Images.forEach((image, index) => {
-                    const slide = document.createElement('div');
-                    slide.classList.add('slide');
-                    if (index === 0) slide.style.display = 'block';
+                // Add Collaborators Section if applicable
+                const collaboratorsSection = document.getElementById("collaborators-section");
+                const collaboratorsText = document.getElementById("collaborators-text");
 
-                    const imgElement = document.createElement('img');
-                    imgElement.src = image.ImageURL;
-                    imgElement.alt = image.Description || `Image ${index + 1}`;
-                    imgElement.style.width = "100%";
-                    slide.appendChild(imgElement);
+                if (project.Collaborators && project.Collaborators.length > 0) {
+                    let collaboratorText = "In collaboration with ";
 
-                    slideshowContainer.appendChild(slide);
-
-                    if (project.Images.length > 1) {
-                        const thumbColumn = document.createElement('div');
-                        thumbColumn.classList.add('column');
-
-                        const thumbnail = document.createElement('img');
-                        thumbnail.src = image.ImageURL;
-                        thumbnail.classList.add('demo');
-                        thumbnail.alt = image.Description || `Image ${index + 1}`;
-                        thumbnail.style.width = "100%";
-                        thumbnail.addEventListener('click', () => {
-                            showSlide(index);
-                        });
-
-                        thumbColumn.appendChild(thumbnail);
-                        thumbnailContainer.appendChild(thumbColumn);
+                    // Handle one collaborator
+                    if (project.Collaborators.length === 1) {
+                        const collaborator = project.Collaborators[0];
+                        collaboratorText += collaborator.Role
+                            ? `${collaborator.Name} (${collaborator.Role})`
+                            : collaborator.Name;
                     }
-                });
+                    // Handle two collaborators (no comma between)
+                    else if (project.Collaborators.length === 2) {
+                        const collaborator1 = project.Collaborators[0];
+                        const collaborator2 = project.Collaborators[1];
+                        collaboratorText += collaborator1.Role
+                            ? `${collaborator1.Name} (${collaborator1.Role})`
+                            : collaborator1.Name;
+                        collaboratorText += ` and `;
+                        collaboratorText += collaborator2.Role
+                            ? `${collaborator2.Name} (${collaborator2.Role})`
+                            : collaborator2.Name;
+                    }
+                    // Handle three or more collaborators (with commas)
+                    else {
+                        project.Collaborators.forEach((collaborator, index) => {
+                            if (index === project.Collaborators.length - 1) {
+                                collaboratorText += `and ${collaborator.Name}`;
+                            } else {
+                                collaboratorText += `${collaborator.Name}${collaborator.Role ? ` (${collaborator.Role})` : ""}, `;
+                            }
+                        });
+                    }
 
-                // Show/hide navigation elements based on the number of images
-                if (project.Images.length <= 1) {
-                    prevArrow.style.display = 'none';
-                    nextArrow.style.display = 'none';
-                    thumbnailContainer.style.display = 'none';
+                    collaboratorsText.textContent = collaboratorText;
+                    collaboratorsSection.style.display = "block"; // Show the collaborators section
+                } else {
+                    collaboratorsSection.style.display = "none"; // Hide the collaborators section if there are no collaborators
                 }
 
-                // Show the initial description
-                descriptionElement.textContent = project.Images[0].Description || "No description available";
-            } else {
-                // No images, hide arrows, description, and thumbnail navigation
-                prevArrow.style.display = 'none';
-                nextArrow.style.display = 'none';
-                thumbnailContainer.style.display = 'none';
-                descriptionElement.style.display = 'none';
+                // Process images as before
+                if (project.Images && project.Images.length > 0) {
+                    project.Images.forEach((image, index) => {
+                        const slide = document.createElement("div");
+                        slide.classList.add("slide");
+                        if (index === 0) slide.style.display = "block";
 
-                if (project.Iframes && project.Iframes.length > 0) {
-                    // Handle iframes if no images
-                    project.Iframes.forEach(iframeSrc => {
-                        const iframe = document.createElement('iframe');
-                        iframe.src = iframeSrc;
-                        iframe.width = '100%';
-                        iframe.height = '500px';
-                        iframe.frameBorder = '0';
-                        slideshowContainer.appendChild(iframe);
+                        const imgElement = document.createElement("img");
+                        imgElement.src = image.ImageURL;
+                        imgElement.alt = image.Description || `Image ${index + 1}`;
+                        imgElement.style.width = "100%";
+                        slide.appendChild(imgElement);
+
+                        slideshowContainer.appendChild(slide);
+
+                        if (project.Images.length > 1) {
+                            const thumbColumn = document.createElement("div");
+                            thumbColumn.classList.add("column");
+
+                            const thumbnail = document.createElement("img");
+                            thumbnail.src = image.ImageURL;
+                            thumbnail.classList.add("demo");
+                            thumbnail.alt = image.Description || `Image ${index + 1}`;
+                            thumbnail.style.width = "100%";
+                            thumbnail.addEventListener("click", () => {
+                                showSlide(index);
+                            });
+
+                            thumbColumn.appendChild(thumbnail);
+                            thumbnailContainer.appendChild(thumbColumn);
+                        }
                     });
-                } else if (project.Scripts && project.Scripts.length > 0) {
-                    // Handle JavaScript outputs
-                    project.Scripts.forEach(scriptCode => {
-                        const scriptContainer = document.createElement('div');
-                        scriptContainer.classList.add('script-output');
-                        const script = document.createElement('script');
-                        script.textContent = scriptCode;
-                        scriptContainer.appendChild(script);
-                        slideshowContainer.appendChild(scriptContainer);
-                    });
+
+                    // Show/hide navigation elements based on the number of images
+                    if (project.Images.length <= 1) {
+                        prevArrow.style.display = "none";
+                        nextArrow.style.display = "none";
+                        thumbnailContainer.style.display = "none";
+                    }
+
+                    // Show the initial description
+                    descriptionElement.textContent = project.Images[0].Description || "No description available";
+                } else {
+                    // No images, hide arrows, description, and thumbnail navigation
+                    prevArrow.style.display = "none";
+                    nextArrow.style.display = "none";
+                    thumbnailContainer.style.display = "none";
+                    descriptionElement.style.display = "none";
+
+                    if (project.Iframes && project.Iframes.length > 0) {
+                        // Handle iframes if no images
+                        project.Iframes.forEach((iframeSrc) => {
+                            const iframe = document.createElement("iframe");
+                            iframe.src = iframeSrc;
+                            iframe.width = "100%";
+                            iframe.height = "500px";
+                            iframe.frameBorder = "0";
+                            slideshowContainer.appendChild(iframe);
+                        });
+                    } else if (project.Scripts && project.Scripts.length > 0) {
+                        // Handle JavaScript outputs
+                        project.Scripts.forEach((scriptCode) => {
+                            const scriptContainer = document.createElement("div");
+                            scriptContainer.classList.add("script-output");
+                            const script = document.createElement("script");
+                            script.textContent = scriptCode;
+                            scriptContainer.appendChild(script);
+                            slideshowContainer.appendChild(scriptContainer);
+                        });
+                    }
                 }
-            }
 
-            lightbox.style.display = 'flex'; // Show the lightbox
-        })
-        .catch(error => console.error('Error loading the template:', error));
-}
-
+                lightbox.style.display = "flex"; // Show the lightbox
+            })
+            .catch((error) => console.error("Error loading the template:", error));
+    }
 
     function showSlide(slideIndex) {
         const slides = document.querySelectorAll(".slide");

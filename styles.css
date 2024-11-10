@@ -264,9 +264,14 @@ blockquote{
     float: right;
 }
 
-.collaborators {
-    background-color: antiquewhite;
-    display: none;
+#collaborators-section {
+    font-size: large;
+    font-style: normal;
+    margin: 10px 0;
+    color: #666;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Add rounded corners */
+    padding-left: 15px;
 }
 
 /* Slideshow container */
