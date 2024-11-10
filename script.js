@@ -97,9 +97,22 @@ document.addEventListener("DOMContentLoaded", function () {
         .then((response) => response.json())
         .then((data) => {
             const projects = data.projects;
+        
+            // Split the projects into those with and without Timeframe.Sortable
+            const projectsWithTimeframe = projects.filter(project => project.Timeframe && project.Timeframe.Sortable);
+            const projectsWithoutTimeframe = projects.filter(project => !project.Timeframe || !project.Timeframe.Sortable);
+
+            // Sort projects by Timeframe.Sortable (newest first)
+            projectsWithTimeframe.sort((a, b) => {
+                return new Date(b.Timeframe.Sortable) - new Date(a.Timeframe.Sortable); // Sort descending by date
+            });
+
+            // Combine the two arrays: sorted projects first, then unsorted projects
+            const sortedProjects = [...projectsWithTimeframe, ...projectsWithoutTimeframe];
+        
             const gridContainer = document.querySelector(".grid-container");
 
-            projects.forEach((project) => {
+            sortedProjects.forEach((project) => {
                 // Add tags to the set
                 if (project.Tags && Array.isArray(project.Tags)) {
                     project.Tags.forEach((tag) => tags.add(tag));
@@ -138,10 +151,11 @@ document.addEventListener("DOMContentLoaded", function () {
             filtersHeader.textContent = "Filters";
             filterContainer.appendChild(filtersHeader); // Append the header to the filter container
 
-            portfolioSection.insertBefore(filterContainer, portfolioSection.firstChild);
+            // Convert the Set to an array and sort alphabetically
+            const sortedTags = Array.from(tags).sort();
 
             // Populate filter checkboxes
-            tags.forEach((tag) => {
+            sortedTags.forEach((tag) => {
                 const label = document.createElement("label");
                 label.textContent = tag;
 
@@ -165,7 +179,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 label.prepend(checkbox);
                 filterContainer.appendChild(label);
             });
+        
+            portfolioSection.insertBefore(filterContainer, portfolioSection.firstChild);
         })
+    
         .catch((error) => console.error("Error fetching the JSON file:", error));
 
     function handleTagFilter() {
