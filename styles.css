@@ -199,6 +199,7 @@ nav button.active {
     font-family: Alumni Sans Pinstripe;
     display: flex;                  /* Use flexbox for alignment */
     text-align: center;
+    align-items: baseline;
     justify-content: space-between; /* Space between title and close button */
     margin: 0;                     /* Remove default margin */
     padding: 10px 0;               /* Add padding for spacing */
@@ -210,9 +211,24 @@ nav button.active {
     box-shadow: 0 -20px 0 10px white;
 }
 
+#lightbox-timeframe {
+    font-size: 1em; /* Adjust font size as needed */
+    margin-left: auto;
+    color: gray;
+    text-align: right;
+    padding-right: 1em;
+}
+
 #lightbox-title {
     text-align: left;
     font-size: 2em;
+}
+
+blockquote{
+    background-color: lightgray;
+    padding: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Add rounded corners */
 }
 
 .close {

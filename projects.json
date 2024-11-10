@@ -2,28 +2,20 @@
   "projects": [
     {
       "Title": "Airships",
-      "BodyContent": "<p>This is the real HTML content for Project 1.</p>",
+      "BodyContent": "<iframe width=\"690\" height=\"388\" src=\"https://sketchfab.com/models/c705fe53e2c34de3940760434e66684b/embed\" frameborder=\"0\" allowvr=\"\" allowfullscreen=\"\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\" onmousewheel=\"\"></iframe>",
       "Timeframe": {
-        "Sortable": "2024-10-19",
-        "Display": "October 2024"
+        "Sortable": "2016-10-1",
+        "Display": "Fall 2016"
       },
       "Description": "The first debug project.",
-      "ThumbnailImage": "\"images/Airships/thumbnail.jpg\"",
+      "ThumbnailImage": "images/Airships/thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Personal",
-        "3D Modelling"
+        "Academic",
+        "Programming",
+        "Game Design"
       ],
-      "Images": [
-        {
-          "ImageURL": "images/project1thumb.jpg",
-          "Description": "sample image 1."
-        },
-        {
-          "ImageURL": "images/project1thumb.jpg",
-          "Description": "sample image 2."
-        }
-      ]
+      "Images": []
     },
     {
       "Title": "Arches",
@@ -33,7 +25,7 @@
         "Display": ""
       },
       "Description": "A short project with collaborators",
-      "ThumbnailImage": "\"images/Arches/thumbnail.jpg\"",
+      "ThumbnailImage": "images/Arches/thumbnail.jpg",
       "Collaborators": [
         {
           "Name": "Collaborator 1",
@@ -48,12 +40,7 @@
         "Academic",
         "Studio"
       ],
-      "Images": [
-        {
-          "ImageURL": "images/project1thumb.jpg",
-          "Description": "sample image 1."
-        }
-      ]
+      "Images": []
     },
     {
       "Title": "Saco Lake Bathhouse",
@@ -63,7 +50,7 @@
         "Display": ""
       },
       "Description": "A short project with collaborators",
-      "ThumbnailImage": "\"images/BathHouse/thumbnail.jpg\"",
+      "ThumbnailImage": "images/BathHouse/thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
         "Academic",
@@ -84,7 +71,7 @@
         "Display": ""
       },
       "Description": "",
-      "ThumbnailImage": "\"images/BuildingStudy/thumbnail.jpg\"",
+      "ThumbnailImage": "images/BuildingStudy/thumbnail.jpg",
       "Collaborators": [
         {
           "Name": "Curran Zhang",
@@ -124,13 +111,13 @@
     },
     {
       "Title": "Cube House",
-      "BodyContent": "<p>This is the HTML content for Project 2.</p>",
+      "BodyContent": "<p>The Cube House Project, also known as the Wedding Pavilion design project, was a studio project where we were given a site covered in hedge, and it was up to us to modify the site to fit the program and the cube house itself. One side of the site had a road while the other faced Lake Erie. The program called for a place for the wedding to take place, room for the couple to get ready and then make their way to the stage, a location for a reception, and some parking and bathrooms.<br><br>\n\nThe deliverables for the project had many pieces. We needed sections and a hand-rendered plan fit to a 1/4\"=1' scale, as well as a scaled hand-rendered perspective. We also had digital renders, and finally, the scaled wooden model.<br><br>\n\nThe design itself took heavy inspiration from a theatrical stage, and the layout had a counter-clockwise circulation pattern. Spaces were meant to emphasize transition and threshold.<br><hr><br>What I really appreciated about this project was that it was the first studio project where we had to heavily engage with the architecture woodshop, and reflecting upon my work, the design itself might not have been all too compelling, but the experience I gained in assembling the site model was monumental! I took care to make sure all of my wooden pieces lined up just right and really put in the time at the woodshop. At that point, I wasn't great at making sure every piece was toleranced correctly, but to make sure everything slot together perfectly I underwent a trial by fire so to speak.<br><br>I also got to experiment more with my render settings, and for this project I tried out the Nvidia IRay plugin while most of my peers were still using the school's licensed version of VRay.<br><br>Admittedly, the grandest takeaway for this project was the rendered site plan. I framed that thing after the semester ended and it's been hanging above my bed ever since. I don't think I've ever been content with my ability to draw, but I went the extra mile to add in ambient occlusion and render the distinct textures of gravel paths and grass. If anything, it's one of the better projects I use to benchmark myself when I look back at my work years later!</p>",
       "Timeframe": {
-        "Sortable": "",
-        "Display": ""
+        "Sortable": "2016-10-1",
+        "Display": "Fall 2016"
       },
-      "Description": "A short project with collaborators",
-      "ThumbnailImage": "\"images\\CubeHouse\\thumbnail.jpg\"",
+      "Description": "A design for a wedding pavilion on the shores of Lake Erie",
+      "ThumbnailImage": "images/CubeHouse/thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
         "Academic",
@@ -138,12 +125,84 @@
       ],
       "Images": [
         {
-          "ImageURL": "images/project1thumb.jpg",
-          "Description": "sample image 1."
+          "ImageURL": "images/CubeHouse/1.jpg",
+          "Description": "Overview of the Scale Model."
+        },
+        {
+          "ImageURL": "images/CubeHouse/3.jpg",
+          "Description": "Detail shot of the main stage."
+        },
+        {
+          "ImageURL": "images/CubeHouse/5.jpg",
+          "Description": "The main stage with parts removed for an interior view."
+        },
+        {
+          "ImageURL": "images/CubeHouse/8.jpg",
+          "Description": "A view of the reception area from the lake side of the site."
+        },
+        {
+          "ImageURL": "images/CubeHouse/cubeHouseHandPerspective.jpg",
+          "Description": "A perspective render of the interior of the pavilion."
+        },
+        {
+          "ImageURL": "images/CubeHouse/cubeHouseHandPlan.jpg",
+          "Description": "A plan render of the site that still lives above my bed."
+        },
+        {
+          "ImageURL": "images/CubeHouse/Render 2.png",
+          "Description": "Render of the reveal of the pavilion."
+        },
+        {
+          "ImageURL": "images/CubeHouse/Render 6.png",
+          "Description": "Render of the view from the stage."
+        },
+        {
+          "ImageURL": "images/CubeHouse/Render 11.png",
+          "Description": "Render of from the perspective of the audience looking towards the reception area."
+        }
+      ]
+    },
+    {
+      "Title": "Dungeon Crawl",
+      "BodyContent": "<p>This was my final Project for Creative Coding and I loved it a whole lot! I ended up going way overboard any my project ended up being almost a thousand lines of code when it was only supposed to be a couple hundred. And yes, I did get a 100 and some points of extra credit for the effort. Before I go too far though, <b>The game is fully playable if you scroll down below this block of text.</b><br><br>Now, onto the project details! One of the things we covered in our class was the idea of a Turtle, an object that would move around by moving forwards, backwards, and rotating, so its motions weren't dependent on the traditional X and Y grid. I already knew that this was perfect for having basic creatures that could move around, but it would also be perfect for something like a Magic Missile that would follow an arcing non-linear path to its target. I also liked fantasy settings, being very involved with my school's Tabletop Roleplaying games club that was mostly Dungeons & Dragons, and I liked dungeon crawling video games like The Binding of Isaac. I decided that would make for a fun challenge, and so this project was born!<br><br>To briefly go over the game itself, it’s a dungeon crawler. The player goes into randomly generated rooms with randomly generated enemies which make up floors of random length. As the player progresses through the floors, the average enemy speed and number in a room will gradually increase. Paired with the player’s health that only partially returns when a floor is completed, it’s certain that the player will die. The question then is how far can they make it?<br><br>To help me troubleshoot the project, I added in a ‘debug mode’ of sorts. By pressing ‘=’, the player can see a lot of cheaty data, spawn enemies, generate the final room of each floor, and increase how many floors the game thinks the player has cleared. There were a lot of challenges. I wasn’t sure how to do level generation (the system can easily do non-linear levels by generating more doors but linear is easy to play through) and for a while, enemy AI was giving me some problems.<br><br>In the end, I’m more than happy with what I made. I enjoy playing it, I enjoyed making it, and I enjoy changing some of the settings to make the game truly ridiculous. Also the visual assets are either made by me or heavily changed free assets</p>\n<a href=\"linkedScripts/DungeonCrawl.js\" target=\"_blank\" rel=\"noopener noreferrer\">Project Source Code</a>\n<iframe src='linkedScripts/DungeonCrawl.html' width='100%' height='500px' frameborder='0'></iframe>\n<blockquote><b>Controls</b><br>Movement - WASD or the Arrow Keys<br>Cast Magic Missile - Point and click with your mouse<br><br><b>Tips</b><br><ul><li>The glow on your staff indicates how much mana you have</li><li>If you’re shooting slowly, let up on the firing and just let it recharge</li><li>The magic missiles bank towards where your mouse is when you fire them</li><li>Aim slightly ahead of enemies for best results</li></ul><br><b>Debug Controls</b><br>Toggle Debug Mode - =<br>Increase Floor Number - SHIFT<br>Spawn enemy at cursor - E<br>Make next room the exit - ENTER</blockquote>",
+      "Timeframe": {
+        "Sortable": "2018-11-16",
+        "Display": "November 16 - December 6, 2018"
+      },
+      "Description": "A dungeon crawler playable within your browser",
+      "ThumbnailImage": "images/DungeonCrawler/thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Academic",
+        "Programming",
+        "Game Design"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/DungeonCrawler/1.jpg",
+          "Description": "The wizard explores the dungeon"
+        },
+        {
+          "ImageURL": "images/DungeonCrawler/3.jpg",
+          "Description": "The wizard finds the entrance to the next floor"
+        },
+        {
+          "ImageURL": "images/DungeonCrawler/4.jpg",
+          "Description": "The wizard died and the player views their stats"
+        },
+        {
+          "ImageURL": "images/DungeonCrawler/2.jpg",
+          "Description": "The wizard casts their most powerful spell, Debug Mode"
+        },
+        {
+          "ImageURL": "images/DungeonCrawler/sketch.jpg",
+          "Description": "My initial concept sketch for what the game would look like"
+        },
+        {
+          "ImageURL": "images/DungeonCrawler/initialTest.gif",
+          "Description": "My first proof of concept with Debug Mode, which the game ended up being built off of"
         }
       ]
     }
   ]
 }
-
-
