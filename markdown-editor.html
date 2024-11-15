@@ -1,238 +1,381 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Markdown Editor</title>
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        .project {
-            margin-bottom: 20px;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            display: none; /* Initially hide all projects */
-        }
-.progress-bar {
-    width: 100%;
-    height: 30px;
-    background-color: #e0e0e0; /* Light gray background */
-    border-radius: 5px;
-    position: relative;
-    margin: 10px 0; /* Add some space around it */
-}
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Markdown Editor</title>
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 20px;
+            }
+            .project {
+                margin-bottom: 20px;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                display: none; /* Initially hide all projects */
+            }
 
-.progress-bar span {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-weight: bold;
-}
+            .progress-bar span {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-weight: bold;
+            }
+            #project-index {
+                display: block;
+                text-align: center;
+                font-weight: bold;
+                margin-bottom: 10px; /* Space between index and circles */
+            }
 
+            input,
+            textarea {
+                width: 100%;
+                margin: 5px 0;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+            textarea {
+                height: 100px;
+            }
+            button {
+                padding: 10px 15px;
+                background-color: #007bff;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            button:hover {
+                background-color: #0056b3;
+            }
+            .navigation {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 20px;
+            }
+            .progress-circles {
+                display: flex;
+                gap: 10px; /* Space between circles */
+                justify-content: center;
+                margin: 10px 0; /* Spacing above and below */
+            }
 
-        input, textarea {
-            width: 100%;
-            margin: 5px 0;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-        textarea {
-            height: 100px;
-        }
-        button {
-            padding: 10px 15px;
-            background-color: #007BFF;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        button:hover {
-            background-color: #0056b3;
-        }
-        .navigation {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 20px;
-        }
-    </style>
-</head>
-<body>
-<h1 id="project-title"></h1>
-<div id="progress-bar" class="progress-bar">
-    <span id="project-index"></span>
-</div>
-<div id="navigation">
-    <button id="prev-btn">Previous</button>
-    <span id="prev-title" class="nav-title"></span>
-    <br>
-    <button id="next-btn">Next</button>
-    <span id="next-title" class="nav-title"></span>
-</div>
+            .circle {
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+                background-color: black; /* Default color */
+                position: relative;
+                cursor: pointer;
+            }
 
+            .circle.active::after {
+                content: "";
+                position: absolute;
+                top: -5px;
+                left: -5px;
+                width: 25px;
+                height: 25px;
+                border: 2px solid black;
+                border-radius: 50%;
+            }
 
-    <div id="projects-container"></div>
-    <button id="save-btn">Save as JSON</button>
-    <div id="preview"></div>
+            .circle.complete {
+                background-color: green;
+            }
 
-<script>
-    let projects = [];
-    let currentIndex = 0;
+            .circle.hidden {
+                background-color: gray;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="project-title"></h1>
+        <span id="project-index"></span>
+        <!-- Move index here -->
+        <div id="progress-circles" class="progress-circles"></div>
+        <!-- Remove from progress-bar -->
+        <div id="navigation">
+            <button id="prev-btn">Previous</button>
+            <span id="prev-title" class="nav-title"></span>
+            <br />
+            <button id="next-btn">Next</button>
+            <span id="next-title" class="nav-title"></span>
+        </div>
 
-    // Wait for the DOM to load
-    document.addEventListener('DOMContentLoaded', () => {
-        // Load the existing projects.json data
-        fetch('projects.json')
-            .then(response => response.json())
-            .then(data => {
-                projects = data.projects;
-                // Populate the projects into the UI
-                populateProjects();
+        <div id="projects-container"></div>
+        <!-- New Project Button -->
+        <button id="new-project-btn">Add New Project</button>
+        <button id="save-btn">Save as JSON</button>
+        <div id="preview"></div>
+
+        <script>
+            let projects = [];
+            let currentIndex = 0;
+
+            // Wait for the DOM to load
+            document.addEventListener("DOMContentLoaded", () => {
+                // Load the existing projects.json data
+                fetch("projects.json")
+                    .then((response) => response.json())
+                    .then((data) => {
+                        projects = data.projects;
+                        // Populate the projects into the UI
+                        populateProjects();
+                        displayProject(currentIndex);
+                    });
+            });
+
+            // Function to populate the projects into the UI
+            function populateProjects() {
+                const container = document.getElementById("projects-container");
+                projects.forEach((project, index) => {
+                    const projectDiv = createProjectDiv(project);
+                    container.appendChild(projectDiv);
+                });
+            }
+
+            // Display the current project
+            function displayProject(index) {
+                const allProjects = document.querySelectorAll(".project");
+                allProjects.forEach((project, i) => {
+                    project.style.display = i === index ? "block" : "none";
+                });
+                document.getElementById("project-title").innerText = projects[index].Title || "Untitled Project";
+
+                document.getElementById("project-index").innerText = `(${index + 1}/${projects.length})`;
+
+                updateNavigationButtons(index);
+                updateProgressCircles(index); // Call to update circles display
+            }
+
+            // Navigate through projects with nav circles
+            function updateProgressCircles(currentIndex) {
+                const circlesContainer = document.getElementById("progress-circles");
+                circlesContainer.innerHTML = ""; // Clear existing circles
+
+                projects.forEach((project, index) => {
+                    const circle = document.createElement("div");
+                    circle.classList.add("circle");
+
+                    // Set color based on project properties
+                    if (project.Hidden) {
+                        circle.classList.add("hidden");
+                    } else if (project.Complete) {
+                        circle.classList.add("complete");
+                    }
+
+                    // Add active class for the current project
+                    if (index === currentIndex) {
+                        circle.classList.add("active");
+                    }
+
+                    // Add the project title as a tooltip
+                    circle.setAttribute("title", project.Title);
+
+                    // Add event listener to navigate to the clicked project
+                    circle.addEventListener("click", () => displayProject(index));
+
+                    circlesContainer.appendChild(circle);
+                });
+            }
+
+            // Add New Project button click event
+            document.getElementById("new-project-btn").addEventListener("click", function () {
+                addNewProject();
+            });
+
+            // Function to add a new project with default values
+            function addNewProject() {
+                const newProject = {
+                    Title: "New Project",
+                    BodyContent: "<p>New project content in HTML format.</p>",
+                    Timeframe: {
+                        Sortable: "",
+                        Display: "Month Year"
+                    },
+                    Description: "A brief description of the new project.",
+                    ThumbnailImage: "images/default-thumbnail.jpg",
+                    Collaborators: [],
+                    Tags: ["Default Tag"],
+                    Images: [
+                        {
+                            ImageURL: "images/default-image.jpg",
+                            Description: "Default image description."
+                        }
+                    ]
+                };
+
+                // Add the new project to the projects array
+                projects.push(newProject);
+
+                // Create a new project <div> and append it to the container
+                const container = document.getElementById("projects-container");
+                const projectDiv = createProjectDiv(newProject);
+                container.appendChild(projectDiv);
+
+                // Display the new project immediately
+                currentIndex = projects.length - 1;
+                displayProject(currentIndex);
+            }
+
+            // Define the createProjectDiv function here
+            function createProjectDiv(project) {
+                const projectDiv = document.createElement("div");
+                projectDiv.classList.add("project");
+                projectDiv.innerHTML = `
+        <label>Title</label>
+        <input type="text" class="title" value="${project.Title}">
+        
+        <label>Body Content (Markdown)</label>
+        <textarea class="bodyContent">${project.BodyContent}</textarea>
+        
+        <label>Timeframe Sortable</label>
+        <input type="text" class="timeframeSortable" value="${project.Timeframe.Sortable}">
+        
+        <label>Timeframe Display</label>
+        <input type="text" class="timeframeDisplay" value="${project.Timeframe.Display}">
+        
+        <label>Description</label>
+        <textarea class="description">${project.Description}</textarea>
+        
+        <label>Thumbnail Image URL</label>
+        <input type="text" class="thumbnailImage" value="${project.ThumbnailImage}">
+        
+        <label>Collaborators (JSON format)</label>
+        <textarea class="collaborators">${JSON.stringify(project.Collaborators, null, 2)}</textarea>
+        
+        <label>Tags (comma-separated)</label>
+        <input type="text" class="tags" value="${project.Tags.join(", ")}">
+        
+        <label>Images (JSON format)</label>
+        <textarea class="images">${JSON.stringify(project.Images, null, 2)}</textarea>
+        
+        <label>Complete</label>
+        <input type="checkbox" class="complete" ${project.Complete ? "checked" : ""}>
+        
+        <label>Favorite</label>
+        <input type="checkbox" class="favorite" ${project.Favorite ? "checked" : ""}>
+        
+        <label>Hidden</label>
+        <input type="checkbox" class="hidden" ${project.Hidden ? "checked" : ""}>
+    `;
+                return projectDiv;
+            }
+            // Function to add a new project with default values
+            function addNewProject() {
+                const newProject = {
+                    Title: "New Project",
+                    BodyContent: "<p>New project content in HTML format.</p>",
+                    Timeframe: {
+                        Sortable: "",
+                        Display: "Month Year"
+                    },
+                    Description: "A brief description of the new project.",
+                    ThumbnailImage: "images/default-thumbnail.jpg",
+                    Collaborators: [],
+                    Tags: ["Default Tag"],
+                    Images: [
+                        {
+                            ImageURL: "images/default-image.jpg",
+                            Description: "Default image description."
+                        }
+                    ]
+                };
+
+                // Add the new project to the projects array
+                projects.push(newProject);
+
+                // Create a new project <div> and append it to the container
+                const container = document.getElementById("projects-container");
+                const projectDiv = createProjectDiv(newProject);
+                container.appendChild(projectDiv);
+
+                // Display the new project immediately
+                currentIndex = projects.length - 1;
+                displayProject(currentIndex);
+            }
+
+            // Update navigation button titles
+            function updateNavigationButtons(index) {
+                const prevTitle = document.getElementById("prev-title");
+                const nextTitle = document.getElementById("next-title");
+
+                // Set titles for the previous and next projects
+                prevTitle.innerText = projects[index === 0 ? projects.length - 1 : index - 1].Title; // Loop back to the last project if at the first
+                nextTitle.innerText = projects[index === projects.length - 1 ? 0 : index + 1].Title; // Loop to the first project if at the last
+            }
+
+            // Navigate to the previous project
+            document.getElementById("prev-btn").addEventListener("click", function () {
+                currentIndex = currentIndex === 0 ? projects.length - 1 : currentIndex - 1; // Loop to last project if at the first
                 displayProject(currentIndex);
             });
-    });
 
-    // Function to populate the projects into the UI
-    function populateProjects() {
-        const container = document.getElementById('projects-container');
-        projects.forEach((project, index) => {
-            const projectDiv = document.createElement('div');
-            projectDiv.classList.add('project');
-            projectDiv.innerHTML = `
-                <label>Title</label>
-                <input type="text" class="title" value="${project.Title}">
-                
-                <label>Body Content (Markdown)</label>
-                <textarea class="bodyContent">${project.BodyContent}</textarea>
-                
-                <label>Timeframe Sortable</label>
-                <input type="text" class="timeframeSortable" value="${project.Timeframe.Sortable}">
-                
-                <label>Timeframe Display</label>
-                <input type="text" class="timeframeDisplay" value="${project.Timeframe.Display}">
-                
-                <label>Description</label>
-                <textarea class="description">${project.Description}</textarea>
-                
-                <label>Thumbnail Image URL</label>
-                <input type="text" class="thumbnailImage" value="${project.ThumbnailImage}">
-                
-                <label>Collaborators (JSON format)</label>
-                <textarea class="collaborators">${JSON.stringify(project.Collaborators, null, 2)}</textarea>
-                
-                <label>Tags (comma-separated)</label>
-                <input type="text" class="tags" value="${project.Tags.join(', ')}">
-                
-                <label>Images (JSON format)</label>
-                <textarea class="images">${JSON.stringify(project.Images, null, 2)}</textarea>
-            `;
-            container.appendChild(projectDiv);
-        });
-    }
+            // Navigate to the next project
+            document.getElementById("next-btn").addEventListener("click", function () {
+                currentIndex = currentIndex === projects.length - 1 ? 0 : currentIndex + 1; // Loop to first project if at the last
+                displayProject(currentIndex);
+            });
 
-    // Display the current project
-    function displayProject(index) {
-        const allProjects = document.querySelectorAll('.project');
-        allProjects.forEach((project, i) => {
-            project.style.display = (i === index) ? 'block' : 'none';
-        });
-        document.getElementById('project-title').innerText = projects[index].Title || 'Untitled Project';
-        
-        // Update project index in (x/y) format
-        document.getElementById('project-index').innerText = `(${index + 1}/${projects.length})`;
-        
-        // Update the progress bar width
-        updateProgressBar(index);
-        
-        updateNavigationButtons(index);
-    }
+            // Save JSON functionality
+            document.getElementById("save-btn").addEventListener("click", function () {
+                const updatedProjects = Array.from(document.querySelectorAll(".project")).map((projectDiv) => {
+                    return {
+                        Title: projectDiv.querySelector(".title").value,
+                        BodyContent: projectDiv.querySelector(".bodyContent").value,
+                        Timeframe: {
+                            Sortable: projectDiv.querySelector(".timeframeSortable").value,
+                            Display: projectDiv.querySelector(".timeframeDisplay").value
+                        },
+                        Description: projectDiv.querySelector(".description").value,
+                        ThumbnailImage: projectDiv.querySelector(".thumbnailImage").value,
+                        Collaborators: JSON.parse(projectDiv.querySelector(".collaborators").value || "[]"),
+                        Tags: projectDiv
+                            .querySelector(".tags")
+                            .value.split(",")
+                            .map((tag) => tag.trim()),
+                        Images: JSON.parse(projectDiv.querySelector(".images").value || "[]"),
+                        Complete: projectDiv.querySelector(".complete").checked,
+                        Favorite: projectDiv.querySelector(".favorite").checked,
+                        Hidden: projectDiv.querySelector(".hidden").checked
+                    };
+                });
 
-    // Update navigation button titles
-    function updateNavigationButtons(index) {
-        const prevTitle = document.getElementById('prev-title');
-        const nextTitle = document.getElementById('next-title');
+                const json = JSON.stringify({ projects: updatedProjects }, null, 2);
+                downloadJSON(json, "updated_projects.json");
+            });
 
-        // Set titles for the previous and next projects
-        prevTitle.innerText = projects[index === 0 ? projects.length - 1 : index - 1].Title; // Loop back to the last project if at the first
-        nextTitle.innerText = projects[index === projects.length - 1 ? 0 : index + 1].Title; // Loop to the first project if at the last
-    }
+            // Function to trigger a download of the JSON file
+            function downloadJSON(json, filename) {
+                const blob = new Blob([json], { type: "application/json" });
+                const url = URL.createObjectURL(blob);
 
-    // Update the progress bar to reflect the current index
-    function updateProgressBar(index) {
-        const progressBar = document.getElementById('progress-bar');
-        const progressPercent = ((index + 1) / projects.length) * 100; // Calculate progress percentage
-        progressBar.style.background = `linear-gradient(to right, #4caf50 ${progressPercent}%, #e0e0e0 ${progressPercent}%)`; // Change color dynamically
-    }
+                // Use window.open to bypass sandboxing issues
+                window.open(url);
 
-    // Navigate to the previous project
-    document.getElementById('prev-btn').addEventListener('click', function() {
-        currentIndex = currentIndex === 0 ? projects.length - 1 : currentIndex - 1; // Loop to last project if at the first
-        displayProject(currentIndex);
-    });
+                // Create an anchor element for download
+                const a = document.createElement("a");
+                a.href = url;
+                a.download = filename;
 
-    // Navigate to the next project
-    document.getElementById('next-btn').addEventListener('click', function() {
-        currentIndex = currentIndex === projects.length - 1 ? 0 : currentIndex + 1; // Loop to first project if at the last
-        displayProject(currentIndex);
-    });
+                // Append to the body to ensure it works across all browsers
+                document.body.appendChild(a);
+                a.click();
 
-    // Save JSON functionality
-    document.getElementById('save-btn').addEventListener('click', function() {
-        const updatedProjects = Array.from(document.querySelectorAll('.project')).map(projectDiv => {
-            return {
-                Title: projectDiv.querySelector('.title').value,
-                BodyContent: projectDiv.querySelector('.bodyContent').value,
-                Timeframe: {
-                    Sortable: projectDiv.querySelector('.timeframeSortable').value,
-                    Display: projectDiv.querySelector('.timeframeDisplay').value
-                },
-                Description: projectDiv.querySelector('.description').value,
-                ThumbnailImage: projectDiv.querySelector('.thumbnailImage').value,
-                Collaborators: JSON.parse(projectDiv.querySelector('.collaborators').value || '[]'),
-                Tags: projectDiv.querySelector('.tags').value.split(',').map(tag => tag.trim()),
-                Images: JSON.parse(projectDiv.querySelector('.images').value || '[]')
-            };
-        });
-
-        const json = JSON.stringify({ projects: updatedProjects }, null, 2);
-        downloadJSON(json, 'updated_projects.json');
-    });
-
-    // Function to trigger a download of the JSON file
-    function downloadJSON(json, filename) {
-        const blob = new Blob([json], { type: 'application/json' });
-        const url = URL.createObjectURL(blob);
-
-        // Use window.open to bypass sandboxing issues
-        window.open(url);
-
-        // Create an anchor element for download
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = filename;
-
-        // Append to the body to ensure it works across all browsers
-        document.body.appendChild(a);
-        a.click();
-
-        // Cleanup
-        setTimeout(() => {
-            document.body.removeChild(a);
-            URL.revokeObjectURL(url); // Release memory
-        }, 0);
-    }
-</script>
-
-
-
-
-
-</body>
+                // Cleanup
+                setTimeout(() => {
+                    document.body.removeChild(a);
+                    URL.revokeObjectURL(url); // Release memory
+                }, 0);
+            }
+        </script>
+    </body>
 </html>

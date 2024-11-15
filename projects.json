@@ -2,65 +2,159 @@
   "projects": [
     {
       "Title": "Airships",
-      "BodyContent": "<iframe width=\"690\" height=\"388\" src=\"https://sketchfab.com/models/c705fe53e2c34de3940760434e66684b/embed\" frameborder=\"0\" allowvr=\"\" allowfullscreen=\"\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\" onmousewheel=\"\"></iframe>",
+      "BodyContent": "One passion of mine since 2010 has been Minecraft. I find it's a neat medium for voxel modeling and leaves some room for the imagination. It's also cheaper than legos. I got to lead a team of like-minded builders making a hub world for a server we played on, and other than learning the ropes of project planning and managing a group of folks, I got to do a bit of concept work as well!<br><br>We went with a steampunk theme, and I really liked the idea of building airships! I enjoyed thinking about how an airship might function and how to represent those functions while constrained by Minecraft's palette of blocks. I also did a bit of worldbuilding, thinking about parts that might be standardized by my imaginary manufacturer, WDI, and making ships that were modified to fit different needs. If there's one thing I'm the happiest about, it's that all the layers and spaces bleed into each other vertically. It's not like there just a main level and then a level above or below that, but they just flow nicely and moving through them in-game felt claustrophobic but fluid, which I imagine would fit the constraints of a vessel that needs to keep itself in the air. I've added interactive views of each one below! You can use your mouse to navigate around the models or click on the annotations to view specific areas that I marked, from things like the rudder to the helm!<br>\n<hr>\n<b>WDI Archon</b><br>\nThe Archon was my first airship design. that I made before working on the build mentioned above, so you could say it was basically my prototype. I designed it as a military/anti-piracy vessel, so the hull's been reinforced with dark brown armor plates and plenty of mounted weapons. Additionally, the hold has been hollowed out to make room for a deployable strike craft ornithopter.<br><br>\n    <iframe width=\"690\" height=\"388\" src=\"https://sketchfab.com/models/a4364e48fd594eff982a2a4ee8d67708/embed\" frameborder=\"0\" allowvr=\"\" allowfullscreen=\"\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\" onmousewheel=\"\"></iframe><hr>\n<b>WDI Leviathan</b><br>\nThe Leviathan was my second airship, this time designed as a merchant vessel built off of the same frame as the Archon, and I imagine that the Archon was just a militarized version of the Leviathan rather than the other way around. It features a larger hold and landing skids, and felt a lot more open than the Archon's armored walkways.<br><br>\n<iframe width=\"690\" height=\"388\" src=\"https://sketchfab.com/models/c705fe53e2c34de3940760434e66684b/embed\" frameborder=\"0\" allowvr=\"\" allowfullscreen=\"\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\" onmousewheel=\"\"></iframe>\n<hr>\n<b>Penzance's Plunder</b><br>\nThe Penzance's Plunder I designed as a pirate vessel, and it's sleeker profile and two large propellers instead of one drive prop and two steering props show that the vessel was designed for speed, what might have once been a racing vessel converted to blockade running. It's been armed but not armored, with a large anti-aircraft gun in the front being its main armament and grappling ballistas being on each side to aid in boarding activities. I also didn't imagine the pirates would be docking it often, so it features a ladder that can drop down for boarding.<br><br>\n    <iframe width=\"690\" height=\"388\" src=\"https://sketchfab.com/models/06ba56072c2f423895ddbe381a1abff6/embed\" frameborder=\"0\" allowvr=\"\" allowfullscreen=\"\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\" onmousewheel=\"\"></iframe><hr>\n<b>WDI Life Boat</b><br>\nThe WDI Life Boat was the largest airship I built, and served an actual purpose for the server being a venue for so-called \"drop parties\" where people would drop free items while the rest of the server ran around on the deck below trying to pick up free and often valuable goodies. With this in mind, I was going for the look of a pleasure craft but building around the large main deck. With that in mind, it has many indoor and outdoor observation decks, with some fully enclosed by glass to help get out of the choppy winds outdoors. For a ship as large as it is, it features extra propulsion with the engines from the Penzance's Plunder being relegated to merely steering propellers. As seemed fitting to a party vessel, the main balloon was instead turned into colorful smaller balloons, not just to resemble party balloons but to have redundancy in case there were to be damage.<br><br>\n    <iframe width=\"690\" height=\"388\" src=\"https://sketchfab.com/models/820cc3c290964831b4c5607838ded2ba/embed\" frameborder=\"0\" allowvr=\"\" allowfullscreen=\"\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\" onmousewheel=\"\"></iframe>",
       "Timeframe": {
-        "Sortable": "2016-10-1",
-        "Display": "Fall 2016"
+        "Sortable": "2016-12-01",
+        "Display": "Winter 2016"
       },
-      "Description": "The first debug project.",
+      "Description": "Airships used in a Minecraft Server's hub world",
       "ThumbnailImage": "images/Airships/thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
         "Personal",
         "3D Modelling"
       ],
-      "Images": []
+      "Images": [],
+      "Complete": true,
+      "Favorite": false,
+      "Hidden": false
     },
     {
       "Title": "Arches",
-      "BodyContent": "<p>This is the HTML content for Project 2.</p>",
+      "BodyContent": "Arches were the final result of what was called the Tool Project. We started by being assigned a simple hand tool and we had to become really familiar with it. We drafted it, studied and drew its movement, and imagined how the section cut of the tool would change in the motions of being used. After that , we were paired up with another student and merged our motions to create a form.<br><br>My tool was a tortilla press, and my partner's tool was a knife sharpener. The end model had elements reflecting the hinging over time and the heaviness of the tortilla press, but also elements of repetition and cutting from the knife sharpener. The model in its many iterations focused on light and space, with two spaces under a shared roof divided by cutting vertical slats.<br><br>The big takeaway from this project was working with another individual on a high-stakes project. While the Building Study project had us working together in a group of three, this project was working on something original, and I think we made the mistake of not playing to each other's strengths. Vincent is a great designer and my specialty is in the fabrication, but I think in trying to find compromise we ended up with something neither of us was too happy with.<br><br>That being said, I do appreciate the drawings I made as part of this project, and I also pushed my renders to a higher level than before. On a previous iteration of my portfolio website, I actually used these renders as the header and footer of the website, and I think the renders really leverage the strengths of the architecture.",
       "Timeframe": {
-        "Sortable": "",
-        "Display": ""
+        "Sortable": "2017-01-01",
+        "Display": "Spring 2017"
       },
-      "Description": "A short project with collaborators",
+      "Description": "A pavilion derived from a tortilla press and a knife sharpener",
       "ThumbnailImage": "images/Arches/thumbnail.jpg",
       "Collaborators": [
         {
-          "Name": "Collaborator 1",
-          "Role": "Designer"
-        },
-        {
-          "Name": "Collaborator 2",
-          "Role": "Developer"
+          "Name": "Vincent DeRienzo",
+          "Role": ""
         }
       ],
       "Tags": [
-        "Academic",
+        "Architecture",
         "Studio"
       ],
-      "Images": []
+      "Images": [
+        {
+          "ImageURL": "images/Arches/archesFinalModel.jpg",
+          "Description": "An overview of the final model."
+        },
+        {
+          "ImageURL": "images/Arches/ArchesDetail1.jpg",
+          "Description": "An interior view of the model showcasing the light through the slats."
+        },
+        {
+          "ImageURL": "images/Arches/archesDetail2.jpg",
+          "Description": "A view of the entrance to the model."
+        },
+        {
+          "ImageURL": "images/Arches/archesDetail3.jpg",
+          "Description": "An overhead view of the model."
+        },
+        {
+          "ImageURL": "images/Arches/Megarender3.png",
+          "Description": "An eyecatching render of the lighting."
+        },
+        {
+          "ImageURL": "images/Arches/MegaRender5.jpg",
+          "Description": "An atmospheric render of the pavilion with an almost post-apocalyptic sky."
+        },
+        {
+          "ImageURL": "images/Arches/UberGif.gif",
+          "Description": "A render of the lighting throughout the day."
+        },
+        {
+          "ImageURL": "images/Arches/piece template v2 2.png",
+          "Description": "Drawings to inform construction of the scale model."
+        },
+        {
+          "ImageURL": "images/Arches/Tortilla maker BW.png",
+          "Description": "Hand draft of the tortilla press."
+        },
+        {
+          "ImageURL": "images/Arches/motion.png",
+          "Description": "Hand draft of the press's motion while in use."
+        }
+      ],
+      "Complete": true,
+      "Favorite": false,
+      "Hidden": false
     },
     {
       "Title": "Saco Lake Bathhouse",
       "BodyContent": "<p>This is the HTML content for Project 2.</p>",
       "Timeframe": {
         "Sortable": "",
-        "Display": ""
+        "Display": "Spring 2018"
       },
       "Description": "A short project with collaborators",
       "ThumbnailImage": "images/BathHouse/thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Academic",
+        "Architecture",
         "Studio"
       ],
       "Images": [
         {
-          "ImageURL": "images/project1thumb.jpg",
-          "Description": "sample image 1."
+          "ImageURL": "images/BathHouse/combined.jpg",
+          "Description": "My combined plan and section drawings of the bathhouse."
+        },
+        {
+          "ImageURL": "images/BathHouse/Exterior Render.jpg",
+          "Description": "The approach to the bathhouse."
+        },
+        {
+          "ImageURL": "images/BathHouse/Inside entryway.jpg",
+          "Description": "Entering the bathhouse."
+        },
+        {
+          "ImageURL": "images/BathHouse/in pools.jpg",
+          "Description": "Inside the pools."
+        },
+        {
+          "ImageURL": "images/BathHouse/Rootop.jpg",
+          "Description": "Resting on the roof of the bathhouse."
+        },
+        {
+          "ImageURL": "images/BathHouse/NightRender.jpg",
+          "Description": "Gazing at the night sky from the stairs."
+        },
+        {
+          "ImageURL": "images/BathHouse/Material Overview.jpg",
+          "Description": "A detail model focused on the entrance to the bathhouse."
+        },
+        {
+          "ImageURL": "images/BathHouse/Material Detail.jpg",
+          "Description": "A detail model focused on the entrance to the bathhouse."
+        },
+        {
+          "ImageURL": "images/BathHouse/Model Overview.jpg",
+          "Description": "A scale model of the entire bathhouse."
+        },
+        {
+          "ImageURL": "images/BathHouse/Model Observation Decks.jpg",
+          "Description": "A close-up view of the two observation decks. Note the 3D printed stair."
+        },
+        {
+          "ImageURL": "images/BathHouse/Model Sauna Entrance.jpg",
+          "Description": "A view of the stairs and one of the sauna entrances."
+        },
+        {
+          "ImageURL": "images/BathHouse/Site Plan Overview.jpg",
+          "Description": "A site plan of the lake, nearby roads, and the bathhouse."
+        },
+        {
+          "ImageURL": "images/BathHouse/Site Plan Detail.jpg",
+          "Description": "A close-up of the bathhouse on the site plan."
         }
-      ]
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
     },
     {
       "Title": "Building Study",
@@ -82,7 +176,7 @@
         }
       ],
       "Tags": [
-        "Academic",
+        "Architecture",
         "Studio"
       ],
       "Images": [
@@ -104,22 +198,33 @@
         },
         {
           "ImageURL": "images/BuildingStudy/FBH1.jpg",
-          "Description": "Physical model of three isolated Fredensborg Houses."
+          "Description": "Physical model of three isolated Fredensborg Houses. Mine is visible in the center."
+        },
+        {
+          "ImageURL": "images/BuildingStudy/FBH2.jpg",
+          "Description": "Aerial view of the three isolated Fredensborg Houses in their site model"
+        },
+        {
+          "ImageURL": "images/BuildingStudy/FBH3.jpg",
+          "Description": "Models with their rooves removed."
         }
-      ]
+      ],
+      "Complete": true,
+      "Favorite": false,
+      "Hidden": false
     },
     {
       "Title": "Cube House",
       "BodyContent": "<p>The Cube House Project, also known as the Wedding Pavilion design project, was a studio project where we were given a site covered in hedge, and it was up to us to modify the site to fit the program and the cube house itself. One side of the site had a road while the other faced Lake Erie. The program called for a place for the wedding to take place, room for the couple to get ready and then make their way to the stage, a location for a reception, and some parking and bathrooms.<br><br>\n\nThe deliverables for the project had many pieces. We needed sections and a hand-rendered plan fit to a 1/4\"=1' scale, as well as a scaled hand-rendered perspective. We also had digital renders, and finally, the scaled wooden model.<br><br>\n\nThe design itself took heavy inspiration from a theatrical stage, and the layout had a counter-clockwise circulation pattern. Spaces were meant to emphasize transition and threshold.<br><hr><br>What I really appreciated about this project was that it was the first studio project where we had to heavily engage with the architecture woodshop, and reflecting upon my work, the design itself might not have been all too compelling, but the experience I gained in assembling the site model was monumental! I took care to make sure all of my wooden pieces lined up just right and really put in the time at the woodshop. At that point, I wasn't great at making sure every piece was toleranced correctly, but to make sure everything slot together perfectly I underwent a trial by fire so to speak.<br><br>I also got to experiment more with my render settings, and for this project I tried out the Nvidia IRay plugin while most of my peers were still using the school's licensed version of VRay.<br><br>Admittedly, the grandest takeaway for this project was the rendered site plan. I framed that thing after the semester ended and it's been hanging above my bed ever since. I don't think I've ever been content with my ability to draw, but I went the extra mile to add in ambient occlusion and render the distinct textures of gravel paths and grass. If anything, it's one of the better projects I use to benchmark myself when I look back at my work years later!</p>",
       "Timeframe": {
-        "Sortable": "2016-10-1",
+        "Sortable": "2016-10-01",
         "Display": "Fall 2016"
       },
       "Description": "A design for a wedding pavilion on the shores of Lake Erie",
       "ThumbnailImage": "images/CubeHouse/thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Academic",
+        "Architecture",
         "Studio"
       ],
       "Images": [
@@ -159,20 +264,22 @@
           "ImageURL": "images/CubeHouse/Render 11.png",
           "Description": "Render of from the perspective of the audience looking towards the reception area."
         }
-      ]
+      ],
+      "Complete": true,
+      "Favorite": false,
+      "Hidden": false
     },
     {
       "Title": "Dungeon Crawl",
       "BodyContent": "<p>This was my final Project for Creative Coding and I loved it a whole lot! I ended up going way overboard any my project ended up being almost a thousand lines of code when it was only supposed to be a couple hundred. And yes, I did get a 100 and some points of extra credit for the effort. Before I go too far though, <b>The game is fully playable if you scroll down below this block of text.</b><br><br>Now, onto the project details! One of the things we covered in our class was the idea of a Turtle, an object that would move around by moving forwards, backwards, and rotating, so its motions weren't dependent on the traditional X and Y grid. I already knew that this was perfect for having basic creatures that could move around, but it would also be perfect for something like a Magic Missile that would follow an arcing non-linear path to its target. I also liked fantasy settings, being very involved with my school's Tabletop Roleplaying games club that was mostly Dungeons & Dragons, and I liked dungeon crawling video games like The Binding of Isaac. I decided that would make for a fun challenge, and so this project was born!<br><br>To briefly go over the game itself, it’s a dungeon crawler. The player goes into randomly generated rooms with randomly generated enemies which make up floors of random length. As the player progresses through the floors, the average enemy speed and number in a room will gradually increase. Paired with the player’s health that only partially returns when a floor is completed, it’s certain that the player will die. The question then is how far can they make it?<br><br>To help me troubleshoot the project, I added in a ‘debug mode’ of sorts. By pressing ‘=’, the player can see a lot of cheaty data, spawn enemies, generate the final room of each floor, and increase how many floors the game thinks the player has cleared. There were a lot of challenges. I wasn’t sure how to do level generation (the system can easily do non-linear levels by generating more doors but linear is easy to play through) and for a while, enemy AI was giving me some problems.<br><br>In the end, I’m more than happy with what I made. I enjoy playing it, I enjoyed making it, and I enjoy changing some of the settings to make the game truly ridiculous. Also the visual assets are either made by me or heavily changed free assets</p>\n<a href=\"linkedScripts/DungeonCrawl.js\" target=\"_blank\" rel=\"noopener noreferrer\">Project Source Code</a>\n<iframe src='linkedScripts/DungeonCrawl.html' width='100%' height='500px' frameborder='0'></iframe>\n<blockquote><b>Controls</b><br>Movement - WASD or the Arrow Keys<br>Cast Magic Missile - Point and click with your mouse<br><br><b>Tips</b><br><ul><li>The glow on your staff indicates how much mana you have</li><li>If you’re shooting slowly, let up on the firing and just let it recharge</li><li>The magic missiles bank towards where your mouse is when you fire them</li><li>Aim slightly ahead of enemies for best results</li></ul><br><b>Debug Controls</b><br>Toggle Debug Mode - =<br>Increase Floor Number - SHIFT<br>Spawn enemy at cursor - E<br>Make next room the exit - ENTER</blockquote>",
       "Timeframe": {
         "Sortable": "2018-11-16",
-        "Display": "November 16 - December 6, 2018"
+        "Display": "November 2018"
       },
       "Description": "A dungeon crawler playable within your browser",
       "ThumbnailImage": "images/DungeonCrawler/thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Academic",
         "Programming",
         "Game Design"
       ],
@@ -201,7 +308,33 @@
           "ImageURL": "images/DungeonCrawler/initialTest.gif",
           "Description": "My first proof of concept with Debug Mode, which the game ended up being built off of"
         }
-      ]
+      ],
+      "Complete": true,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "New Project",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
     }
   ]
 }

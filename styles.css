@@ -293,24 +293,31 @@ blockquote{
     cursor: pointer;
     position: absolute;
     top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
     color: black;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
-}
-
-.next {
-    right: 0;
+    z-index: 10; /* Ensure the arrows are on top */
+    transform: translateY(-50%); /* Vertically center the arrows */
+    width: 40%; /* Take up the left or right half of the image */
+    height: 100%; /* Full height of the image */
+    display: flex;
+    align-items: center; /* Vertically center the text */
+    text-shadow: 0 0 2px white;
 }
 
 .prev {
-    left: 0;
+    left: 0; /* Align the previous arrow to the left */
+    justify-content: flex-start; /* Align text to the left */
 }
+
+.next {
+    right: 0; /* Align the next arrow to the right */
+    justify-content: flex-end; /* Align text to the right */
+}
+
 
 /* Description text */
 .text {
@@ -321,11 +328,36 @@ blockquote{
 }
 
 /* Thumbnails */
+/* Set the .row to limit its width and allow horizontal scrolling */
 .row {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    overflow-x: auto;   /* Keeps horizontal scroll only within .row */
+    max-width: 100%;
+    min-height:max-content;
+    align-items: center; /* Keeps the images aligned vertically */
+    padding: 10px 0;     /* Optional: Padding for spacing */
+    height: auto;        /* Allow row to adjust based on content */
+    flex-wrap: wrap;     /* Wrap images if they're too wide */
 }
+
+/* Set a consistent max-height for images to keep them within bounds */
+.row img {
+    max-height: 150px;  /* Adjust as necessary */
+    width: 100%;         /* Ensure it fills the container's width */
+    object-fit: cover;   /* Prevents distortion, covers the space neatly */
+}
+
+/* Optional: Style the scrollbar if needed */
+.row::-webkit-scrollbar {
+    height: 8px; /* Adjust the height of the scrollbar */
+}
+
+.row::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.5); /* Scrollbar color */
+    border-radius: 4px;
+}
+
 
 .column {
     flex: 0 0 auto;
