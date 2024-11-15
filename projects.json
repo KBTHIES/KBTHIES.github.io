@@ -86,12 +86,12 @@
     },
     {
       "Title": "Saco Lake Bathhouse",
-      "BodyContent": "<p>This is the HTML content for Project 2.</p>",
+      "BodyContent": "This project was a wellness center that included pools for bathing accommodating both shallow and deep water, saunas, an area for yoga and meditation situated near Saco Lake, New Hampshire. The project demanded we be mindful of the interplay between the site and the bathhouse, as well as considering mindfulness and atmosphere.\n<br><br>\nI envisioned the heavily forested site could have unique play with the trees surrounding it, and could fade into the background by imitating the trees around it. To separate those coming to the bathhouse to utilize its facilities from those who just wanted to hike in and take in the view, I designed the structure to have two concentric staircases, one of which was accessible from the inside of the building while the other was accessible from outside. Hikers could access a lower observation deck while those who went through the changing rooms, baths, and saunas could access a rooftop observation deck, which also maintains the privacy of those utilizing the rooftop for meditation or yoga.\n<br><br>\nDuring this project, I tried experimenting with a different method of rendering with overlaid colors and gradients. It was a style I had seen utilized by Studio SHAFT in their Monogatari series for background shots and I liked how they turned out. Instead of focusing too hard on realism, I think they were able to emphasize the atmosphere I was going for. You enter into a dark and cramped space, you bathe in the dark and then enter into verticality, into the light. I also got to utilize digital fabrication, with one of the stairs being 3D printed, the other print unfortunately refusing to cooperate before the deadline. I also chopped my file up for laser cutting to great effect, especially with the site model.\n<br><br>\nI'm glad that I got to try a lot of new things in the project, and I'm still really happy with the way the site model, building drawings, and renders turned out! While the model itself still left room for improvement, I played an important role in me utilizing digital fabrication technologies more! I only wish tree supports had been common then, and it's surprising that nobody at university taught me about deburring tools until I learned machining.",
       "Timeframe": {
-        "Sortable": "",
+        "Sortable": "2018-03-01",
         "Display": "Spring 2018"
       },
-      "Description": "A short project with collaborators",
+      "Description": "A bathhouse overlooking Saco Lake",
       "ThumbnailImage": "images/BathHouse/thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
@@ -152,7 +152,7 @@
           "Description": "A close-up of the bathhouse on the site plan."
         }
       ],
-      "Complete": false,
+      "Complete": true,
       "Favorite": false,
       "Hidden": false
     },
@@ -314,7 +314,1850 @@
       "Hidden": false
     },
     {
+      "Title": "Grow Center",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/GrowCenter/thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/GrowCenter/thumbnail.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Hoop House",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/HoopHouse/thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/HoopHouse/thumbnail.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "ITAR",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/ITAR/thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/ITAR/thumbnail.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Library Parasite",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/LibraryParasite/thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/LibraryParasite/thumbnail.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Moorewood Makerspace Renovation",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/MakerspaceRenovation/thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/MakerspaceRenovation/thumbnail.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Hunt Library Lighting Analysis",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/LightingAnalysis/thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/LightingAnalysis/thumbnail.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Materials and Assembly",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/MaterialsAssembly/thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/MaterialsAssembly/thumbnail.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Medieval Fantasy Contest",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/MedievalFantasy/thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/MedievalFantasy/thumbnail.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Gray Squirrel Coffee Co",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/MomentStudio/thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/MomentStudio/thumbnail.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Office Space",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/OfficeSpace/thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/OfficeSpace/thumbnail.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "The Chairs",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/TheChairs/thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/TheChairs/thumbnail.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "It'd Take a Miracle",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Personal",
+        "Game"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "2 Month Magical Girl",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Personal",
+        "Game"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Warded Wishes",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Personal",
+        "Game"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Magical Girl in Pittsburgh",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Game"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "\"Farewell\" Dice Box",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Personal"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Locker Organization",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Dice Box from Scraps",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Sewing Carts",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Kevin Says Sign",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Machined Homura Shield",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Kikuo Standee",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "LARP Belt",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "LARP Rapier",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": true
+    },
+    {
+      "Title": "Don Standees",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Sharkboo",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Banana Chair",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Graduation Gifts",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "LARP Tombstones",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Custom Dice",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "LARP Buckler",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "DeVaughn Fibrillator Plaque",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Stained Glass Ornaments",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Nerf Break-Action Rifle",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Travel Sewing Kit",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Triangle Rock Club Sign",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Custom Lamp",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "ITAC Gavel",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
       "Title": "New Project",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Dune Bullfighter Statue",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Acrylic Wave Bracelet",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Benchy Wreath",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Don Keychains",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Heaviest D12 Ever",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Tracy's Floor Register",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Tabletop Toolkit",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Oakydeer VRChat Model",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Safety Stand",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Bookmarks",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "CATAN Board",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Hexagonal Chess",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "New Project",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Duke Chapel",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Glowforge Cart",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Kukanno Kami Figure",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Sadbear",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Library Visitor",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Heat Gun Doppelganger",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Alien Plant",
+      "BodyContent": "PLUSH FROM INFLATABLES",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Inflatable Studies",
+      "BodyContent": "The colorful guys",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Blue Pencil Box",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Head in the Clouds",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Mycelium",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Antiquarian Photography",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Molded Dagger Handle",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "The Redding Sword",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Arcanotech Jumper Cables",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "FiDO",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Walpurgisnacht Ukulele",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Pittsburgh Map",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Monhegan Map",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "The Whalesong",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Fancy Cup Holder",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Digital Lantern",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "\"Sakura\" Hammershot",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "LARP Dagger Holder",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Eggue",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Steampunk Revolver",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Ego",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "LARP Greaves",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Maine Penitentiary Pencil Case",
       "BodyContent": "<p>New project content in HTML format.</p>",
       "Timeframe": {
         "Sortable": "",
