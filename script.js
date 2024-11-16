@@ -26,6 +26,7 @@ function showSection(sectionId) {
     }
 }
 
+const STAR_ICON = "✦"; // You can replace this with another icon or Unicode character if needed
 let currentSlideIndex = 0;
 let project = null; // Global variable to store the current project
 
@@ -99,19 +100,35 @@ document.addEventListener("DOMContentLoaded", function () {
             // Filter out projects with Hidden: true
             const projects = data.projects.filter((project) => !project.Hidden);
 
-            // Split the projects into those with and without Timeframe.Sortable
-            const projectsWithTimeframe = projects.filter((project) => project.Timeframe && project.Timeframe.Sortable);
-            const projectsWithoutTimeframe = projects.filter(
+            // Separate favorite and non-favorite projects
+            const favoriteProjects = projects.filter((project) => project.Favorite);
+            const nonFavoriteProjects = projects.filter((project) => !project.Favorite);
+
+            // Split projects with Timeframe.Sortable
+            const favoriteWithTimeframe = favoriteProjects.filter(
+                (project) => project.Timeframe && project.Timeframe.Sortable
+            );
+            const favoriteWithoutTimeframe = favoriteProjects.filter(
+                (project) => !project.Timeframe || !project.Timeframe.Sortable
+            );
+            const nonFavoriteWithTimeframe = nonFavoriteProjects.filter(
+                (project) => project.Timeframe && project.Timeframe.Sortable
+            );
+            const nonFavoriteWithoutTimeframe = nonFavoriteProjects.filter(
                 (project) => !project.Timeframe || !project.Timeframe.Sortable
             );
 
-            // Sort projects by Timeframe.Sortable (newest first)
-            projectsWithTimeframe.sort((a, b) => {
-                return new Date(b.Timeframe.Sortable) - new Date(a.Timeframe.Sortable); // Sort descending by date
-            });
+            // Sort favorites and non-favorites by Timeframe.Sortable (newest first)
+            favoriteWithTimeframe.sort((a, b) => new Date(b.Timeframe.Sortable) - new Date(a.Timeframe.Sortable));
+            nonFavoriteWithTimeframe.sort((a, b) => new Date(b.Timeframe.Sortable) - new Date(a.Timeframe.Sortable));
 
-            // Combine the two arrays: sorted projects first, then unsorted projects
-            const sortedProjects = [...projectsWithTimeframe, ...projectsWithoutTimeframe];
+            // Combine sorted arrays: favorites first, then non-favorites
+            const sortedProjects = [
+                ...favoriteWithTimeframe,
+                ...favoriteWithoutTimeframe,
+                ...nonFavoriteWithTimeframe,
+                ...nonFavoriteWithoutTimeframe
+            ];
 
             const gridContainer = document.querySelector(".grid-container");
 
@@ -131,6 +148,14 @@ document.addEventListener("DOMContentLoaded", function () {
                         ? project.ThumbnailImage
                         : "images/placeholder.jpg";
                 gridItem.style.backgroundImage = `url(${imageUrl})`;
+
+                // Add gold star for favorites
+                if (project.Favorite) {
+                    const favoriteStar = document.createElement("div");
+                    favoriteStar.classList.add("favorite-star");
+                    favoriteStar.innerHTML = `${STAR_ICON}`; // Unicode for gold star
+                    gridItem.appendChild(favoriteStar);
+                }
 
                 const gridOverlay = document.createElement("div");
                 gridOverlay.classList.add("grid-overlay");
@@ -241,13 +266,29 @@ document.addEventListener("DOMContentLoaded", function () {
             .then((response) => response.text())
             .then((template) => {
                 lightbox.innerHTML = template;
+            
+                        // Insert project title
+            const titleElement = document.getElementById("lightbox-title");
+            titleElement.textContent = project.Title;
 
-                // Insert project title and timeframe
-                document.getElementById("lightbox-title").textContent = project.Title;
-                document.getElementById("lightbox-timeframe").textContent = project.Timeframe.Display;
+            // Insert "Favorite" badge if the project is marked as favorite
+            if (project.Favorite) {
+                const favoriteBadge = document.createElement("div");
+                favoriteBadge.classList.add("favorite-badge");
 
-                // Insert BodyContent as HTML (to handle <iframe> and other HTML tags)
-                document.getElementById("project-description").innerHTML = project.BodyContent;
+                // Add the star icon and "Favorite" text
+                favoriteBadge.innerHTML = `${STAR_ICON} <span>Favorite</span>`;
+
+                // Insert the badge after the title
+                const headerElement = document.querySelector(".lightbox-header");
+                headerElement.insertBefore(favoriteBadge, titleElement.nextSibling);
+            }
+
+            // Insert Timeframe
+            document.getElementById("lightbox-timeframe").textContent = project.Timeframe.Display;
+
+            // Insert BodyContent as HTML (to handle <iframe> and other HTML tags)
+            document.getElementById("project-description").innerHTML = project.BodyContent;
 
                 // Handle Tags (Add to bottom of lightbox-content)
                 const lightboxContent = document.querySelector(".lightbox-content");

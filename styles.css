@@ -141,6 +141,8 @@ nav button.active {
     transition-delay: 0.1s;
     /* Filter Animations*/
     opacity: 1;
+    /* Ensure child elements like the star are positioned relative to this */
+    position: relative;
 }
 
 .grid-item:hover {
@@ -153,6 +155,31 @@ nav button.active {
     opacity: 1;
     text-shadow: 0 0 15px gray;
 }
+
+.favorite-star, .favorite-badge {
+    color: gold;
+}
+
+.favorite-star {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 20px;
+    z-index: 9;
+    pointer-events: none;
+}
+
+.favorite-badge {
+    margin-top: 15px;
+    position: absolute; /* Position it independently of the flow */
+    top: -1.5rem; /* Adjust to place above the title */
+    left: 0; /* Align to the left edge */
+    font-size: 1.2rem; /* Adjust size as needed */
+    font-weight: bold;
+    text-align: left; /* Align the text to the left */
+}
+
+
 
 .grid-overlay {
     font-family:
