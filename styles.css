@@ -250,7 +250,7 @@ nav button.active {
     background-color: white;       /* Background color for readability */
     position: sticky;              /* Make the header sticky */
     top: 0;                        /* Stick to the top of the lightbox */
-    z-index: 1;                    /* Ensure it's above other content */
+    z-index: 110;                    /* Ensure it's above other content */
     box-shadow: 0 -20px 0 10px white;
 }
 
@@ -281,6 +281,12 @@ blockquote{
 
 #lightbox-timeline {
     float: right;
+}
+
+.tags-container {
+    margin-top: 10px;
+    font-size: 0.85em;
+    color: #777;
 }
 
 #collaborators-section {
@@ -322,6 +328,7 @@ blockquote{
     transform: translateY(-50%); /* Vertically center the arrows */
     width: 40%; /* Take up the left or right half of the image */
     height: 100%; /* Full height of the image */
+    margin: 15px;
     display: flex;
     align-items: center; /* Vertically center the text */
     text-shadow: 0 0 2px white;

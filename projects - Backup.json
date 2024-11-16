@@ -8,13 +8,17 @@
         "Display": "Winter 2016"
       },
       "Description": "Airships used in a Minecraft Server's hub world",
-      "ThumbnailImage": "images/Airships/thumbnail.jpg",
+      "ThumbnailImage": "images/as.thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Personal",
-        "3D Modelling"
+        "3D Modelling",
+        "Digital",
+        "Gaming"
       ],
-      "Images": []
+      "Images": [],
+      "Complete": true,
+      "Favorite": false,
+      "Hidden": false
     },
     {
       "Title": "Arches",
@@ -24,7 +28,7 @@
         "Display": "Spring 2017"
       },
       "Description": "A pavilion derived from a tortilla press and a knife sharpener",
-      "ThumbnailImage": "images/Arches/thumbnail.jpg",
+      "ThumbnailImage": "images/arc.thumbnail.jpg",
       "Collaborators": [
         {
           "Name": "Vincent DeRienzo",
@@ -33,81 +37,137 @@
       ],
       "Tags": [
         "Architecture",
-        "Studio"
+        "Studio",
+        "Woodworking"
       ],
       "Images": [
         {
-          "ImageURL": "images/Arches/archesFinalModel.jpg",
+          "ImageURL": "images/arc.1.jpg",
           "Description": "An overview of the final model."
         },
         {
-          "ImageURL": "images/Arches/ArchesDetail1.jpg",
+          "ImageURL": "images/arc.2.jpg",
           "Description": "An interior view of the model showcasing the light through the slats."
         },
         {
-          "ImageURL": "images/Arches/archesDetail2.jpg",
+          "ImageURL": "images/arc.3.jpg",
           "Description": "A view of the entrance to the model."
         },
         {
-          "ImageURL": "images/Arches/archesDetail3.jpg",
+          "ImageURL": "images/arc.4.jpg",
           "Description": "An overhead view of the model."
         },
         {
-          "ImageURL": "images/Arches/Megarender3.png",
+          "ImageURL": "images/arc.5.png",
           "Description": "An eyecatching render of the lighting."
         },
         {
-          "ImageURL": "images/Arches/MegaRender5.jpg",
+          "ImageURL": "images/arc.6.jpg",
           "Description": "An atmospheric render of the pavilion with an almost post-apocalyptic sky."
         },
         {
-          "ImageURL": "images/Arches/UberGif.gif",
+          "ImageURL": "images/arc.7.gif",
           "Description": "A render of the lighting throughout the day."
         },
         {
-          "ImageURL": "images/Arches/piece template v2 2.png",
+          "ImageURL": "images/arc.8.png",
           "Description": "Drawings to inform construction of the scale model."
         },
         {
-          "ImageURL": "images/Arches/Tortilla maker BW.png",
+          "ImageURL": "images/arc.9.png",
           "Description": "Hand draft of the tortilla press."
         },
         {
-          "ImageURL": "images/Arches/motion.png",
+          "ImageURL": "images/arc.10.png",
           "Description": "Hand draft of the press's motion while in use."
         }
-      ]
+      ],
+      "Complete": true,
+      "Favorite": false,
+      "Hidden": false
     },
     {
       "Title": "Saco Lake Bathhouse",
-      "BodyContent": "<p>This is the HTML content for Project 2.</p>",
+      "BodyContent": "This project was a wellness center that included pools for bathing accommodating both shallow and deep water, saunas, an area for yoga and meditation situated near Saco Lake, New Hampshire. The project demanded we be mindful of the interplay between the site and the bathhouse, as well as considering mindfulness and atmosphere.\n<br><br>\nI envisioned the heavily forested site could have unique play with the trees surrounding it, and could fade into the background by imitating the trees around it. To separate those coming to the bathhouse to utilize its facilities from those who just wanted to hike in and take in the view, I designed the structure to have two concentric staircases, one of which was accessible from the inside of the building while the other was accessible from outside. Hikers could access a lower observation deck while those who went through the changing rooms, baths, and saunas could access a rooftop observation deck, which also maintains the privacy of those utilizing the rooftop for meditation or yoga.\n<br><br>\nDuring this project, I tried experimenting with a different method of rendering with overlaid colors and gradients. It was a style I had seen utilized by Studio SHAFT in their Monogatari series for background shots and I liked how they turned out. Instead of focusing too hard on realism, I think they were able to emphasize the atmosphere I was going for. You enter into a dark and cramped space, you bathe in the dark and then enter into verticality, into the light. I also got to utilize digital fabrication, with one of the stairs being 3D printed, the other print unfortunately refusing to cooperate before the deadline. I also chopped my file up for laser cutting to great effect, especially with the site model.\n<br><br>\nI'm glad that I got to try a lot of new things in the project, and I'm still really happy with the way the site model, building drawings, and renders turned out! While the model itself still left room for improvement, I played an important role in me utilizing digital fabrication technologies more! I only wish tree supports had been common then, and it's surprising that nobody at university taught me about deburring tools until I learned machining.",
       "Timeframe": {
-        "Sortable": "",
+        "Sortable": "2018-03-01",
         "Display": "Spring 2018"
       },
-      "Description": "A short project with collaborators",
-      "ThumbnailImage": "images/BathHouse/thumbnail.jpg",
+      "Description": "A bathhouse overlooking Saco Lake",
+      "ThumbnailImage": "images/bh.thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
         "Architecture",
-        "Studio"
+        "Studio",
+        "Big Builds"
       ],
       "Images": [
         {
-          "ImageURL": "images/BathHouse/NightRender.jpg",
-          "Description": "sample image 1."
+          "ImageURL": "images/bh.1.jpg",
+          "Description": "My combined plan and section drawings of the bathhouse."
+        },
+        {
+          "ImageURL": "images/bh.2.jpg",
+          "Description": "The approach to the bathhouse."
+        },
+        {
+          "ImageURL": "images/bh.3.jpg",
+          "Description": "Entering the bathhouse."
+        },
+        {
+          "ImageURL": "images/bh.4.jpg",
+          "Description": "Inside the pools."
+        },
+        {
+          "ImageURL": "images/bh.5.jpg",
+          "Description": "Resting on the roof of the bathhouse."
+        },
+        {
+          "ImageURL": "images/bh.6.jpg",
+          "Description": "Gazing at the night sky from the stairs."
+        },
+        {
+          "ImageURL": "images/bh.7.jpg",
+          "Description": "A detail model focused on the entrance to the bathhouse."
+        },
+        {
+          "ImageURL": "images/bh.8.jpg",
+          "Description": "A detail model focused on the entrance to the bathhouse."
+        },
+        {
+          "ImageURL": "images/bh.9.jpg",
+          "Description": "A scale model of the entire bathhouse."
+        },
+        {
+          "ImageURL": "images/bh.10.jpg",
+          "Description": "A close-up view of the two observation decks. Note the 3D printed stair."
+        },
+        {
+          "ImageURL": "images/bh.11.jpg",
+          "Description": "A view of the stairs and one of the sauna entrances."
+        },
+        {
+          "ImageURL": "images/bh.12.jpg",
+          "Description": "A site plan of the lake, nearby roads, and the bathhouse."
+        },
+        {
+          "ImageURL": "images/bh.13.jpg",
+          "Description": "A close-up of the bathhouse on the site plan."
         }
-      ]
+      ],
+      "Complete": true,
+      "Favorite": false,
+      "Hidden": false
     },
     {
       "Title": "Building Study",
       "BodyContent": "<p>Architecture has been around for a while now, and architecture of the past has a lot to teach us today. In this project, our group was assigned to get really familiar with an architectural precedent. Our group was assigned the Fredensborg Houses by Jorn Utzon. The project involved getting familiar with the buildings, knowing the measurements and ideas behind them, and finally culminated in a scale model of the buildings and site. Since the Fredensborg Houses are a housing project, the three of us focused on three houses on the east end of the site.<br><br>As a group we had to construct the site model and each of us made our own model of the house, although each individual made their own set of drafts. I had a lot of fun with the drafts, since it was very satisfying when all the lines intersected perfectly, which took a lot of trust in yourself and in the process. Plus, the heavy-weight Strathmore paper we used wasn't cheap, especially for a student.<br><br>However, the part that I found the most enjoyable was making the models. All you had was a cutting mat, an architect's scale, a straight edge metal rule and an Exacto blade, and you had to do all of your measurements twice before committing to the cut and gluing it all together. If I had done this later in architecture school I would have used a laser cutter, but in a way it was great having to learn how to do it by hand!<p>",
       "Timeframe": {
-        "Sortable": "",
-        "Display": ""
+        "Sortable": "2016-10-01",
+        "Display": "Fall 2016"
       },
-      "Description": "",
-      "ThumbnailImage": "images/BuildingStudy/thumbnail.jpg",
+      "Description": "A study of Jorn Utzon's Fredensborg Houses",
+      "ThumbnailImage": "images/bs.thumbnail.jpg",
       "Collaborators": [
         {
           "Name": "Curran Zhang",
@@ -124,26 +184,41 @@
       ],
       "Images": [
         {
-          "ImageURL": "images/BuildingStudy/Plan.jpg",
+          "ImageURL": "images/bs.1.jpg",
           "Description": "My hand-drafted Plan drawing of one of Jorn Utzon's Fredensborg Houses."
         },
         {
-          "ImageURL": "images/BuildingStudy/section.jpg",
+          "ImageURL": "images/bs.2.jpg",
           "Description": "My hand-drafted Section drawing of one of Jorn Utzon's Fredensborg Houses."
         },
         {
-          "ImageURL": "images/BuildingStudy/elevation.jpg",
+          "ImageURL": "images/bs.3.jpg",
           "Description": "My hand-drafted Elevation drawing of one of Jorn Utzon's Fredensborg Houses."
         },
         {
-          "ImageURL": "images/BuildingStudy/Paraline.jpg",
+          "ImageURL": "images/bs.4.jpg",
           "Description": "My hand-drafted worm's eye Paraline drawing of one of Jorn Utzon's Fredensborg Houses."
         },
         {
-          "ImageURL": "images/BuildingStudy/FBH1.jpg",
-          "Description": "Physical model of three isolated Fredensborg Houses."
+          "ImageURL": "images/bs.5.jpg",
+          "Description": "Physical model of three isolated Fredensborg Houses. Mine is visible in the center."
+        },
+        {
+          "ImageURL": "images/bs.6.jpg",
+          "Description": "Aerial view of the three isolated Fredensborg Houses in their site model"
+        },
+        {
+          "ImageURL": "images/bs.7.jpg",
+          "Description": "Models with their rooves removed."
+        },
+        {
+          "ImageURL": "images/bs.8.jpg",
+          "Description": "My model with the roof removed, relocated for a better view."
         }
-      ]
+      ],
+      "Complete": true,
+      "Favorite": false,
+      "Hidden": false
     },
     {
       "Title": "Cube House",
@@ -153,7 +228,494 @@
         "Display": "Fall 2016"
       },
       "Description": "A design for a wedding pavilion on the shores of Lake Erie",
-      "ThumbnailImage": "images/CubeHouse/thumbnail.jpg",
+      "ThumbnailImage": "images/ch.thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Architecture",
+        "Studio",
+        "Woodworking",
+        "Big Builds"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/ch.1.jpg",
+          "Description": "Overview of the Scale Model."
+        },
+        {
+          "ImageURL": "images/ch.2.jpg",
+          "Description": "Detail shot of the main stage."
+        },
+        {
+          "ImageURL": "images/ch.3.jpg",
+          "Description": "The main stage with parts removed for an interior view."
+        },
+        {
+          "ImageURL": "images/ch.4.jpg",
+          "Description": "A view of the reception area from the lake side of the site."
+        },
+        {
+          "ImageURL": "images/ch.5.jpg",
+          "Description": "A perspective render of the interior of the pavilion."
+        },
+        {
+          "ImageURL": "images/ch.6.jpg",
+          "Description": "A plan render of the site that still lives above my bed."
+        },
+        {
+          "ImageURL": "images/ch.7.png",
+          "Description": "Render of the reveal of the pavilion."
+        },
+        {
+          "ImageURL": "images/ch.8.png",
+          "Description": "Render of the view from the stage."
+        },
+        {
+          "ImageURL": "images/ch.9.png",
+          "Description": "Render of from the perspective of the audience looking towards the reception area."
+        }
+      ],
+      "Complete": true,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Dungeon Crawl",
+      "BodyContent": "<p>This was my final Project for Creative Coding and I loved it a whole lot! I ended up going way overboard any my project ended up being almost a thousand lines of code when it was only supposed to be a couple hundred. And yes, I did get a 100 and some points of extra credit for the effort. Before I go too far though, <b>The game is fully playable if you scroll down below this block of text.</b><br><br>Now, onto the project details! One of the things we covered in our class was the idea of a Turtle, an object that would move around by moving forwards, backwards, and rotating, so its motions weren't dependent on the traditional X and Y grid. I already knew that this was perfect for having basic creatures that could move around, but it would also be perfect for something like a Magic Missile that would follow an arcing non-linear path to its target. I also liked fantasy settings, being very involved with my school's Tabletop Roleplaying games club that was mostly Dungeons & Dragons, and I liked dungeon crawling video games like The Binding of Isaac. I decided that would make for a fun challenge, and so this project was born!<br><br>To briefly go over the game itself, it’s a dungeon crawler. The player goes into randomly generated rooms with randomly generated enemies which make up floors of random length. As the player progresses through the floors, the average enemy speed and number in a room will gradually increase. Paired with the player’s health that only partially returns when a floor is completed, it’s certain that the player will die. The question then is how far can they make it?<br><br>To help me troubleshoot the project, I added in a ‘debug mode’ of sorts. By pressing ‘=’, the player can see a lot of cheaty data, spawn enemies, generate the final room of each floor, and increase how many floors the game thinks the player has cleared. There were a lot of challenges. I wasn’t sure how to do level generation (the system can easily do non-linear levels by generating more doors but linear is easy to play through) and for a while, enemy AI was giving me some problems.<br><br>In the end, I’m more than happy with what I made. I enjoy playing it, I enjoyed making it, and I enjoy changing some of the settings to make the game truly ridiculous. Also the visual assets are either made by me or heavily changed free assets</p>\n<a href=\"linkedScripts/DungeonCrawl.js\" target=\"_blank\" rel=\"noopener noreferrer\">Project Source Code</a>\n<iframe src='linkedScripts/DungeonCrawl.html' width='100%' height='500px' frameborder='0'></iframe>\n<blockquote><b>Controls</b><br>Movement - WASD or the Arrow Keys<br>Cast Magic Missile - Point and click with your mouse<br><br><b>Tips</b><br><ul><li>The glow on your staff indicates how much mana you have</li><li>If you’re shooting slowly, let up on the firing and just let it recharge</li><li>The magic missiles bank towards where your mouse is when you fire them</li><li>Aim slightly ahead of enemies for best results</li></ul><br><b>Debug Controls</b><br>Toggle Debug Mode - =<br>Increase Floor Number - SHIFT<br>Spawn enemy at cursor - E<br>Make next room the exit - ENTER</blockquote>",
+      "Timeframe": {
+        "Sortable": "2018-11-16",
+        "Display": "November 2018"
+      },
+      "Description": "A dungeon crawler playable within your browser",
+      "ThumbnailImage": "images/dc.thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Programming",
+        "Game Design",
+        "Digital"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/dc.1.jpg",
+          "Description": "The wizard explores the dungeon"
+        },
+        {
+          "ImageURL": "images/dc.3.jpg",
+          "Description": "The wizard finds the entrance to the next floor"
+        },
+        {
+          "ImageURL": "images/dc.4.jpg",
+          "Description": "The wizard died and the player views their stats"
+        },
+        {
+          "ImageURL": "images/dc.2.jpg",
+          "Description": "The wizard casts their most powerful spell, Debug Mode"
+        },
+        {
+          "ImageURL": "images/dc.6.jpg",
+          "Description": "My initial concept sketch for what the game would look like"
+        },
+        {
+          "ImageURL": "images/dc.5.gif",
+          "Description": "My first proof of concept with Debug Mode, which the game ended up being built off of"
+        }
+      ],
+      "Complete": true,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Grow Center",
+      "BodyContent": "Pittsburgh has a lot of empty lots, with rowhouses frequently being broken up by staccato voids, ghosts of the buildings that once stood there. These gaps aren't dissimilar to the neighborhoods in Pittsburgh, with neighborhoods that share a border realistically taking a half hour or more to reach with the natural borders of cliffsides or the artificial boarders of busways. Our site was 7539 Susquehanna St in Pittsburgh which was a vacant lot in a food desert and the community had set up the Sankofa Village Community Garden. The goal of the Grow Center project was to develop the site and make a resource for the community.\n<br><br>\nI was interested in using the rowhouse as a unit, so I started by arraying and twisting that unit to get the overall form. The main greenhouse was just one of many spaces available for planting, and was optimized both for sunlight direction but also to be an eyecatcher on the corner of the lot to encourage visitors to engage with the grow center.\n<br><br>\nI really enjoyed getting to go out to the site, planning sustainable building systems, and researching the climate factors such as sun direction and temperatures and having to relate those to areas for growing plants. I also had my first experience with VR for this project, with my Google Cardboard from the Medieval Fantasy challenge arriving the morning of final review allowing the reviewers to experience some of the main spaces of the building in VR. I also made a flythrough gif of the space, although in hindsight the quality is pretty lacking but that's a product of my laptop at the time and the length it'd take to render individual frames. I was really satisfied with my model, and while it was small, I think it was a great representation of the building. My favorite detail, other than the wire trees, is that the doors in the back of the workshop could open and close on the model, but the one that was painted ended up getting stuck.",
+      "Timeframe": {
+        "Sortable": "2017-12-01",
+        "Display": "Fall 2017"
+      },
+      "Description": "A community resource for growing and teaching",
+      "ThumbnailImage": "images/gc.thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Architecture",
+        "Studio",
+        "Big Builds"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/gc.1.png",
+          "Description": "Images of the site."
+        },
+        {
+          "ImageURL": "images/gc.2.jpg",
+          "Description": "Render of the front of the Grow Center."
+        },
+        {
+          "ImageURL": "images/gc.3.jpg",
+          "Description": "Render of the back of the Grow Center."
+        },
+        {
+          "ImageURL": "images/gc.4.jpg",
+          "Description": "Plan, section, and elevation drawings."
+        },
+        {
+          "ImageURL": "images/gc.5.jpg",
+          "Description": "Overview of the building's program and systems."
+        },
+        {
+          "ImageURL": "images/gc.6.jpg",
+          "Description": "Overview of the various growing surfaces and their planned use."
+        },
+        {
+          "ImageURL": "images/gc.7.jpg",
+          "Description": "The transformation of the Rowhouse unit into the Grow Center."
+        },
+        {
+          "ImageURL": "images/gc.8.png",
+          "Description": "View of the hallway that cuts through every form."
+        },
+        {
+          "ImageURL": "images/gc.9.png",
+          "Description": "View from the interior of the greenhouse."
+        },
+        {
+          "ImageURL": "images/gc.10.png",
+          "Description": "View of the workshop with the doors open."
+        },
+        {
+          "ImageURL": "images/gc.11.gif",
+          "Description": "Flythrough of the spaces."
+        },
+        {
+          "ImageURL": "images/gc.12.jpg",
+          "Description": "View of the model in fresh Pittsburgh snow. The white foam core board vanishes into the snowy backdrop."
+        },
+        {
+          "ImageURL": "images/gc.13.jpg",
+          "Description": "View of the back of the physical model."
+        },
+        {
+          "ImageURL": "images/gc.14.jpg",
+          "Description": "Detail shot of the physical model."
+        },
+        {
+          "ImageURL": "images/gc.15.jpg",
+          "Description": "Detail shot of the physical model."
+        },
+        {
+          "ImageURL": "images/gc.16.jpg",
+          "Description": "A view of the green wall opposite the greenhouse."
+        },
+        {
+          "ImageURL": "images/gc.17.jpg",
+          "Description": "Detail shot of the model's workshop doors."
+        },
+        {
+          "ImageURL": "images/gc.18.jpg",
+          "Description": "A shot of the shadow cast by the workshop's windows. Also visible is the grate behind the workshop with access to the basement."
+        }
+      ],
+      "Complete": true,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Hoop House",
+      "BodyContent": "The Hoop House was the second stage of the Fall '17 semester, following the hanging garden project and preceding the Grow Center project. The hoop house was thinking at the scale of a greenhouse, which needed to provide life support for plants over the harsh Pittsburgh winter. Our group consisted of six members of diverse backgrounds, from design to construction. The Hoop House was made of steel conduit and greenhouse heat shrink, and was installed at Phipps Conservatory. We're fortunate that our site was just down the road, about a 5 minute walk through a park.\n<br><br>\nMy role in the project was to analyze the site conditions like the standard sun path, temperature, and humidity using Climate Consultant, as well as making a drone-scanned-style model of the site (I don't have a drone so I cheated a bit and used Google Earth). Relating to the work with sunpath, I made a Grasshopper script that displays the sun path and models surfaces based off those sun angles. As the project developed, I made construction axos and really pushed for expression through joinery, which I see as my largest contribution to the project. I assisted Sean in making full-scale working joinery mock-ups. I also got to play the role of fabricator's advocate. Our group had some fantastic designers and strong wills, and I made that our final design could be fabricated and ideally had some truly beautiful movement and joinery. At the end of the day, we were limited to electrical conduit and greenhouse plastic so there was plenty of opportunities to get creative! One final role I played was that I made a documentation video of our project with my GoPro hung off of a shelf in the ceiling.\n<br><br>\nFor a project with so many moving parts and small openings, it was one of the few that didn't fall apart or tear open when I went back to visit after winter break, and of the other greenhouses that remained intact it also kept about half of the plants alive. By that point, most of the other greenhouses had fallen down or had tears in the greenhouse plastic. The skills I learned working with conduit would be something I'd keep with me, coming into play years later with my Safety Stand project. I think this project alone helped me find my place as someone fascinated with fabrication.",
+      "Timeframe": {
+        "Sortable": "2017-11-01",
+        "Display": "Fall 2017"
+      },
+      "Description": "A greenhouse made to weather the Pittsburgh winter",
+      "ThumbnailImage": "images/hh.thumbnail.jpg",
+      "Collaborators": [
+        {
+          "Name": "Gisselt Gomez",
+          "Role": ""
+        },
+        {
+          "Name": "Sean McGadden",
+          "Role": ""
+        },
+        {
+          "Name": "Jacob Moskowitz",
+          "Role": ""
+        },
+        {
+          "Name": "Louis Suarez",
+          "Role": ""
+        },
+        {
+          "Name": "Alex Wang",
+          "Role": ""
+        }
+      ],
+      "Tags": [
+        "Architecture",
+        "Studio",
+        "Big Builds"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/hh.0.jpg",
+          "Description": "Our group sitting in front of the completed Hoop House (Gisselt is not pictured)."
+        },
+        {
+          "ImageURL": "images/hh.15.jpg",
+          "Description": "Our group visits the site for the first time in September."
+        },
+        {
+          "ImageURL": "images/hh.1.jpg",
+          "Description": "The Hoop House all buttoned up!"
+        },
+        {
+          "ImageURL": "images/hh.3.jpg",
+          "Description": "Another view of the completed Hoop House"
+        },
+        {
+          "ImageURL": "images/hh.2.jpg",
+          "Description": "After opening the external panel, you can see the sliding door inside."
+        },
+        {
+          "ImageURL": "images/hh.4.jpg",
+          "Description": "My site plan ended up becoming a massive photoshop file that I had to wrangle to export properly."
+        },
+        {
+          "ImageURL": "images/hh.5.png",
+          "Description": "My sun path analysis of our site."
+        },
+        {
+          "ImageURL": "images/hh.6.jpg",
+          "Description": "Analysis of wet/dry bulb and ground temperatures."
+        },
+        {
+          "ImageURL": "images/hh.7.png",
+          "Description": "Our project keystone, the conduit cutsheet. They're faint but you can see the markings showing where we needed to bend the conduit."
+        },
+        {
+          "ImageURL": "images/hh.8.jpg",
+          "Description": "A proof-of-concept sliding door using rails made from conduit."
+        },
+        {
+          "ImageURL": "images/hh.9.jpg",
+          "Description": "A still from our documentation video. Jacob, Sean, and I spent a lot of time in the woodshop figuring out how to drill press a rounded surface repeatably."
+        },
+        {
+          "ImageURL": "images/hh.10.jpg",
+          "Description": "A diagram showing step 1 of assembly."
+        },
+        {
+          "ImageURL": "images/hh.11.jpg",
+          "Description": "A diagram showing step 2 of assembly."
+        },
+        {
+          "ImageURL": "images/hh.12.jpg",
+          "Description": "A diagram showing step 3 of assembly."
+        },
+        {
+          "ImageURL": "images/hh.13.jpg",
+          "Description": "Our Hoop House survived the winter."
+        },
+        {
+          "ImageURL": "images/hh.14.jpg",
+          "Description": "A view of the remaining plants after winter break with snow still piled on top."
+        }
+      ],
+      "Complete": true,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "ITAR",
+      "BodyContent": "Couldn't get enough documentation images, or really anything about the final model",
+      "Timeframe": {
+        "Sortable": "2018-10-01",
+        "Display": "Fall 2018"
+      },
+      "Description": "Architectural Robotics",
+      "ThumbnailImage": "images/itar.thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Programming",
+        "Physical"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/itar.1.png",
+          "Description": "Default image description."
+        },
+        {
+          "ImageURL": "images/itar.3.jpg",
+          "Description": "Default image description."
+        },
+        {
+          "ImageURL": "images/itar.4.jpg",
+          "Description": "Default image description."
+        },
+        {
+          "ImageURL": "images/itar.5.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": true
+    },
+    {
+      "Title": "Library Parasite",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/LibraryParasite/thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Studio",
+        "Big Builds"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/LibraryParasite/thumbnail.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Moorewood Makerspace Renovation",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/MakerspaceRenovation/thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Makerspace Improvement",
+        "Architecture",
+        "Realized"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/MakerspaceRenovation/thumbnail.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Hunt Library Lighting Analysis",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/LightingAnalysis/thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Studio",
+        "Architecture"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/LightingAnalysis/thumbnail.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Materials and Assembly",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/MaterialsAssembly/thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "3D Modelling",
+        "Technical",
+        "Architecture"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/MaterialsAssembly/thumbnail.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Medieval Fantasy Contest",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/MedievalFantasy/thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "3D Modelling",
+        "Contest",
+        "Digital"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/MedievalFantasy/thumbnail.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Gray Squirrel Coffee Co",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/MomentStudio/thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Architecture",
+        "Technical",
+        "3D Modelling",
+        "Realized"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/MomentStudio/thumbnail.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Office Space",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/OfficeSpace/thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
         "Architecture",
@@ -161,83 +723,663 @@
       ],
       "Images": [
         {
-          "ImageURL": "images/CubeHouse/1.jpg",
-          "Description": "Overview of the Scale Model."
-        },
-        {
-          "ImageURL": "images/CubeHouse/3.jpg",
-          "Description": "Detail shot of the main stage."
-        },
-        {
-          "ImageURL": "images/CubeHouse/5.jpg",
-          "Description": "The main stage with parts removed for an interior view."
-        },
-        {
-          "ImageURL": "images/CubeHouse/8.jpg",
-          "Description": "A view of the reception area from the lake side of the site."
-        },
-        {
-          "ImageURL": "images/CubeHouse/cubeHouseHandPerspective.jpg",
-          "Description": "A perspective render of the interior of the pavilion."
-        },
-        {
-          "ImageURL": "images/CubeHouse/cubeHouseHandPlan.jpg",
-          "Description": "A plan render of the site that still lives above my bed."
-        },
-        {
-          "ImageURL": "images/CubeHouse/Render 2.png",
-          "Description": "Render of the reveal of the pavilion."
-        },
-        {
-          "ImageURL": "images/CubeHouse/Render 6.png",
-          "Description": "Render of the view from the stage."
-        },
-        {
-          "ImageURL": "images/CubeHouse/Render 11.png",
-          "Description": "Render of from the perspective of the audience looking towards the reception area."
+          "ImageURL": "images/OfficeSpace/thumbnail.jpg",
+          "Description": "Default image description."
         }
-      ]
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
     },
     {
-      "Title": "Dungeon Crawl",
-      "BodyContent": "<p>This was my final Project for Creative Coding and I loved it a whole lot! I ended up going way overboard any my project ended up being almost a thousand lines of code when it was only supposed to be a couple hundred. And yes, I did get a 100 and some points of extra credit for the effort. Before I go too far though, <b>The game is fully playable if you scroll down below this block of text.</b><br><br>Now, onto the project details! One of the things we covered in our class was the idea of a Turtle, an object that would move around by moving forwards, backwards, and rotating, so its motions weren't dependent on the traditional X and Y grid. I already knew that this was perfect for having basic creatures that could move around, but it would also be perfect for something like a Magic Missile that would follow an arcing non-linear path to its target. I also liked fantasy settings, being very involved with my school's Tabletop Roleplaying games club that was mostly Dungeons & Dragons, and I liked dungeon crawling video games like The Binding of Isaac. I decided that would make for a fun challenge, and so this project was born!<br><br>To briefly go over the game itself, it’s a dungeon crawler. The player goes into randomly generated rooms with randomly generated enemies which make up floors of random length. As the player progresses through the floors, the average enemy speed and number in a room will gradually increase. Paired with the player’s health that only partially returns when a floor is completed, it’s certain that the player will die. The question then is how far can they make it?<br><br>To help me troubleshoot the project, I added in a ‘debug mode’ of sorts. By pressing ‘=’, the player can see a lot of cheaty data, spawn enemies, generate the final room of each floor, and increase how many floors the game thinks the player has cleared. There were a lot of challenges. I wasn’t sure how to do level generation (the system can easily do non-linear levels by generating more doors but linear is easy to play through) and for a while, enemy AI was giving me some problems.<br><br>In the end, I’m more than happy with what I made. I enjoy playing it, I enjoyed making it, and I enjoy changing some of the settings to make the game truly ridiculous. Also the visual assets are either made by me or heavily changed free assets</p>\n<a href=\"linkedScripts/DungeonCrawl.js\" target=\"_blank\" rel=\"noopener noreferrer\">Project Source Code</a>\n<iframe src='linkedScripts/DungeonCrawl.html' width='100%' height='500px' frameborder='0'></iframe>\n<blockquote><b>Controls</b><br>Movement - WASD or the Arrow Keys<br>Cast Magic Missile - Point and click with your mouse<br><br><b>Tips</b><br><ul><li>The glow on your staff indicates how much mana you have</li><li>If you’re shooting slowly, let up on the firing and just let it recharge</li><li>The magic missiles bank towards where your mouse is when you fire them</li><li>Aim slightly ahead of enemies for best results</li></ul><br><b>Debug Controls</b><br>Toggle Debug Mode - =<br>Increase Floor Number - SHIFT<br>Spawn enemy at cursor - E<br>Make next room the exit - ENTER</blockquote>",
+      "Title": "The Chairs",
+      "BodyContent": "<p>New project content in HTML format.</p>",
       "Timeframe": {
-        "Sortable": "2018-11-16",
-        "Display": "November 16 - December 6, 2018"
+        "Sortable": "",
+        "Display": "Month Year"
       },
-      "Description": "A dungeon crawler playable within your browser",
-      "ThumbnailImage": "images/DungeonCrawler/thumbnail.jpg",
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/TheChairs/thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
         "Programming",
-        "Game Design"
+        "Physical"
       ],
       "Images": [
         {
-          "ImageURL": "images/DungeonCrawler/1.jpg",
-          "Description": "The wizard explores the dungeon"
-        },
-        {
-          "ImageURL": "images/DungeonCrawler/3.jpg",
-          "Description": "The wizard finds the entrance to the next floor"
-        },
-        {
-          "ImageURL": "images/DungeonCrawler/4.jpg",
-          "Description": "The wizard died and the player views their stats"
-        },
-        {
-          "ImageURL": "images/DungeonCrawler/2.jpg",
-          "Description": "The wizard casts their most powerful spell, Debug Mode"
-        },
-        {
-          "ImageURL": "images/DungeonCrawler/sketch.jpg",
-          "Description": "My initial concept sketch for what the game would look like"
-        },
-        {
-          "ImageURL": "images/DungeonCrawler/initialTest.gif",
-          "Description": "My first proof of concept with Debug Mode, which the game ended up being built off of"
+          "ImageURL": "images/TheChairs/thumbnail.jpg",
+          "Description": "Default image description."
         }
-      ]
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "It'd Take a Miracle",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Game Design",
+        "TTRPG"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": true,
+      "Hidden": false
+    },
+    {
+      "Title": "2 Month Magical Girl",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Game Design",
+        "TTRPG"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Warded Wishes",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Game Design",
+        "TTRPG"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": true,
+      "Hidden": false
+    },
+    {
+      "Title": "Magical Girl in Pittsburgh",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Game Design",
+        "Programming",
+        "Digital"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Personal"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Locker Organization",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Dice Box from Scraps",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Sewing Carts",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Kevin Says Sign",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Machined Homura Shield",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Kikuo Standee",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "LARP Belt",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "LARP Rapier",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": true
+    },
+    {
+      "Title": "Don Standees",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Sharkboo",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Banana Chair",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Graduation Gifts",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "LARP Tombstones",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Custom Dice",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "LARP Buckler",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "DeVaughn Fibrillator Plaque",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Stained Glass Ornaments",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Nerf Break-Action Rifle",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Travel Sewing Kit",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Triangle Rock Club Sign",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Custom Lamp",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "ITAC Gavel",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
     },
     {
       "Title": "New Project",
@@ -257,7 +1399,976 @@
           "ImageURL": "images/default-image.jpg",
           "Description": "Default image description."
         }
-      ]
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Dune Bullfighter Statue",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Acrylic Wave Bracelet",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Benchy Wreath",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Don Keychains",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Heaviest D12 Ever",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Tracy's Floor Register",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Tabletop Toolkit",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Oakydeer VRChat Model",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Safety Stand",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Bookmarks",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "CATAN Board",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Hexagonal Chess",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "New Project",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Duke Chapel",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Glowforge Cart",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Kukanno Kami Figure",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Sadbear",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Library Visitor",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Heat Gun Doppelganger",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Alien Plant",
+      "BodyContent": "PLUSH FROM INFLATABLES",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Inflatable Studies",
+      "BodyContent": "The colorful guys",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Blue Pencil Box",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Head in the Clouds",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Mycelium",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Antiquarian Photography",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Molded Dagger Handle",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "The Redding Sword",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Arcanotech Jumper Cables",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "FiDO",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Walpurgisnacht Ukulele",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Pittsburgh Map",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Monhegan Map",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "The Whalesong",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Fancy Cup Holder",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Digital Lantern",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "LARP Dagger Holder",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Eggue",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Steampunk Revolver",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Ego",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "LARP Greaves",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Maine Penitentiary Pencil Case",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
     }
   ]
 }

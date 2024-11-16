@@ -8,11 +8,12 @@
         "Display": "Winter 2016"
       },
       "Description": "Airships used in a Minecraft Server's hub world",
-      "ThumbnailImage": "images/Airships/thumbnail.jpg",
+      "ThumbnailImage": "images/as.thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Personal",
-        "3D Modelling"
+        "3D Modelling",
+        "Digital",
+        "Gaming"
       ],
       "Images": [],
       "Complete": true,
@@ -27,7 +28,7 @@
         "Display": "Spring 2017"
       },
       "Description": "A pavilion derived from a tortilla press and a knife sharpener",
-      "ThumbnailImage": "images/Arches/thumbnail.jpg",
+      "ThumbnailImage": "images/arc.thumbnail.jpg",
       "Collaborators": [
         {
           "Name": "Vincent DeRienzo",
@@ -36,47 +37,48 @@
       ],
       "Tags": [
         "Architecture",
-        "Studio"
+        "Studio",
+        "Woodworking"
       ],
       "Images": [
         {
-          "ImageURL": "images/Arches/archesFinalModel.jpg",
+          "ImageURL": "images/arc.1.jpg",
           "Description": "An overview of the final model."
         },
         {
-          "ImageURL": "images/Arches/ArchesDetail1.jpg",
+          "ImageURL": "images/arc.2.jpg",
           "Description": "An interior view of the model showcasing the light through the slats."
         },
         {
-          "ImageURL": "images/Arches/archesDetail2.jpg",
+          "ImageURL": "images/arc.3.jpg",
           "Description": "A view of the entrance to the model."
         },
         {
-          "ImageURL": "images/Arches/archesDetail3.jpg",
+          "ImageURL": "images/arc.4.jpg",
           "Description": "An overhead view of the model."
         },
         {
-          "ImageURL": "images/Arches/Megarender3.png",
+          "ImageURL": "images/arc.5.png",
           "Description": "An eyecatching render of the lighting."
         },
         {
-          "ImageURL": "images/Arches/MegaRender5.jpg",
+          "ImageURL": "images/arc.6.jpg",
           "Description": "An atmospheric render of the pavilion with an almost post-apocalyptic sky."
         },
         {
-          "ImageURL": "images/Arches/UberGif.gif",
+          "ImageURL": "images/arc.7.gif",
           "Description": "A render of the lighting throughout the day."
         },
         {
-          "ImageURL": "images/Arches/piece template v2 2.png",
+          "ImageURL": "images/arc.8.png",
           "Description": "Drawings to inform construction of the scale model."
         },
         {
-          "ImageURL": "images/Arches/Tortilla maker BW.png",
+          "ImageURL": "images/arc.9.png",
           "Description": "Hand draft of the tortilla press."
         },
         {
-          "ImageURL": "images/Arches/motion.png",
+          "ImageURL": "images/arc.10.png",
           "Description": "Hand draft of the press's motion while in use."
         }
       ],
@@ -92,63 +94,64 @@
         "Display": "Spring 2018"
       },
       "Description": "A bathhouse overlooking Saco Lake",
-      "ThumbnailImage": "images/BathHouse/thumbnail.jpg",
+      "ThumbnailImage": "images/bh.thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
         "Architecture",
-        "Studio"
+        "Studio",
+        "Big Builds"
       ],
       "Images": [
         {
-          "ImageURL": "images/BathHouse/combined.jpg",
+          "ImageURL": "images/bh.1.jpg",
           "Description": "My combined plan and section drawings of the bathhouse."
         },
         {
-          "ImageURL": "images/BathHouse/Exterior Render.jpg",
+          "ImageURL": "images/bh.2.jpg",
           "Description": "The approach to the bathhouse."
         },
         {
-          "ImageURL": "images/BathHouse/Inside entryway.jpg",
+          "ImageURL": "images/bh.3.jpg",
           "Description": "Entering the bathhouse."
         },
         {
-          "ImageURL": "images/BathHouse/in pools.jpg",
+          "ImageURL": "images/bh.4.jpg",
           "Description": "Inside the pools."
         },
         {
-          "ImageURL": "images/BathHouse/Rootop.jpg",
+          "ImageURL": "images/bh.5.jpg",
           "Description": "Resting on the roof of the bathhouse."
         },
         {
-          "ImageURL": "images/BathHouse/NightRender.jpg",
+          "ImageURL": "images/bh.6.jpg",
           "Description": "Gazing at the night sky from the stairs."
         },
         {
-          "ImageURL": "images/BathHouse/Material Overview.jpg",
+          "ImageURL": "images/bh.7.jpg",
           "Description": "A detail model focused on the entrance to the bathhouse."
         },
         {
-          "ImageURL": "images/BathHouse/Material Detail.jpg",
+          "ImageURL": "images/bh.8.jpg",
           "Description": "A detail model focused on the entrance to the bathhouse."
         },
         {
-          "ImageURL": "images/BathHouse/Model Overview.jpg",
+          "ImageURL": "images/bh.9.jpg",
           "Description": "A scale model of the entire bathhouse."
         },
         {
-          "ImageURL": "images/BathHouse/Model Observation Decks.jpg",
+          "ImageURL": "images/bh.10.jpg",
           "Description": "A close-up view of the two observation decks. Note the 3D printed stair."
         },
         {
-          "ImageURL": "images/BathHouse/Model Sauna Entrance.jpg",
+          "ImageURL": "images/bh.11.jpg",
           "Description": "A view of the stairs and one of the sauna entrances."
         },
         {
-          "ImageURL": "images/BathHouse/Site Plan Overview.jpg",
+          "ImageURL": "images/bh.12.jpg",
           "Description": "A site plan of the lake, nearby roads, and the bathhouse."
         },
         {
-          "ImageURL": "images/BathHouse/Site Plan Detail.jpg",
+          "ImageURL": "images/bh.13.jpg",
           "Description": "A close-up of the bathhouse on the site plan."
         }
       ],
@@ -160,11 +163,11 @@
       "Title": "Building Study",
       "BodyContent": "<p>Architecture has been around for a while now, and architecture of the past has a lot to teach us today. In this project, our group was assigned to get really familiar with an architectural precedent. Our group was assigned the Fredensborg Houses by Jorn Utzon. The project involved getting familiar with the buildings, knowing the measurements and ideas behind them, and finally culminated in a scale model of the buildings and site. Since the Fredensborg Houses are a housing project, the three of us focused on three houses on the east end of the site.<br><br>As a group we had to construct the site model and each of us made our own model of the house, although each individual made their own set of drafts. I had a lot of fun with the drafts, since it was very satisfying when all the lines intersected perfectly, which took a lot of trust in yourself and in the process. Plus, the heavy-weight Strathmore paper we used wasn't cheap, especially for a student.<br><br>However, the part that I found the most enjoyable was making the models. All you had was a cutting mat, an architect's scale, a straight edge metal rule and an Exacto blade, and you had to do all of your measurements twice before committing to the cut and gluing it all together. If I had done this later in architecture school I would have used a laser cutter, but in a way it was great having to learn how to do it by hand!<p>",
       "Timeframe": {
-        "Sortable": "",
-        "Display": ""
+        "Sortable": "2016-10-01",
+        "Display": "Fall 2016"
       },
-      "Description": "",
-      "ThumbnailImage": "images/BuildingStudy/thumbnail.jpg",
+      "Description": "A study of Jorn Utzon's Fredensborg Houses",
+      "ThumbnailImage": "images/bs.thumbnail.jpg",
       "Collaborators": [
         {
           "Name": "Curran Zhang",
@@ -181,32 +184,36 @@
       ],
       "Images": [
         {
-          "ImageURL": "images/BuildingStudy/Plan.jpg",
+          "ImageURL": "images/bs.1.jpg",
           "Description": "My hand-drafted Plan drawing of one of Jorn Utzon's Fredensborg Houses."
         },
         {
-          "ImageURL": "images/BuildingStudy/section.jpg",
+          "ImageURL": "images/bs.2.jpg",
           "Description": "My hand-drafted Section drawing of one of Jorn Utzon's Fredensborg Houses."
         },
         {
-          "ImageURL": "images/BuildingStudy/elevation.jpg",
+          "ImageURL": "images/bs.3.jpg",
           "Description": "My hand-drafted Elevation drawing of one of Jorn Utzon's Fredensborg Houses."
         },
         {
-          "ImageURL": "images/BuildingStudy/Paraline.jpg",
+          "ImageURL": "images/bs.4.jpg",
           "Description": "My hand-drafted worm's eye Paraline drawing of one of Jorn Utzon's Fredensborg Houses."
         },
         {
-          "ImageURL": "images/BuildingStudy/FBH1.jpg",
+          "ImageURL": "images/bs.5.jpg",
           "Description": "Physical model of three isolated Fredensborg Houses. Mine is visible in the center."
         },
         {
-          "ImageURL": "images/BuildingStudy/FBH2.jpg",
+          "ImageURL": "images/bs.6.jpg",
           "Description": "Aerial view of the three isolated Fredensborg Houses in their site model"
         },
         {
-          "ImageURL": "images/BuildingStudy/FBH3.jpg",
+          "ImageURL": "images/bs.7.jpg",
           "Description": "Models with their rooves removed."
+        },
+        {
+          "ImageURL": "images/bs.8.jpg",
+          "Description": "My model with the roof removed, relocated for a better view."
         }
       ],
       "Complete": true,
@@ -221,47 +228,49 @@
         "Display": "Fall 2016"
       },
       "Description": "A design for a wedding pavilion on the shores of Lake Erie",
-      "ThumbnailImage": "images/CubeHouse/thumbnail.jpg",
+      "ThumbnailImage": "images/ch.thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
         "Architecture",
-        "Studio"
+        "Studio",
+        "Woodworking",
+        "Big Builds"
       ],
       "Images": [
         {
-          "ImageURL": "images/CubeHouse/1.jpg",
+          "ImageURL": "images/ch.1.jpg",
           "Description": "Overview of the Scale Model."
         },
         {
-          "ImageURL": "images/CubeHouse/3.jpg",
+          "ImageURL": "images/ch.2.jpg",
           "Description": "Detail shot of the main stage."
         },
         {
-          "ImageURL": "images/CubeHouse/5.jpg",
+          "ImageURL": "images/ch.3.jpg",
           "Description": "The main stage with parts removed for an interior view."
         },
         {
-          "ImageURL": "images/CubeHouse/8.jpg",
+          "ImageURL": "images/ch.4.jpg",
           "Description": "A view of the reception area from the lake side of the site."
         },
         {
-          "ImageURL": "images/CubeHouse/cubeHouseHandPerspective.jpg",
+          "ImageURL": "images/ch.5.jpg",
           "Description": "A perspective render of the interior of the pavilion."
         },
         {
-          "ImageURL": "images/CubeHouse/cubeHouseHandPlan.jpg",
+          "ImageURL": "images/ch.6.jpg",
           "Description": "A plan render of the site that still lives above my bed."
         },
         {
-          "ImageURL": "images/CubeHouse/Render 2.png",
+          "ImageURL": "images/ch.7.png",
           "Description": "Render of the reveal of the pavilion."
         },
         {
-          "ImageURL": "images/CubeHouse/Render 6.png",
+          "ImageURL": "images/ch.8.png",
           "Description": "Render of the view from the stage."
         },
         {
-          "ImageURL": "images/CubeHouse/Render 11.png",
+          "ImageURL": "images/ch.9.png",
           "Description": "Render of from the perspective of the audience looking towards the reception area."
         }
       ],
@@ -277,35 +286,36 @@
         "Display": "November 2018"
       },
       "Description": "A dungeon crawler playable within your browser",
-      "ThumbnailImage": "images/DungeonCrawler/thumbnail.jpg",
+      "ThumbnailImage": "images/dc.thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
         "Programming",
-        "Game Design"
+        "Game Design",
+        "Digital"
       ],
       "Images": [
         {
-          "ImageURL": "images/DungeonCrawler/1.jpg",
+          "ImageURL": "images/dc.1.jpg",
           "Description": "The wizard explores the dungeon"
         },
         {
-          "ImageURL": "images/DungeonCrawler/3.jpg",
+          "ImageURL": "images/dc.3.jpg",
           "Description": "The wizard finds the entrance to the next floor"
         },
         {
-          "ImageURL": "images/DungeonCrawler/4.jpg",
+          "ImageURL": "images/dc.4.jpg",
           "Description": "The wizard died and the player views their stats"
         },
         {
-          "ImageURL": "images/DungeonCrawler/2.jpg",
+          "ImageURL": "images/dc.2.jpg",
           "Description": "The wizard casts their most powerful spell, Debug Mode"
         },
         {
-          "ImageURL": "images/DungeonCrawler/sketch.jpg",
+          "ImageURL": "images/dc.6.jpg",
           "Description": "My initial concept sketch for what the game would look like"
         },
         {
-          "ImageURL": "images/DungeonCrawler/initialTest.gif",
+          "ImageURL": "images/dc.5.gif",
           "Description": "My first proof of concept with Debug Mode, which the game ended up being built off of"
         }
       ],
@@ -315,72 +325,238 @@
     },
     {
       "Title": "Grow Center",
-      "BodyContent": "<p>New project content in HTML format.</p>",
+      "BodyContent": "Pittsburgh has a lot of empty lots, with rowhouses frequently being broken up by staccato voids, ghosts of the buildings that once stood there. These gaps aren't dissimilar to the neighborhoods in Pittsburgh, with neighborhoods that share a border realistically taking a half hour or more to reach with the natural borders of cliffsides or the artificial boarders of busways. Our site was 7539 Susquehanna St in Pittsburgh which was a vacant lot in a food desert and the community had set up the Sankofa Village Community Garden. The goal of the Grow Center project was to develop the site and make a resource for the community.\n<br><br>\nI was interested in using the rowhouse as a unit, so I started by arraying and twisting that unit to get the overall form. The main greenhouse was just one of many spaces available for planting, and was optimized both for sunlight direction but also to be an eyecatcher on the corner of the lot to encourage visitors to engage with the grow center.\n<br><br>\nI really enjoyed getting to go out to the site, planning sustainable building systems, and researching the climate factors such as sun direction and temperatures and having to relate those to areas for growing plants. I also had my first experience with VR for this project, with my Google Cardboard from the Medieval Fantasy challenge arriving the morning of final review allowing the reviewers to experience some of the main spaces of the building in VR. I also made a flythrough gif of the space, although in hindsight the quality is pretty lacking but that's a product of my laptop at the time and the length it'd take to render individual frames. I was really satisfied with my model, and while it was small, I think it was a great representation of the building. My favorite detail, other than the wire trees, is that the doors in the back of the workshop could open and close on the model, but the one that was painted ended up getting stuck.",
       "Timeframe": {
-        "Sortable": "",
-        "Display": "Month Year"
+        "Sortable": "2017-12-01",
+        "Display": "Fall 2017"
       },
-      "Description": "A brief description of the new project.",
-      "ThumbnailImage": "images/GrowCenter/thumbnail.jpg",
+      "Description": "A community resource for growing and teaching",
+      "ThumbnailImage": "images/gc.thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Default Tag"
+        "Architecture",
+        "Studio",
+        "Big Builds"
       ],
       "Images": [
         {
-          "ImageURL": "images/GrowCenter/thumbnail.jpg",
-          "Description": "Default image description."
+          "ImageURL": "images/gc.1.png",
+          "Description": "Images of the site."
+        },
+        {
+          "ImageURL": "images/gc.2.jpg",
+          "Description": "Render of the front of the Grow Center."
+        },
+        {
+          "ImageURL": "images/gc.3.jpg",
+          "Description": "Render of the back of the Grow Center."
+        },
+        {
+          "ImageURL": "images/gc.4.jpg",
+          "Description": "Plan, section, and elevation drawings."
+        },
+        {
+          "ImageURL": "images/gc.5.jpg",
+          "Description": "Overview of the building's program and systems."
+        },
+        {
+          "ImageURL": "images/gc.6.jpg",
+          "Description": "Overview of the various growing surfaces and their planned use."
+        },
+        {
+          "ImageURL": "images/gc.7.jpg",
+          "Description": "The transformation of the Rowhouse unit into the Grow Center."
+        },
+        {
+          "ImageURL": "images/gc.8.png",
+          "Description": "View of the hallway that cuts through every form."
+        },
+        {
+          "ImageURL": "images/gc.9.png",
+          "Description": "View from the interior of the greenhouse."
+        },
+        {
+          "ImageURL": "images/gc.10.png",
+          "Description": "View of the workshop with the doors open."
+        },
+        {
+          "ImageURL": "images/gc.11.gif",
+          "Description": "Flythrough of the spaces."
+        },
+        {
+          "ImageURL": "images/gc.12.jpg",
+          "Description": "View of the model in fresh Pittsburgh snow. The white foam core board vanishes into the snowy backdrop."
+        },
+        {
+          "ImageURL": "images/gc.13.jpg",
+          "Description": "View of the back of the physical model."
+        },
+        {
+          "ImageURL": "images/gc.14.jpg",
+          "Description": "Detail shot of the physical model."
+        },
+        {
+          "ImageURL": "images/gc.15.jpg",
+          "Description": "Detail shot of the physical model."
+        },
+        {
+          "ImageURL": "images/gc.16.jpg",
+          "Description": "A view of the green wall opposite the greenhouse."
+        },
+        {
+          "ImageURL": "images/gc.17.jpg",
+          "Description": "Detail shot of the model's workshop doors."
+        },
+        {
+          "ImageURL": "images/gc.18.jpg",
+          "Description": "A shot of the shadow cast by the workshop's windows. Also visible is the grate behind the workshop with access to the basement."
         }
       ],
-      "Complete": false,
+      "Complete": true,
       "Favorite": false,
       "Hidden": false
     },
     {
       "Title": "Hoop House",
-      "BodyContent": "<p>New project content in HTML format.</p>",
+      "BodyContent": "The Hoop House was the second stage of the Fall '17 semester, following the hanging garden project and preceding the Grow Center project. The hoop house was thinking at the scale of a greenhouse, which needed to provide life support for plants over the harsh Pittsburgh winter. Our group consisted of six members of diverse backgrounds, from design to construction. The Hoop House was made of steel conduit and greenhouse heat shrink, and was installed at Phipps Conservatory. We're fortunate that our site was just down the road, about a 5 minute walk through a park.\n<br><br>\nMy role in the project was to analyze the site conditions like the standard sun path, temperature, and humidity using Climate Consultant, as well as making a drone-scanned-style model of the site (I don't have a drone so I cheated a bit and used Google Earth). Relating to the work with sunpath, I made a Grasshopper script that displays the sun path and models surfaces based off those sun angles. As the project developed, I made construction axos and really pushed for expression through joinery, which I see as my largest contribution to the project. I assisted Sean in making full-scale working joinery mock-ups. I also got to play the role of fabricator's advocate. Our group had some fantastic designers and strong wills, and I made that our final design could be fabricated and ideally had some truly beautiful movement and joinery. At the end of the day, we were limited to electrical conduit and greenhouse plastic so there was plenty of opportunities to get creative! One final role I played was that I made a documentation video of our project with my GoPro hung off of a shelf in the ceiling.\n<br><br>\nFor a project with so many moving parts and small openings, it was one of the few that didn't fall apart or tear open when I went back to visit after winter break, and of the other greenhouses that remained intact it also kept about half of the plants alive. By that point, most of the other greenhouses had fallen down or had tears in the greenhouse plastic. The skills I learned working with conduit would be something I'd keep with me, coming into play years later with my Safety Stand project. I think this project alone helped me find my place as someone fascinated with fabrication.",
       "Timeframe": {
-        "Sortable": "",
-        "Display": "Month Year"
+        "Sortable": "2017-11-01",
+        "Display": "Fall 2017"
       },
-      "Description": "A brief description of the new project.",
-      "ThumbnailImage": "images/HoopHouse/thumbnail.jpg",
-      "Collaborators": [],
+      "Description": "A greenhouse made to weather the Pittsburgh winter",
+      "ThumbnailImage": "images/hh.thumbnail.jpg",
+      "Collaborators": [
+        {
+          "Name": "Gisselt Gomez",
+          "Role": ""
+        },
+        {
+          "Name": "Sean McGadden",
+          "Role": ""
+        },
+        {
+          "Name": "Jacob Moskowitz",
+          "Role": ""
+        },
+        {
+          "Name": "Louis Suarez",
+          "Role": ""
+        },
+        {
+          "Name": "Alex Wang",
+          "Role": ""
+        }
+      ],
       "Tags": [
-        "Default Tag"
+        "Architecture",
+        "Studio",
+        "Big Builds"
       ],
       "Images": [
         {
-          "ImageURL": "images/HoopHouse/thumbnail.jpg",
-          "Description": "Default image description."
+          "ImageURL": "images/hh.0.jpg",
+          "Description": "Our group sitting in front of the completed Hoop House (Gisselt is not pictured)."
+        },
+        {
+          "ImageURL": "images/hh.15.jpg",
+          "Description": "Our group visits the site for the first time in September."
+        },
+        {
+          "ImageURL": "images/hh.1.jpg",
+          "Description": "The Hoop House all buttoned up!"
+        },
+        {
+          "ImageURL": "images/hh.3.jpg",
+          "Description": "Another view of the completed Hoop House"
+        },
+        {
+          "ImageURL": "images/hh.2.jpg",
+          "Description": "After opening the external panel, you can see the sliding door inside."
+        },
+        {
+          "ImageURL": "images/hh.4.jpg",
+          "Description": "My site plan ended up becoming a massive photoshop file that I had to wrangle to export properly."
+        },
+        {
+          "ImageURL": "images/hh.5.png",
+          "Description": "My sun path analysis of our site."
+        },
+        {
+          "ImageURL": "images/hh.6.jpg",
+          "Description": "Analysis of wet/dry bulb and ground temperatures."
+        },
+        {
+          "ImageURL": "images/hh.7.png",
+          "Description": "Our project keystone, the conduit cutsheet. They're faint but you can see the markings showing where we needed to bend the conduit."
+        },
+        {
+          "ImageURL": "images/hh.8.jpg",
+          "Description": "A proof-of-concept sliding door using rails made from conduit."
+        },
+        {
+          "ImageURL": "images/hh.9.jpg",
+          "Description": "A still from our documentation video. Jacob, Sean, and I spent a lot of time in the woodshop figuring out how to drill press a rounded surface repeatably."
+        },
+        {
+          "ImageURL": "images/hh.10.jpg",
+          "Description": "A diagram showing step 1 of assembly."
+        },
+        {
+          "ImageURL": "images/hh.11.jpg",
+          "Description": "A diagram showing step 2 of assembly."
+        },
+        {
+          "ImageURL": "images/hh.12.jpg",
+          "Description": "A diagram showing step 3 of assembly."
+        },
+        {
+          "ImageURL": "images/hh.13.jpg",
+          "Description": "Our Hoop House survived the winter."
+        },
+        {
+          "ImageURL": "images/hh.14.jpg",
+          "Description": "A view of the remaining plants after winter break with snow still piled on top."
         }
       ],
-      "Complete": false,
+      "Complete": true,
       "Favorite": false,
       "Hidden": false
     },
     {
       "Title": "ITAR",
-      "BodyContent": "<p>New project content in HTML format.</p>",
+      "BodyContent": "Couldn't get enough documentation images, or really anything about the final model",
       "Timeframe": {
-        "Sortable": "",
-        "Display": "Month Year"
+        "Sortable": "2018-10-01",
+        "Display": "Fall 2018"
       },
-      "Description": "A brief description of the new project.",
-      "ThumbnailImage": "images/ITAR/thumbnail.jpg",
+      "Description": "Architectural Robotics",
+      "ThumbnailImage": "images/itar.thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Default Tag"
+        "Programming",
+        "Physical"
       ],
       "Images": [
         {
-          "ImageURL": "images/ITAR/thumbnail.jpg",
+          "ImageURL": "images/itar.1.png",
+          "Description": "Default image description."
+        },
+        {
+          "ImageURL": "images/itar.3.jpg",
+          "Description": "Default image description."
+        },
+        {
+          "ImageURL": "images/itar.4.jpg",
+          "Description": "Default image description."
+        },
+        {
+          "ImageURL": "images/itar.5.jpg",
           "Description": "Default image description."
         }
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "Library Parasite",
@@ -393,7 +569,8 @@
       "ThumbnailImage": "images/LibraryParasite/thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Default Tag"
+        "Studio",
+        "Big Builds"
       ],
       "Images": [
         {
@@ -416,7 +593,9 @@
       "ThumbnailImage": "images/MakerspaceRenovation/thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Default Tag"
+        "Makerspace Improvement",
+        "Architecture",
+        "Realized"
       ],
       "Images": [
         {
@@ -439,7 +618,8 @@
       "ThumbnailImage": "images/LightingAnalysis/thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Default Tag"
+        "Studio",
+        "Architecture"
       ],
       "Images": [
         {
@@ -462,7 +642,9 @@
       "ThumbnailImage": "images/MaterialsAssembly/thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Default Tag"
+        "3D Modelling",
+        "Technical",
+        "Architecture"
       ],
       "Images": [
         {
@@ -485,7 +667,9 @@
       "ThumbnailImage": "images/MedievalFantasy/thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Default Tag"
+        "3D Modelling",
+        "Contest",
+        "Digital"
       ],
       "Images": [
         {
@@ -508,7 +692,10 @@
       "ThumbnailImage": "images/MomentStudio/thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Default Tag"
+        "Architecture",
+        "Technical",
+        "3D Modelling",
+        "Realized"
       ],
       "Images": [
         {
@@ -531,7 +718,8 @@
       "ThumbnailImage": "images/OfficeSpace/thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Default Tag"
+        "Architecture",
+        "Studio"
       ],
       "Images": [
         {
@@ -554,7 +742,8 @@
       "ThumbnailImage": "images/TheChairs/thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Default Tag"
+        "Programming",
+        "Physical"
       ],
       "Images": [
         {
@@ -577,8 +766,8 @@
       "ThumbnailImage": "images/default-thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Personal",
-        "Game"
+        "Game Design",
+        "TTRPG"
       ],
       "Images": [
         {
@@ -587,7 +776,7 @@
         }
       ],
       "Complete": false,
-      "Favorite": false,
+      "Favorite": true,
       "Hidden": false
     },
     {
@@ -601,8 +790,8 @@
       "ThumbnailImage": "images/default-thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Personal",
-        "Game"
+        "Game Design",
+        "TTRPG"
       ],
       "Images": [
         {
@@ -625,8 +814,8 @@
       "ThumbnailImage": "images/default-thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Personal",
-        "Game"
+        "Game Design",
+        "TTRPG"
       ],
       "Images": [
         {
@@ -635,7 +824,7 @@
         }
       ],
       "Complete": false,
-      "Favorite": false,
+      "Favorite": true,
       "Hidden": false
     },
     {
@@ -649,7 +838,9 @@
       "ThumbnailImage": "images/default-thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Game"
+        "Game Design",
+        "Programming",
+        "Digital"
       ],
       "Images": [
         {
@@ -662,7 +853,7 @@
       "Hidden": false
     },
     {
-      "Title": "\"Farewell\" Dice Box",
+      "Title": "",
       "BodyContent": "<p>New project content in HTML format.</p>",
       "Timeframe": {
         "Sortable": "",
@@ -2019,7 +2210,7 @@
       "Hidden": false
     },
     {
-      "Title": "\"Sakura\" Hammershot",
+      "Title": "",
       "BodyContent": "<p>New project content in HTML format.</p>",
       "Timeframe": {
         "Sortable": "",

@@ -96,7 +96,8 @@ document.addEventListener("DOMContentLoaded", function () {
     fetch("projects.json")
         .then((response) => response.json())
         .then((data) => {
-            const projects = data.projects;
+            // Filter out projects with Hidden: true
+            const projects = data.projects.filter((project) => !project.Hidden);
 
             // Split the projects into those with and without Timeframe.Sortable
             const projectsWithTimeframe = projects.filter((project) => project.Timeframe && project.Timeframe.Sortable);
@@ -247,6 +248,24 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 // Insert BodyContent as HTML (to handle <iframe> and other HTML tags)
                 document.getElementById("project-description").innerHTML = project.BodyContent;
+
+                // Handle Tags (Add to bottom of lightbox-content)
+                const lightboxContent = document.querySelector(".lightbox-content");
+                const tagsContainer = document.createElement("div");
+                tagsContainer.classList.add("tags-container");
+
+                if (project.Tags && project.Tags.length > 0) {
+                    // Sort tags alphabetically
+                    const sortedTags = project.Tags.slice().sort();
+
+                    // Create small text for the tags
+                    const tagsText = document.createElement("small");
+                    tagsText.textContent = `Tags: ${sortedTags.join(", ")}`;
+                    tagsContainer.appendChild(tagsText);
+
+                    // Append the tags container to the lightbox-content
+                    lightboxContent.appendChild(tagsContainer);
+                }
 
                 const slideshowContainer = document.getElementById("slideshow-images");
                 const thumbnailContainer = document.getElementById("thumbnail-navigation");
