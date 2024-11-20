@@ -32,11 +32,16 @@ footer.with-shadow {
 
 header h1 {
     padding-left: 2vw;
+    font-size: clamp(1.2rem, 4vw, 2rem); /* Dynamically adjust the header font size */
+    white-space: nowrap; /* Prevents text from wrapping onto a new line */
+    overflow: hidden; /* Ensures no overflow */
+    text-overflow: ellipsis; /* Adds ellipsis (...) when text overflows */
 }
 
 nav {
     padding-right: 2vw;
     display: flex;
+    overflow: hidden; /* Prevents any overflow beyond the container */
 }
 
 grid-wrapper {
@@ -51,11 +56,10 @@ nav button {
     border: none;
     color: cornsilk;
     height: 5vh;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: clamp(10px, 2vw, 32px); /* Dynamic padding based on viewport width */
+    padding-right: clamp(10px, 2vw, 32px); /* Dynamic padding based on viewport width */
     text-align: center;
-    fill-opacity: 0;
-    font-size: medium;
+    font-size: clamp(0.8rem, 2vw, 1rem); /* Dynamic font size */
     margin: 4px 2px;
     opacity: 0.6;
     border-radius: 15px;
@@ -92,13 +96,8 @@ nav button.active {
     padding: 10px;
     border-radius: 15px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Adjust the text size based on the height of the container */
-@media (max-height: 80vh) {
-    .filter-container label {
-        font-size: calc(1rem + 0.5vw); /* Dynamically scale the font size */
-    }
+    max-height: 80vh; /* Ensures the container doesn't grow beyond 80vh */
+    overflow-y: auto; /* Allow scrolling */
 }
 
 .filter-container h3 {
@@ -112,6 +111,7 @@ nav button.active {
 }
 
 .filter-container label {
+    font-size: clamp(0.8rem, 2vw, 1rem); /* Font size will scale between 0.8rem and 1.2rem depending on the viewport */
     display: block;
     margin-bottom: 5px;
     cursor: pointer; /* Indicate that it's clickable */
@@ -475,7 +475,15 @@ footer {
     display: flex;
     justify-content: space-between;
     width: 95%; /* Adjust as needed */
+    padding-left: clamp(10px, 2vw, 20px); /* Dynamic left padding */
+    padding-right: clamp(10px, 2vw, 20px); /* Dynamic right padding */
+    font-size: clamp(0.8rem, 2vw, 1rem); /* Dynamically adjust font size */
 }
+
+.footer-content > * {
+    font-size: clamp(0.8rem, 2vw, 1rem); /* Ensure child elements' text also scales */
+}
+
 
 #home-content{
     margin-top: 5vh;
