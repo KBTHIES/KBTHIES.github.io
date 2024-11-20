@@ -3,28 +3,36 @@ function onPageLoaded() {
     console.log("page loaded");
 }
 
-window.addEventListener('resize', adjustTextScale);
-window.addEventListener('load', adjustTextScale); // Also adjust on page load
+window.addEventListener("resize", adjustTextScale);
+window.addEventListener("load", adjustTextScale); // Also adjust on page load
 
 function adjustTextScale() {
-    const homeContent = document.getElementById('home-content');
+    const homeContent = document.getElementById("home-content");
     const maxHeight = window.innerHeight * 0.8; // 80% of the viewport height
 
     // Check if the height of #home-content exceeds 80vh
     if (homeContent.offsetHeight > maxHeight) {
-        homeContent.classList.add('scaled'); // Apply scaling if too tall
+        homeContent.classList.add("scaled"); // Apply scaling if too tall
     } else {
-        homeContent.classList.remove('scaled'); // Remove scaling if the height is normal
+        homeContent.classList.remove("scaled"); // Remove scaling if the height is normal
     }
 }
 
-
+const headerTitle = document.querySelector("header h1");
 let homeOverlay = document.getElementById("home-overlay");
 let portfolioOverlay = document.getElementById("fade-overlay");
 let isHomeActive = true;
 // Global variable to store delay time in seconds
 let homeTransitionDelay = 1; // Delay in seconds
 let homeInitialDelay = 3; // Delay in seconds
+
+function updateHeaderOpacity(sectionId) {
+    if (sectionId === "home") {
+        headerTitle.style.opacity = "0"; // Set opacity to 0 when Home is active
+    } else {
+        headerTitle.style.opacity = "1"; // Set opacity to 1 for other sections
+    }
+}
 
 function showSection(sectionId) {
     // select header and footer for editing
@@ -86,9 +94,15 @@ function showSection(sectionId) {
         setTimeout(() => {
             window.addEventListener("wheel", handleHomeScroll);
         }, homeTransitionDelay * 1000); // Multiply by 1000 to convert seconds to milliseconds
+
+        // Set header opacity for Home
+        updateHeaderOpacity("home");
     } else {
         // Remove the scroll event listener when not on Home page
         window.removeEventListener("wheel", handleHomeScroll);
+
+        // Set header opacity for other sections
+        updateHeaderOpacity(sectionId);
     }
 }
 
