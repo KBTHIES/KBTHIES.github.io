@@ -484,11 +484,9 @@ footer {
     font-size: clamp(0.8rem, 2vw, 1rem); /* Ensure child elements' text also scales */
 }
 
-
 #home-content {
     display: block;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
+    margin-top: clamp(5vh, 10%, 0); /* margin-top dynamically scales between 5vh and 0 */
     max-width: 1000px;
     width: 100%;
     overflow: hidden;
@@ -502,23 +500,23 @@ footer {
     transform-origin: top center; /* Keep the top part fixed when scaling */
 }
 
-
-#home-content h2{
+#home-content h2 {
     font-size: xx-large;
     margin-bottom: 0.5vh;
 }
 
-#home-content q{
+#home-content q {
     font-size: x-large;
     color: cornsilk;
     font-weight: bold;
 }
 
-#home-content i, b{
+#home-content i,
+b {
     font-size: large;
 }
 
-#home-content p{
+#home-content p {
     font-size: large;
 }
 
@@ -529,6 +527,117 @@ footer {
 .scrollToView {
     color: cornsilk;
 }
+
+/* General layout for About Section */
+#about {
+    padding: 5vh 2vw;
+}
+
+.about-container {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: flex-start; /* Keeps items close to each other */
+    gap: 0;  /* No gap between columns */
+    width: 100%;
+    max-width: 1200px; /* Optional: Limit the max width of the container */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Left Column */
+.about-left {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-right: 2vw; /* Optional: Adds some space on the right of the left column */
+}
+
+.about-photo {
+    width: 100%; 
+    max-width: 200px; 
+    border-radius: 50%; 
+    margin-bottom: 1rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center; /* Align the items in the center */
+    gap: 2rem;  /* Adds spacing between the icons */
+    padding: 1rem 0;
+}
+
+.social-icon {
+    font-size: 2rem; /* Adjust the size of the icons */
+    color: #0077b5; /* Default color (LinkedIn blue) */
+    text-decoration: none;
+    display: flex;
+    align-items: center;  /* Vertically center the text with the icon */
+}
+
+.social-icon i {
+    margin-right: 0.5rem; /* Space between icon and text */
+}
+
+.social-icon:hover {
+    color: #005c8e; /* Darker LinkedIn blue on hover */
+}
+
+/* Customize individual icon colors */
+.social-icon:nth-child(1) {
+    color: #333; /* GitHub color */
+}
+
+.social-icon:nth-child(2) {
+    color: #fc2448; /* Itch.io color */
+}
+
+.social-icon:nth-child(3) {
+    color: #0077b5; /* LinkedIn color */
+}
+
+
+/* Style for the Resume link */
+.resume-link {
+    display: block;  /* Make the Resume link a block element */
+    font-size: 1.15rem; /* Adjust the font size */
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+    margin-top: 1rem;  /* Add space above the Resume link */
+    transition: color 0.3s;
+}
+
+.resume-link i {
+    margin-right: 0.5rem; /* Space between icon and text */
+}
+
+.resume-link:hover {
+    color: #5b5b5b; /* Change color on hover */
+}
+
+/* Right Column */
+.about-right {
+    width: 70%;
+    text-align: left;
+    padding-left: 2vw; /* Optional: Adds space on the left of the right column */
+}
+
+/* Mobile responsiveness: Stack columns on smaller screens */
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .about-left, .about-right {
+        width: 100%;
+        text-align: center; 
+    }
+}
+
+
 
 #fade-overlay {
     position: fixed;
