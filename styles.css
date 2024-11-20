@@ -94,6 +94,13 @@ nav button.active {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Adjust the text size based on the height of the container */
+@media (max-height: 80vh) {
+    .filter-container label {
+        font-size: calc(1rem + 0.5vw); /* Dynamically scale the font size */
+    }
+}
+
 .filter-container h3 {
     text-decoration: underline;
     text-decoration-color: gray;
