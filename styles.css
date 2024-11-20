@@ -470,6 +470,40 @@ footer {
     width: 95%; /* Adjust as needed */
 }
 
+#home-content{
+    margin-top: 5vh;
+    display: block;
+    max-width: 1000px;
+    align-content: center;
+}
+
+#home-content h2{
+    font-size: xx-large;
+    margin-bottom: 0.5vh;
+}
+
+#home-content q{
+    font-size: x-large;
+    color: cornsilk;
+    font-weight: bold;
+}
+
+#home-content i, b{
+    font-size: large;
+}
+
+#home-content p{
+    font-size: large;
+}
+
+.hr-home {
+    border-color: darkgray;
+}
+
+.scrollToView {
+    color: cornsilk;
+}
+
 #fade-overlay {
     position: fixed;
     top: 0;

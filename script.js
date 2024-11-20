@@ -7,7 +7,7 @@ let homeOverlay = document.getElementById("home-overlay");
 let portfolioOverlay = document.getElementById("fade-overlay");
 let isHomeActive = true;
 // Global variable to store delay time in seconds
-let homeTransitionDelay = 1.5; // Delay in seconds
+let homeTransitionDelay = 1; // Delay in seconds
 let homeInitialDelay = 3; // Delay in seconds
 
 function showSection(sectionId) {
