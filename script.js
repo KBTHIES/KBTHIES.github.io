@@ -3,9 +3,20 @@ function onPageLoaded() {
     console.log("page loaded");
 }
 
+let homeOverlay = document.getElementById("home-overlay");
+let portfolioOverlay = document.getElementById("fade-overlay");
+let isHomeActive = true;
+// Global variable to store delay time in seconds
+let homeTransitionDelay = 1.5; // Delay in seconds
+let homeInitialDelay = 3; // Delay in seconds
+
 function showSection(sectionId) {
+    // select header and footer for editing
+    const header = document.querySelector("header");
+    const footer = document.querySelector("footer");
+
     // Hide all sections
-    var sections = document.querySelectorAll(".section");
+    const sections = document.querySelectorAll(".section");
     sections.forEach(function (section) {
         section.style.display = "none";
     });
@@ -14,21 +25,80 @@ function showSection(sectionId) {
     document.getElementById(sectionId).style.display = "block";
 
     // Update active class for buttons
-    var buttons = document.querySelectorAll("nav button");
+    const buttons = document.querySelectorAll("nav button");
     buttons.forEach(function (button) {
-        button.classList.remove("active"); // Remove active class from all buttons
+        button.classList.remove("active");
     });
 
     // Add active class to the clicked button
-    var activeButton = document.getElementById(sectionId + "-btn");
+    const activeButton = document.getElementById(sectionId + "-btn");
     if (activeButton) {
         activeButton.classList.add("active");
+    }
+
+    // Handle background color
+    const backgroundOverlay = document.getElementById("background-overlay");
+    if (sectionId === "home") {
+        backgroundOverlay.style.backgroundColor = "gray"; // Uniform Gray for Home
+    } else {
+        backgroundOverlay.style.backgroundColor = "white"; // White for other sections
+    }
+
+    // Handle Portfolio section
+    if (sectionId === "portfolio") {
+        portfolioOverlay.style.transform = "translateY(0)"; // Reset position
+        portfolioOverlay.style.zIndex = 9; // Ensure it's above other content
+        portfolioOverlay.style.transition = "transform 2s"; // Smooth transition
+        setTimeout(() => {
+            portfolioOverlay.style.transform = "translateY(110vh)"; // Animate downward
+        }, 100);
+        // Enable box-shadow for header and footer
+        header.classList.add("with-shadow");
+        footer.classList.add("with-shadow");
+    } else {
+        portfolioOverlay.style.transform = "translateY(0)"; // Reset position
+        portfolioOverlay.style.transition = "none"; // Instant reset
+        portfolioOverlay.style.zIndex = -2; // Move it behind content
+        // Disable box-shadow for header and footer
+        header.classList.remove("with-shadow");
+        footer.classList.remove("with-shadow");
+    }
+
+    // Reattach the scroll listener if Home is displayed
+    if (sectionId === "home") {
+        // Delay the addition of the scroll event listener
+        setTimeout(() => {
+            window.addEventListener("wheel", handleHomeScroll);
+        }, homeTransitionDelay * 1000); // Multiply by 1000 to convert seconds to milliseconds
+    } else {
+        // Remove the scroll event listener when not on Home page
+        window.removeEventListener("wheel", handleHomeScroll);
     }
 }
 
 const STAR_ICON = "✦"; // You can replace this with another icon or Unicode character if needed
 let currentSlideIndex = 0;
 let project = null; // Global variable to store the current project
+
+// Function to handle scroll input on the Home section
+function handleHomeScroll(event) {
+    const deltaY = event.deltaY;
+
+    // Check if Home is currently displayed
+    const homeSection = document.getElementById("home");
+    if (homeSection.style.display === "block" && deltaY > 0) {
+        // User is scrolling down, navigate to Portfolio
+        showSection("portfolio");
+
+        // Temporarily remove the event listener to prevent repeated triggering
+        window.removeEventListener("wheel", handleHomeScroll);
+    }
+}
+
+setTimeout(() => {
+    // Attach the scroll event listener
+    window.addEventListener("wheel", handleHomeScroll);
+}, homeInitialDelay * 1000); // Multiply by 1000 to convert seconds to milliseconds
 
 // Change slide function for the slideshow
 function changeSlide(direction) {
@@ -266,29 +336,29 @@ document.addEventListener("DOMContentLoaded", function () {
             .then((response) => response.text())
             .then((template) => {
                 lightbox.innerHTML = template;
-            
-                        // Insert project title
-            const titleElement = document.getElementById("lightbox-title");
-            titleElement.textContent = project.Title;
 
-            // Insert "Favorite" badge if the project is marked as favorite
-            if (project.Favorite) {
-                const favoriteBadge = document.createElement("div");
-                favoriteBadge.classList.add("favorite-badge");
+                // Insert project title
+                const titleElement = document.getElementById("lightbox-title");
+                titleElement.textContent = project.Title;
 
-                // Add the star icon and "Favorite" text
-                favoriteBadge.innerHTML = `${STAR_ICON} <span>Favorite</span>`;
+                // Insert "Favorite" badge if the project is marked as favorite
+                if (project.Favorite) {
+                    const favoriteBadge = document.createElement("div");
+                    favoriteBadge.classList.add("favorite-badge");
 
-                // Insert the badge after the title
-                const headerElement = document.querySelector(".lightbox-header");
-                headerElement.insertBefore(favoriteBadge, titleElement.nextSibling);
-            }
+                    // Add the star icon and "Favorite" text
+                    favoriteBadge.innerHTML = `${STAR_ICON} <span>Favorite</span>`;
 
-            // Insert Timeframe
-            document.getElementById("lightbox-timeframe").textContent = project.Timeframe.Display;
+                    // Insert the badge after the title
+                    const headerElement = document.querySelector(".lightbox-header");
+                    headerElement.insertBefore(favoriteBadge, titleElement.nextSibling);
+                }
 
-            // Insert BodyContent as HTML (to handle <iframe> and other HTML tags)
-            document.getElementById("project-description").innerHTML = project.BodyContent;
+                // Insert Timeframe
+                document.getElementById("lightbox-timeframe").textContent = project.Timeframe.Display;
+
+                // Insert BodyContent as HTML (to handle <iframe> and other HTML tags)
+                document.getElementById("project-description").innerHTML = project.BodyContent;
 
                 // Handle Tags (Add to bottom of lightbox-content)
                 const lightboxContent = document.querySelector(".lightbox-content");

@@ -17,12 +17,20 @@ header {
     align-items: center;
 }
 
-header, footer{
-    box-shadow: 0 0 1vh 1vh white;
+header,
+footer {
+    box-shadow: none;
+    transition: box-shadow 0.3s ease; /* Smoothly toggle the shadow */
     z-index: 10; /* Keep header and footer drawn over anything else*/
 }
 
-header h1{
+/* Add shadow when the class is applied */
+header.with-shadow,
+footer.with-shadow {
+    box-shadow: 0 0 1vh 1vh white;
+}
+
+header h1 {
     padding-left: 2vw;
 }
 
@@ -76,11 +84,11 @@ nav button.active {
 }
 
 .filter-container {
-    z-index: 9; /* Render above grid items */
+    z-index: 8; /* Render above grid items */
     position: fixed;
     top: 7vh;
     left: 2vw;
-    background-color: rgba(255, 255, 255, 0.50);
+    background-color: rgba(255, 255, 255, 0.5);
     padding: 10px;
     border-radius: 15px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -156,7 +164,8 @@ nav button.active {
     text-shadow: 0 0 15px gray;
 }
 
-.favorite-star, .favorite-badge {
+.favorite-star,
+.favorite-badge {
     color: gold;
 }
 
@@ -165,7 +174,7 @@ nav button.active {
     top: 5px;
     left: 5px;
     font-size: 20px;
-    z-index: 9;
+    z-index: 6;
     pointer-events: none;
 }
 
@@ -178,8 +187,6 @@ nav button.active {
     font-weight: bold;
     text-align: left; /* Align the text to the left */
 }
-
-
 
 .grid-overlay {
     font-family:
@@ -198,15 +205,15 @@ nav button.active {
     font-size: x-large;
     font-weight: 300;
     opacity: 0;
-    margin: 0; 
-    transition: opacity 0.3s ease-in-out; 
+    margin: 0;
+    transition: opacity 0.3s ease-in-out;
 }
 
 .grid-overlay .description {
     font-size: medium; /* Smaller font size for the description */
     margin: 10px 10px auto 10px;
     opacity: 0; /* Hide the description by default */
-    transition: opacity 0.3s ease-in-out; 
+    transition: opacity 0.3s ease-in-out;
 }
 
 /* Make the description visible when hovered */
@@ -250,9 +257,10 @@ nav button.active {
     opacity: 0;
 }
 
-
 .lightbox-content {
-    font-family: Instrument Sans, sans-serif;
+    font-family:
+        Instrument Sans,
+        sans-serif;
     background-color: white;
     position: relative;
     padding: 20px;
@@ -267,17 +275,17 @@ nav button.active {
 
 .lightbox-header {
     font-family: Alumni Sans Pinstripe;
-    display: flex;                  /* Use flexbox for alignment */
+    display: flex; /* Use flexbox for alignment */
     text-align: center;
     align-items: baseline;
     justify-content: space-between; /* Space between title and close button */
-    margin: 0;                     /* Remove default margin */
-    padding: 10px 0;               /* Add padding for spacing */
-    color: black;                  /* Set the title color */
-    background-color: white;       /* Background color for readability */
-    position: sticky;              /* Make the header sticky */
-    top: 0;                        /* Stick to the top of the lightbox */
-    z-index: 110;                    /* Ensure it's above other content */
+    margin: 0; /* Remove default margin */
+    padding: 10px 0; /* Add padding for spacing */
+    color: black; /* Set the title color */
+    background-color: white; /* Background color for readability */
+    position: sticky; /* Make the header sticky */
+    top: 0; /* Stick to the top of the lightbox */
+    z-index: 110; /* Ensure it's above other content */
     box-shadow: 0 -20px 0 10px white;
 }
 
@@ -294,7 +302,7 @@ nav button.active {
     font-size: 2em;
 }
 
-blockquote{
+blockquote {
     background-color: lightgray;
     padding: 15px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -328,10 +336,10 @@ blockquote{
 
 /* Slideshow container */
 .slideshow-container {
-    flex-grow: 1;                  /* Allow this to take remaining space */
-    display: flex;                 /* Align children in a flex container */
-    justify-content: center;       /* Center items */
-    position: relative;            /* Allow absolute positioning of arrows */
+    flex-grow: 1; /* Allow this to take remaining space */
+    display: flex; /* Align children in a flex container */
+    justify-content: center; /* Center items */
+    position: relative; /* Allow absolute positioning of arrows */
 }
 
 /* Hide the slides by default */
@@ -371,7 +379,6 @@ blockquote{
     justify-content: flex-end; /* Align text to the right */
 }
 
-
 /* Description text */
 .text {
     text-align: center;
@@ -385,20 +392,20 @@ blockquote{
 .row {
     display: flex;
     justify-content: center;
-    overflow-x: auto;   /* Keeps horizontal scroll only within .row */
+    overflow-x: auto; /* Keeps horizontal scroll only within .row */
     max-width: 100%;
-    min-height:max-content;
+    min-height: max-content;
     align-items: center; /* Keeps the images aligned vertically */
-    padding: 10px 0;     /* Optional: Padding for spacing */
-    height: auto;        /* Allow row to adjust based on content */
-    flex-wrap: wrap;     /* Wrap images if they're too wide */
+    padding: 10px 0; /* Optional: Padding for spacing */
+    height: auto; /* Allow row to adjust based on content */
+    flex-wrap: wrap; /* Wrap images if they're too wide */
 }
 
 /* Set a consistent max-height for images to keep them within bounds */
 .row img {
-    max-height: 150px;  /* Adjust as necessary */
-    width: 100%;         /* Ensure it fills the container's width */
-    object-fit: cover;   /* Prevents distortion, covers the space neatly */
+    max-height: 150px; /* Adjust as necessary */
+    width: 100%; /* Ensure it fills the container's width */
+    object-fit: cover; /* Prevents distortion, covers the space neatly */
 }
 
 /* Optional: Style the scrollbar if needed */
@@ -410,7 +417,6 @@ blockquote{
     background-color: rgba(0, 0, 0, 0.5); /* Scrollbar color */
     border-radius: 4px;
 }
-
 
 .column {
     flex: 0 0 auto;
@@ -434,6 +440,7 @@ blockquote{
 }
 
 .section {
+    z-index: 2;
     padding-bottom: 7vh;
     padding-top: 9vh;
     padding-left: 10vw; /* Padding around the grid */
@@ -461,6 +468,30 @@ footer {
     display: flex;
     justify-content: space-between;
     width: 95%; /* Adjust as needed */
+}
+
+#fade-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    z-index: -2; /* Start behind the content */
+    transition: transform 2.5s ease-in-out;
+    box-shadow: 0 0 10vh 10vh white; /* Gradient-like effect */
+}
+
+/* Overlay for Home background */
+#background-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: gray; /* Default color for Home */
+    z-index: -1; /* Keep it behind other content */
+    transition: background-color 0.5s ease; /* Smooth transition */
 }
 
 body {

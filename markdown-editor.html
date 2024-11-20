@@ -86,14 +86,7 @@
                 border: 2px solid black;
                 border-radius: 50%;
             }
-
-            .circle.complete {
-                background-color: green;
-            }
-
-            .circle.hidden {
-                background-color: gray;
-            }
+            
         </style>
     </head>
     <body>
@@ -165,12 +158,16 @@
                     const circle = document.createElement("div");
                     circle.classList.add("circle");
 
-                    // Set color based on project properties
-                    if (project.Hidden) {
-                        circle.classList.add("hidden");
-                    } else if (project.Complete) {
-                        circle.classList.add("complete");
-                    }
+        // Determine the color based on priority
+        if (project.Favorite) {
+            circle.style.backgroundColor = "gold";
+        } else if (project.Hidden) {
+            circle.style.backgroundColor = "gray";
+        } else if (project.Complete) {
+            circle.style.backgroundColor = "green";
+        } else {
+            circle.style.backgroundColor = "black";
+        }
 
                     // Add active class for the current project
                     if (index === currentIndex) {

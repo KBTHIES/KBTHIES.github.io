@@ -12,7 +12,6 @@
       "Collaborators": [],
       "Tags": [
         "3D Modelling",
-        "Digital",
         "Gaming"
       ],
       "Images": [],
@@ -290,8 +289,7 @@
       "Collaborators": [],
       "Tags": [
         "Programming",
-        "Game Design",
-        "Digital"
+        "Game Design"
       ],
       "Images": [
         {
@@ -450,7 +448,8 @@
       "Tags": [
         "Architecture",
         "Studio",
-        "Big Builds"
+        "Big Builds",
+        "Metalworking"
       ],
       "Images": [
         {
@@ -533,8 +532,7 @@
       "ThumbnailImage": "images/itar.thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Programming",
-        "Physical"
+        "Programming"
       ],
       "Images": [
         {
@@ -580,7 +578,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "Moorewood Makerspace Renovation",
@@ -593,9 +591,9 @@
       "ThumbnailImage": "images/MakerspaceRenovation/thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Makerspace Improvement",
+        "Makerspace Improvements",
         "Architecture",
-        "Realized"
+        "Technical"
       ],
       "Images": [
         {
@@ -629,7 +627,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "Materials and Assembly",
@@ -654,7 +652,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "Medieval Fantasy Contest",
@@ -668,8 +666,7 @@
       "Collaborators": [],
       "Tags": [
         "3D Modelling",
-        "Contest",
-        "Digital"
+        "Contest"
       ],
       "Images": [
         {
@@ -694,8 +691,7 @@
       "Tags": [
         "Architecture",
         "Technical",
-        "3D Modelling",
-        "Realized"
+        "3D Modelling"
       ],
       "Images": [
         {
@@ -729,7 +725,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "The Chairs",
@@ -743,7 +739,7 @@
       "Collaborators": [],
       "Tags": [
         "Programming",
-        "Physical"
+        "Props"
       ],
       "Images": [
         {
@@ -767,7 +763,8 @@
       "Collaborators": [],
       "Tags": [
         "Game Design",
-        "TTRPG"
+        "TTRPG",
+        "Anime"
       ],
       "Images": [
         {
@@ -791,7 +788,8 @@
       "Collaborators": [],
       "Tags": [
         "Game Design",
-        "TTRPG"
+        "TTRPG",
+        "Anime"
       ],
       "Images": [
         {
@@ -815,7 +813,8 @@
       "Collaborators": [],
       "Tags": [
         "Game Design",
-        "TTRPG"
+        "TTRPG",
+        "Anime"
       ],
       "Images": [
         {
@@ -840,30 +839,7 @@
       "Tags": [
         "Game Design",
         "Programming",
-        "Digital"
-      ],
-      "Images": [
-        {
-          "ImageURL": "images/default-image.jpg",
-          "Description": "Default image description."
-        }
-      ],
-      "Complete": false,
-      "Favorite": false,
-      "Hidden": false
-    },
-    {
-      "Title": "",
-      "BodyContent": "<p>New project content in HTML format.</p>",
-      "Timeframe": {
-        "Sortable": "",
-        "Display": "Month Year"
-      },
-      "Description": "A brief description of the new project.",
-      "ThumbnailImage": "images/default-thumbnail.jpg",
-      "Collaborators": [],
-      "Tags": [
-        "Personal"
+        "Anime"
       ],
       "Images": [
         {
@@ -886,7 +862,7 @@
       "ThumbnailImage": "images/default-thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Default Tag"
+        "Makerspace Improvements"
       ],
       "Images": [
         {
@@ -896,7 +872,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "Dice Box from Scraps",
@@ -909,7 +885,9 @@
       "ThumbnailImage": "images/default-thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Default Tag"
+        "Woodworking",
+        "Gaming",
+        "Mini Makes"
       ],
       "Images": [
         {
@@ -919,7 +897,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "Sewing Carts",
@@ -932,7 +910,8 @@
       "ThumbnailImage": "images/default-thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Default Tag"
+        "Woodworking",
+        "Makerspace Improvements"
       ],
       "Images": [
         {
@@ -942,7 +921,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "Kevin Says Sign",
@@ -955,7 +934,12 @@
       "ThumbnailImage": "images/default-thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Default Tag"
+        "Woodworking",
+        "Laser Cutting",
+        "Makerspace Improvements",
+        "Metalworking",
+        "Props",
+        "Mini Makes"
       ],
       "Images": [
         {
@@ -978,7 +962,8 @@
       "ThumbnailImage": "images/default-thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Default Tag"
+        "Metalworking",
+        "Anime"
       ],
       "Images": [
         {
@@ -988,7 +973,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "Kikuo Standee",
@@ -1001,7 +986,9 @@
       "ThumbnailImage": "images/default-thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Default Tag"
+        "Laser Cutting",
+        "Props",
+        "Anime"
       ],
       "Images": [
         {
@@ -1024,7 +1011,8 @@
       "ThumbnailImage": "images/default-thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Default Tag"
+        "Laser Cutting",
+        "LARP"
       ],
       "Images": [
         {
@@ -1034,7 +1022,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "LARP Rapier",
@@ -1047,7 +1035,11 @@
       "ThumbnailImage": "images/default-thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Default Tag"
+        "LARP",
+        "Foamsmithing",
+        "Casts and Molds",
+        "3D Printing",
+        "Props"
       ],
       "Images": [
         {
@@ -1070,7 +1062,8 @@
       "ThumbnailImage": "images/default-thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Default Tag"
+        "Laser Cutting",
+        "Anime"
       ],
       "Images": [
         {
@@ -1080,7 +1073,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "Sharkboo",
@@ -1093,7 +1086,9 @@
       "ThumbnailImage": "images/default-thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Default Tag"
+        "3D Printing",
+        "Props",
+        "Anime"
       ],
       "Images": [
         {
@@ -1103,7 +1098,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "Banana Chair",
@@ -1116,7 +1111,10 @@
       "ThumbnailImage": "images/default-thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Default Tag"
+        "Big Builds",
+        "Woodworking",
+        "Anime",
+        "Props"
       ],
       "Images": [
         {
@@ -1125,7 +1123,7 @@
         }
       ],
       "Complete": false,
-      "Favorite": false,
+      "Favorite": true,
       "Hidden": false
     },
     {
@@ -1139,7 +1137,7 @@
       "ThumbnailImage": "images/default-thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Default Tag"
+        "Woodworking"
       ],
       "Images": [
         {
@@ -1149,7 +1147,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "LARP Tombstones",
@@ -1162,7 +1160,9 @@
       "ThumbnailImage": "images/default-thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Default Tag"
+        "LARP",
+        "Foamsmithing",
+        "Props"
       ],
       "Images": [
         {
@@ -1172,11 +1172,11 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "Custom Dice",
-      "BodyContent": "<p>New project content in HTML format.</p>",
+      "BodyContent": "I can talk about my process of wanting to teach > learning how and purchasing > Teaching as well as the community-building aspect of the class",
       "Timeframe": {
         "Sortable": "",
         "Display": "Month Year"
@@ -1185,7 +1185,9 @@
       "ThumbnailImage": "images/default-thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Default Tag"
+        "Gaming",
+        "Casts and Molds",
+        "Teaching"
       ],
       "Images": [
         {
@@ -1218,7 +1220,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "DeVaughn Fibrillator Plaque",
@@ -1241,7 +1243,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "Stained Glass Ornaments",
@@ -1264,7 +1266,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "Nerf Break-Action Rifle",
@@ -1287,7 +1289,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "Travel Sewing Kit",
@@ -1310,7 +1312,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "Triangle Rock Club Sign",
@@ -1323,7 +1325,10 @@
       "ThumbnailImage": "images/default-thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Default Tag"
+        "Props",
+        "Laser Cutting",
+        "Woodworking",
+        "Mini Makes"
       ],
       "Images": [
         {
@@ -1356,7 +1361,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "ITAC Gavel",
@@ -1379,11 +1384,11 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
-      "Title": "New Project",
-      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Title": "Lights and Fog",
+      "BodyContent": "RSMA final project, nothing listed bit collab with Kirman, Claire Koh, Ryu Kondrup, and Devon B. I could probably find video of it?",
       "Timeframe": {
         "Sortable": "",
         "Display": "Month Year"
@@ -1402,7 +1407,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "Dune Bullfighter Statue",
@@ -1415,7 +1420,8 @@
       "ThumbnailImage": "images/default-thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Default Tag"
+        "Props",
+        "3D Printing"
       ],
       "Images": [
         {
@@ -1448,7 +1454,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "Benchy Wreath",
@@ -1471,7 +1477,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "Don Keychains",
@@ -1494,7 +1500,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "Heaviest D12 Ever",
@@ -1507,7 +1513,9 @@
       "ThumbnailImage": "images/default-thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Default Tag"
+        "Gaming",
+        "Metalworking",
+        "Mini Makes"
       ],
       "Images": [
         {
@@ -1521,7 +1529,7 @@
     },
     {
       "Title": "Tracy's Floor Register",
-      "BodyContent": "<p>New project content in HTML format.</p>",
+      "BodyContent": "Talk about the process of teaching someone, and how my belief holds even if that person happens to be my boss' boss' boss' boss.",
       "Timeframe": {
         "Sortable": "",
         "Display": "Month Year"
@@ -1530,7 +1538,8 @@
       "ThumbnailImage": "images/default-thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Default Tag"
+        "Teaching",
+        "Mini Makes"
       ],
       "Images": [
         {
@@ -1563,7 +1572,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "Oakydeer VRChat Model",
@@ -1586,7 +1595,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "Safety Stand",
@@ -1599,7 +1608,9 @@
       "ThumbnailImage": "images/default-thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Default Tag"
+        "Makerspace Improvements",
+        "3D Printing",
+        "Metalworking"
       ],
       "Images": [
         {
@@ -1632,7 +1643,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "CATAN Board",
@@ -1645,7 +1656,8 @@
       "ThumbnailImage": "images/default-thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Default Tag"
+        "Laser Cutting",
+        "Programming"
       ],
       "Images": [
         {
@@ -1678,11 +1690,11 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
-      "Title": "New Project",
-      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Title": "The Needle Memorial",
+      "BodyContent": "Responsive Mobile Environments",
       "Timeframe": {
         "Sortable": "",
         "Display": "Month Year"
@@ -1701,11 +1713,11 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "Duke Chapel",
-      "BodyContent": "<p>New project content in HTML format.</p>",
+      "BodyContent": "Talk about how this was a complicated build but also looped in to a teaching component.",
       "Timeframe": {
         "Sortable": "",
         "Display": "Month Year"
@@ -1714,7 +1726,10 @@
       "ThumbnailImage": "images/default-thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Default Tag"
+        "3D Modelling",
+        "Laser Cutting",
+        "Mini Makes",
+        "Teaching"
       ],
       "Images": [
         {
@@ -1737,7 +1752,9 @@
       "ThumbnailImage": "images/default-thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Default Tag"
+        "Metalworking",
+        "Woodworking",
+        "3D Printing"
       ],
       "Images": [
         {
@@ -1770,7 +1787,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "Sadbear",
@@ -1783,7 +1800,7 @@
       "ThumbnailImage": "images/default-thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Default Tag"
+        "Textiles"
       ],
       "Images": [
         {
@@ -1806,7 +1823,7 @@
       "ThumbnailImage": "images/default-thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Default Tag"
+        "Textiles"
       ],
       "Images": [
         {
@@ -1829,7 +1846,7 @@
       "ThumbnailImage": "images/default-thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Default Tag"
+        "Textiles"
       ],
       "Images": [
         {
@@ -1862,7 +1879,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "Inflatable Studies",
@@ -1885,7 +1902,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "Blue Pencil Box",
@@ -1908,7 +1925,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "Head in the Clouds",
@@ -1921,7 +1938,8 @@
       "ThumbnailImage": "images/default-thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Default Tag"
+        "Programming",
+        "Laser Cutting"
       ],
       "Images": [
         {
@@ -1954,11 +1972,11 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "Antiquarian Photography",
-      "BodyContent": "<p>New project content in HTML format.</p>",
+      "BodyContent": "Maybe split these into multiple projects?",
       "Timeframe": {
         "Sortable": "",
         "Display": "Month Year"
@@ -1967,7 +1985,7 @@
       "ThumbnailImage": "images/default-thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Default Tag"
+        "Printmaking"
       ],
       "Images": [
         {
@@ -2000,7 +2018,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "The Redding Sword",
@@ -2023,7 +2041,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "Arcanotech Jumper Cables",
@@ -2046,7 +2064,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "FiDO",
@@ -2069,11 +2087,11 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "Walpurgisnacht Ukulele",
-      "BodyContent": "<p>New project content in HTML format.</p>",
+      "BodyContent": "Can talk about the workholding aspect and the trust you gotta have in yourself",
       "Timeframe": {
         "Sortable": "",
         "Display": "Month Year"
@@ -2082,7 +2100,9 @@
       "ThumbnailImage": "images/default-thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
-        "Default Tag"
+        "Anime",
+        "Laser Cutting",
+        "Mini Makes"
       ],
       "Images": [
         {
@@ -2115,7 +2135,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "Monhegan Map",
@@ -2138,7 +2158,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "The Whalesong",
@@ -2161,7 +2181,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "Fancy Cup Holder",
@@ -2184,7 +2204,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "Digital Lantern",
@@ -2207,11 +2227,11 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
-      "Title": "",
-      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Title": "Sewing Station DELETE ME",
+      "BodyContent": "Co-Lab Sewing Station",
       "Timeframe": {
         "Sortable": "",
         "Display": "Month Year"
@@ -2230,7 +2250,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "LARP Dagger Holder",
@@ -2253,7 +2273,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "Eggue",
@@ -2276,7 +2296,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "Steampunk Revolver",
@@ -2299,7 +2319,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "Ego",
@@ -2322,7 +2342,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "LARP Greaves",
@@ -2345,10 +2365,199 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "Maine Penitentiary Pencil Case",
+      "BodyContent": "There's a really good story about this being my intro to making",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Laser Cutting",
+        "Mini Makes"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Firefly Jar",
+      "BodyContent": "Creative Computing",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Programming"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Mountain Roads",
+      "BodyContent": "Could talk about the drive to and from Pittsburgh each year, and how this was a Generative Landscape as well as how it was an exploration into parallax.",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Programming"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Abstract clock",
+      "BodyContent": "more 15-501",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Programming"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Parametric Flower",
+      "BodyContent": "Creative computing, talk about how this was similar to what I might do in Grasshopper/Rhino.",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": true
+    },
+    {
+      "Title": "Consumables Tracker",
+      "BodyContent": "Duke spreadsheet",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Programming",
+        "Makerspace Improvements",
+        "Technical"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Roots Workshops",
+      "BodyContent": "Teaching at Duke",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Teaching",
+        "Makerspace Improvements"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Wilson Lab Makerspace",
+      "BodyContent": "Collab with Tobey",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Makerspace Improvements",
+        "Architecture"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Co-Lab Doorway proposal",
       "BodyContent": "<p>New project content in HTML format.</p>",
       "Timeframe": {
         "Sortable": "",
@@ -2359,6 +2568,178 @@
       "Collaborators": [],
       "Tags": [
         "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": true
+    },
+    {
+      "Title": "Co-Lab Uvula Proposal",
+      "BodyContent": "Kinda did get implemented",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": true
+    },
+    {
+      "Title": "ISEKAI Foundry Implementation",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Gaming",
+        "Programming",
+        "TTRPG",
+        "Big Builds"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "ISEKAI TTRPG",
+      "BodyContent": "Talk about game design, project management, hiring, coordinating a team of artists, marketing",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Game Design",
+        "TTRPG",
+        "Anime",
+        "Technical",
+        "Big Builds"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Previous Portfolio Website",
+      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Programming",
+        "Technical"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "This Website",
+      "BodyContent": "Talk about what I learned making the old portfolio website and how I wanted to restructure it with a more programmatic approach. Also how I built backend tools like the markdown-editor and thought about structuring my images, and is generally more capable as a living webpage that I can continuously edit.",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Programming",
+        "Technical"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Scrap Ecosystem",
+      "BodyContent": "Co-Lab, talk about scrap cart and under shopbot storage as well as flat storage.",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Makerspace Improvements"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": false
+    },
+    {
+      "Title": "Screenprinting in the Digital Era",
+      "BodyContent": "My final roots class",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Printmaking",
+        "Teaching",
+        "Laser Cutting"
       ],
       "Images": [
         {
