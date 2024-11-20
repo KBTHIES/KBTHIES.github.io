@@ -485,12 +485,23 @@ footer {
 }
 
 
-#home-content{
-    margin-top: 5vh;
+#home-content {
     display: block;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
     max-width: 1000px;
-    align-content: center;
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out; /* Smooth transition for scaling */
 }
+
+/* Scaling class for the content when it's too tall */
+#home-content.scaled {
+    transform: scale(0.8); /* Scale down the content */
+    transform-origin: top center; /* Keep the top part fixed when scaling */
+}
+
 
 #home-content h2{
     font-size: xx-large;

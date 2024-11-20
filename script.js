@@ -3,6 +3,22 @@ function onPageLoaded() {
     console.log("page loaded");
 }
 
+window.addEventListener('resize', adjustTextScale);
+window.addEventListener('load', adjustTextScale); // Also adjust on page load
+
+function adjustTextScale() {
+    const homeContent = document.getElementById('home-content');
+    const maxHeight = window.innerHeight * 0.8; // 80% of the viewport height
+
+    // Check if the height of #home-content exceeds 80vh
+    if (homeContent.offsetHeight > maxHeight) {
+        homeContent.classList.add('scaled'); // Apply scaling if too tall
+    } else {
+        homeContent.classList.remove('scaled'); // Remove scaling if the height is normal
+    }
+}
+
+
 let homeOverlay = document.getElementById("home-overlay");
 let portfolioOverlay = document.getElementById("fade-overlay");
 let isHomeActive = true;
