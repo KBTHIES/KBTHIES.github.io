@@ -2750,6 +2750,30 @@
       "Complete": false,
       "Favorite": false,
       "Hidden": false
+    },
+    {
+      "Title": "Zenith Larp",
+      "BodyContent": "Talk about how I didn't make the system, but I did get to add content and runs plot for while. Also talk about how it introduced me to LARP in the first place and maybe how I got to design ARGs and props and costuming with aspects of project planning, meeting with a team and it used one of my hobbies - wandering around campus aimlessly. But yeah I made the advanced book, a bestiary, and our player repository, and remaking the item system.",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Game Design",
+        "LARP"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": true
     }
   ]
 }

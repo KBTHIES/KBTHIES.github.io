@@ -172,6 +172,31 @@ showSection("home");
 document.addEventListener("DOMContentLoaded", function () {
     console.log("page loaded");
 
+    const aboutSectionsContainer = document.querySelector("#about-sections");
+
+    fetch("about-data.json")
+        .then((response) => response.json())
+        .then((data) => {
+            data.forEach((section) => {
+                const sectionDiv = document.createElement("div");
+                sectionDiv.classList.add("about-section");
+
+                const title = document.createElement("h3");
+                title.textContent = section.Title;
+                sectionDiv.appendChild(title);
+
+                const list = document.createElement("ul");
+                section.listArray.forEach((item) => {
+                    const listItem = document.createElement("li");
+                    listItem.textContent = item;
+                    list.appendChild(listItem);
+                });
+
+                sectionDiv.appendChild(list);
+                aboutSectionsContainer.appendChild(sectionDiv);
+            });
+        });
+
     // Declare the tags Set
     const tags = new Set(); // Initialize the Set to collect tags
 

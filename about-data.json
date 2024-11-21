@@ -1,0 +1,26 @@
+[
+  {
+    "Title": "Interests",
+    "listArray": ["Makerspaces and Education", "Digital Fabrication", "Making \"Making\" Accessible"]
+  },
+  {
+    "Title": "Digital Skills",
+    "listArray": ["Rhino 8 3D", "Autodesk Fusion", "VCarve", "Sketchup", "Unity Game Engine", "Adobe Creative Suite", "Microsoft Office", "Grasshopper", "Javascript", "Arduino IDE"]
+  },
+  {
+    "Title": "Physical Skills",
+    "listArray": ["Prop Painting", "Sketching", "Milling", "Sewing", "Drafting", "Casting", "Electronics", "Screen Printing", "Glass Arts", "Leatherworking", "Plumbing", "MIG Welding", "FDM 3D Printing", "SLA 3D Printing", "Makerspace", "Wood Shop", "Studio", "Machine Shop"]
+  },
+  {
+    "Title": "Curated Machines",
+    "listArray": ["Ultimaker 3/S3/S5", "Formlabs Form 2/3", "Fusion 3 F410", "Anycubic Photon", "Stratasys J750", "Cricut Maker 3", "Brother SE625", "Shopbot PRT/Desktop", "Tormach PCNC 440", "Omax Protomax", "Epilog Zing/Fusion M2", "Trotec Speedy", "Glowforge Pro"]
+  },
+  {
+    "Title": "Certifications",
+    "listArray": ["Rhinocerous - Level 1 Certification"]
+  },
+  {
+    "Title": "Conferences",
+    "listArray": ["International Symposium on Academic Makerspaces 2023"]
+  }
+]

@@ -31,7 +31,7 @@ footer.with-shadow {
 }
 
 header h1 {
-        font-family:
+    font-family:
         Instrument Sans,
         sans-serif;
     padding-left: 2vw;
@@ -542,7 +542,7 @@ b {
     margin-top: 5vh;
     display: flex;
     justify-content: flex-start; /* Keeps items close to each other */
-    gap: 0;  /* No gap between columns */
+    gap: 0; /* No gap between columns */
     width: 100%;
     max-width: 1200px; /* Optional: Limit the max width of the container */
     margin-left: auto;
@@ -560,16 +560,16 @@ b {
 }
 
 .about-photo {
-    width: 100%; 
-    max-width: 200px; 
-    border-radius: 50%; 
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50%;
     margin-bottom: 1rem;
 }
 
 .social-links {
     display: flex;
     justify-content: center; /* Align the items in the center */
-    gap: 2rem;  /* Adds spacing between the icons */
+    gap: 2rem; /* Adds spacing between the icons */
     padding: 1rem 0;
 }
 
@@ -578,7 +578,7 @@ b {
     color: #0077b5; /* Default color (LinkedIn blue) */
     text-decoration: none;
     display: flex;
-    align-items: center;  /* Vertically center the text with the icon */
+    align-items: center; /* Vertically center the text with the icon */
 }
 
 .social-icon i {
@@ -602,15 +602,14 @@ b {
     color: #0077b5; /* LinkedIn color */
 }
 
-
 /* Style for the Resume link */
 .resume-link {
-    display: block;  /* Make the Resume link a block element */
+    display: block; /* Make the Resume link a block element */
     font-size: 1.15rem; /* Adjust the font size */
     text-align: center;
     color: #333;
     text-decoration: none;
-    margin-top: 1rem;  /* Add space above the Resume link */
+    margin-top: 1rem; /* Add space above the Resume link */
     transition: color 0.3s;
 }
 
@@ -633,16 +632,61 @@ b {
 @media (max-width: 768px) {
     .about-container {
         flex-direction: column;
-        align-items: center; 
+        align-items: center;
     }
 
-    .about-left, .about-right {
+    .about-left,
+    .about-right {
         width: 100%;
-        text-align: center; 
+        text-align: center;
     }
 }
 
+.dynamic-sections-container {
+    width: 100%;
+    padding: 20px;
+}
 
+#about-sections {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.about-section {
+    flex: 1 1 15%; /* Each section can grow and shrink, with a base size of 15% */
+    min-width: 200px; /* Set a minimum width for each section */
+    max-width: min-content;
+    flex-direction: column; /* Stack the contents vertically */
+    justify-content: center; /* Vertically center content */
+    align-items: center; /* Horizontally center content */
+}
+
+/* Title of each column */
+.about-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Bullet points for each column */
+.about-section ul {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+    padding-left: 0;
+}
+
+.about-section li {
+    margin-bottom: 0.3rem;
+}
+
+/* Responsive stacking */
+@media (max-width: 768px) {
+    .dynamic-sections-container {
+        flex-direction: column; /* Stack columns vertically */
+        align-items: center; /* Center columns */
+    }
+}
 
 #fade-overlay {
     position: fixed;
