@@ -766,31 +766,84 @@
     },
     {
       "Title": "The Chairs",
-      "BodyContent": "<p>New project content in HTML format.</p>",
+      "BodyContent": "The goal for our project was to take a mundane object and give it a slice of humanity. Love is a powerful feeling, so much so that two objects used day to day can try to come together despite how daft the prospect sounds. While we’re used to chairs moving, it’s often by and for humans’ sake, and those chairs have finally taken charge of their abilities.<hr>\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/NXNWyIUmDYY?si=u0m2dtJlXEycMh-B\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe><hr>\nThe project was very involved on both the hardware and software sides. It’s very different taking an existing object and thinking about how that could be augmented to hold specific parts while remaining as streamlined as possible. It’s something that designing a system from scratch gets around because we aren’t carpenters. It’s not in our skill set or even aligned with the goals of the project to construct chairs. As a result we had to be considerate of the way the chair was constructed so that as we added to it the essence and abilities of the chair remained intact.\n<br><br>\nThere were also a lot of choices that we made that we had to go back on. On the hardware side, our connectors for the nodding hinge at the backrest of the chair kept breaking. The metal wire would wear out as it bent in the same place, and fishing line would come untied. Given another chance, we’d definitely try using zip ties for that, as they’re more rugged and less likely to snap. We also would have used epoxy more to glue the wooden motor box to the plastic undercarriage of the chair instead of gorilla glue, as the one chair that was glued that way held up well. We also leaned to be considerate of where we glued the arduinos to the chair, as if they were touching one of the metal screws, it could short-circuit. If we could have made the chairs battery-powered, that would have solved some issues and we wouldn’t have had to make wheel bumpers, which should have been epoxied on. The hardware lesson to be learned is to build with more extensive use in mind — testing moving parts tends to degrade them.\n<br><br>\nOn the software side, we started off with a system that would better enable parallel work flows. We thought that would be important because we didn’t want to leave the software until after the hardware was done. Ideally it would develop at the same time so that as soon as the hardware was the software could be connected and the rest of the semester would’ve been finessing the interaction. The system we initially developed was two javascript sites running each robot, and communicating both to each other and the hardware (communication to the physical prototype wasn’t achieved). With the javascript, it visualized the robot with simple graphics so that we didn’t need to have the working hardware to test different behaviors. The problem with our visualized system  was that it had it’s own estimates of hard coordinates for the chair, which, given the drift that we know would happen no matter how much we try to calibrate meant the system ultimately needed some rethinking. Of course, the fact that we couldn’t get the wifi module to work was also a huge motivator. In hindsight, designing a system that lynch-pinned on a module no one had experience with before was not the best decision (though it’s a good lesson to learn for the future!). As soon as we transitioned away from the javascript/shiftr system we needed a new way for the chairs to be aware of each other. That’s where the cardinal IR sensor setup on each of the chairs came in. The receptors and beacons would be able to pick up and tell each chair an angle estimate of where the other was. For the most part that orientation to each other was what drove the chairs’ respective behaviors. For example, the servo motor script that nodded the ‘head’ (the back of the chairs could bob) triggered every time the amorous chair was looking straight at the other, as if trying to converse. (connecting wire broke day of show). The coy chair would often try to spin away from the amorous one.  Without distance sensing there was some degree of surprise built into the behavior — in some instances the chairs would bounce off each other or ‘nudge’ the other because the scripted behavior didn’t stop just because of a ‘collision’.\n<br><br>\nOn a more specific note towards how the final software was structured, it had a series of basic fundamental moves that took parameters, and a live global variable taking in sensor info — all other more complicated moves called on those and were generated according to the orientation global.\n<br><br>\nSome other aspects of the original javascript system were harder than others to carry over — for example, to keep general movement qualities like speed and acceleration, smooth while still variable, all the function moves had numbers that  referenced a global ‘mood’ int that fluctuated smoothly according to perlin noise. Choosing different moves was also dependent on the ‘mood’ variable. Higher the ‘mood’ the was supposed to enable the program to choose what moves we deemed as more ‘eager’ . An implementation of perlin noise was commented out to be dealt with after MVP was achieved, but then after reaching an MVP with switch case statements, it didn’t seem like the perlin noise would change much of the noticeable experience.\n<hr><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/B0U082BnjWg?si=luSajRgXRuAgfUIV\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
       "Timeframe": {
-        "Sortable": "",
-        "Display": "Month Year"
+        "Sortable": "2018-12-01",
+        "Display": "December 2018"
       },
-      "Description": "A brief description of the new project.",
-      "ThumbnailImage": "images/TheChairs/thumbnail.jpg",
-      "Collaborators": [],
+      "Description": "Can office chairs be made to feel love?",
+      "ThumbnailImage": "images/tc.thumbnail.jpg",
+      "Collaborators": [
+        {
+          "Name": "Nick Richardson",
+          "Role": ""
+        },
+        {
+          "Name": "Marisa Lu",
+          "Role": ""
+        }
+      ],
       "Tags": [
         "Programming",
         "Props"
       ],
       "Images": [
         {
-          "ImageURL": "images/TheChairs/thumbnail.jpg",
-          "Description": "Default image description."
+          "ImageURL": "images/tc.1.jpg",
+          "Description": "Working on the chairs."
+        },
+        {
+          "ImageURL": "images/tc.2.jpg",
+          "Description": "A view of the steppers. To keep them low profile, they stick out of the box a bit."
+        },
+        {
+          "ImageURL": "images/tc.3.jpg",
+          "Description": "a view of the various elements and how they're hidden."
+        },
+        {
+          "ImageURL": "images/tc.4.gif",
+          "Description": "The nodding mechanism for the chair. It would later be painted black to blend in."
+        },
+        {
+          "ImageURL": "images/tc.5.gif",
+          "Description": "An early hardware test of all of the chair's articulation."
+        },
+        {
+          "ImageURL": "images/tc.6.jpg",
+          "Description": "Our robot was used on the poster for the show."
+        },
+        {
+          "ImageURL": "images/tc.7.png",
+          "Description": "The lovers get a photo before the show."
+        },
+        {
+          "ImageURL": "images/tc.8.png",
+          "Description": "An artsy shot of the blackbox theater."
+        },
+        {
+          "ImageURL": "images/tc.9.png",
+          "Description": "A striking shot of a chair and its cables."
+        },
+        {
+          "ImageURL": "images/tc.10.png",
+          "Description": "The chairs find eachother."
+        },
+        {
+          "ImageURL": "images/tc.11.png",
+          "Description": "A shot of the chairs."
+        },
+        {
+          "ImageURL": "images/tc.12.png",
+          "Description": "A wide shot of the chairs."
         }
       ],
-      "Complete": false,
+      "Complete": true,
       "Favorite": false,
       "Hidden": false
     },
     {
       "Title": "It'd Take a Miracle: Magical Girls at the End of the World",
-      "BodyContent": "It'd Take a Miracle, or ITAM, was my first foray into solo game design, and would be the first of my yearly magical girl TTRPGs. Although I had graduated from CMU, I was still an alumnus member and a lot was remote after the pandemic. One initiative I had started during my presidency was the Game Creation Month, where we'd encourage club members to make a small game, adventure, or piece of homebrew. The timeline also coincided with a time loop set within my favorite show, <i>Puella Magi Madoka Magica</i>, so I figured it'd be a fun time to challenge myself.\n<br><br>\nThe restrictions of Game Creation Month was that the creations were to be no more than 50 pages long and the things had to be created entirely within the month of April, so I had some constraints to work with. I also wanted to make sure that most relevant content would be fully contained within a spread or two, so I had to make sure I wouldn't end up with awkward half-pages. The challenge near the end was cutting everything down to hit the 50 page limit! I decided to build a system from scratch, and I unofficially say it's run by the Miracle Engine. One of my early decisions was a dice system that involved rolling 2d6 and adding the values together, but against duplex attributes. That meant that if your Body score was 8, an 8 or below would be counted as a success for a Force roll, but you'd need an 8 or above to succeed on a Speed roll. Additionally, Your rolls could be enhanced or reduced, in which case you'd add an extra d6 to the pool. When Enhanced, you'd choose a die to remove from the pool to determine the outcome, but if the roll was Reduced the Game Master, called the Contractor, would remove a dice. The Contractor had a set of points they could build up by giving the players victories to then spend on making consequences more dire. Combat was straightforward, with the actions largely limited to theater of the mind. Players would either be Near or Far from their target and they could choose from a list of combat actions. While the game itself was simple, I had a few opportunities to run one-shots and a campaign using it, and was exceptionally proud of how it ran. It holds up to this day.\n<br><br>\nOther than the game design aspect itself, I ended up having plenty of time to work on the formatting, and I got to spend a few days just doing artwork for the covers and character sheet. I think my takeaway was that I work really well under the pressure of a deadline and was able to really thrive with the project. Every now and then I think about making revisions, but then realize that would compromise some of the game's simplicity. One of these days I'll print it out and have it join my TTRPG bookshelf.\n<br><br>\nYou can take a look at ITAM on Itch.io <a href=\"https://dondougo.itch.io/itd-take-a-miracle/\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>!",
+      "BodyContent": "It'd Take a Miracle, or ITAM, was my first foray into solo game design, and would be the first of my yearly magical girl TTRPGs. Although I had graduated from CMU, I was still an alumnus member and a lot was remote after the pandemic. One initiative I had started during my presidency was the Game Creation Month, where we'd encourage club members to make a small game, adventure, or piece of homebrew. The timeline also coincided with a time loop set within my favorite show, <i>Puella Magi Madoka Magica</i>, so I figured it'd be a fun time to challenge myself.\n<br><br>\nThe restrictions of Game Creation Month was that the creations were to be no more than 50 pages long and the things had to be created entirely within the month of April, so I had some constraints to work with. I also wanted to make sure that most relevant content would be fully contained within a spread or two, so I had to make sure I wouldn't end up with awkward half-pages. The challenge near the end was cutting everything down to hit the 50 page limit! I decided to build a system from scratch, and I unofficially say it's run by the Miracle Engine. One of my early decisions was a dice system that involved rolling 2d6 and adding the values together, but against duplex attributes. That meant that if your Body score was 8, an 8 or below would be counted as a success for a Force roll, but you'd need an 8 or above to succeed on a Speed roll. Additionally, Your rolls could be enhanced or reduced, in which case you'd add an extra d6 to the pool. When Enhanced, you'd choose a die to remove from the pool to determine the outcome, but if the roll was Reduced the Game Master, called the Contractor, would remove a dice. The Contractor had a set of points they could build up by giving the players victories to then spend on making consequences more dire. Combat was straightforward, with the actions largely limited to theater of the mind. Players would either be Near or Far from their target and they could choose from a list of combat actions. The game also featured a win condition- if all players maxxed out their Hope, then the game probably ended in success! While the game itself was simple, I had a few opportunities to run one-shots and a campaign using it, and was exceptionally proud of how it ran. It holds up to this day.\n<br><br>\nOther than the game design aspect itself, I ended up having plenty of time to work on the formatting, and I got to spend a few days just doing artwork for the covers and character sheet. I think my takeaway was that I work really well under the pressure of a deadline and was able to really thrive with the project. Every now and then I think about making revisions, but then realize that would compromise some of the game's simplicity. One of these days I'll print it out and have it join my TTRPG bookshelf.\n<br><br>\nYou can take a look at ITAM on Itch.io <a href=\"https://dondougo.itch.io/itd-take-a-miracle/\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>!",
       "Timeframe": {
         "Sortable": "2022-04-30",
         "Display": "April 2022"
@@ -840,13 +893,13 @@
     },
     {
       "Title": "2 Month Magical Girl",
-      "BodyContent": "<p>New project content in HTML format.</p>",
+      "BodyContent": "2 Month Magical Girl, or 2MMG, was a great learning experience. The second of my magical girl TTRPGs, I endeavored to try something new and make a \"GM-less TTRPG\", which means that there is no game master. Instead, players would work together using the book as their guiderails. All of the other characters in the story, you know, traditionally the NPCs, would be played by player characters who were \"off-screen\". There was a dedicated Coordinator whose job it was to make sure that things stayed on track, but the entire story would be propelled by the players. These kinds of games can work great... if you have total buy-in from the group. I've always found it a bit difficult but also liberating to play these games, and in playtests my players were stiff. They didn't want to step on anyone's toes so to speak. If player A ran NPC N one way, then no players would want to be NPC N because it wouldn't be the same as the NPC N that player A ran.\n<br><br>\nThose were expected issues, and admittedly I was jumping into it pretty blind having only played one similar system in the past. However, I'm also critical of 2MMG due to the time it came out. For reference, ITAM took 1 month and ran 50 pages. 2MMG used the full month and a half to write 100 pages. That was a big leap for me, and I could only do that because I used ChatGPT to help write sections about the lore. This meant that my lore sections could be made pretty quickly and would cover everything I'd need them to, but there is an aspect of ceding over creative control of my project to AI that leaves a bitter taste in my mouth to this day. Back then I was still figuring out my stance on it, and 2MMG was the result. Ultimately, I think it's a more than passable game, but it's just not the kind of game I would make for myself. After committing to the GM-less system, there was no way I could decouple that. But hey, that's why I appreciate It'd Take a Miracle and Warded Wishes even more, and Warded Wishes would not have been as much of a passion project if I hadn't been unsatisfied with 2MMG. Plus I got to introduce a lot more ideas and make more roll tables that would make their way into Warded Wishes.\n<br><br>\nTo speak briefly on some of the mechanics, one of the key features was Bonds and Memories, which provided a mechanical benefit. Bonds are the people you know, and Memories are the literal memories your character has that help drive them, good and bad. My interacting with your Bonds you could increase and decrease your Bond level, and Memories were similar. When those levels were high enough, it'd give you Resolve, representing your increased willpower and determination. All the while, during the day you'd face adversity through having to go to school or work. As time would progress, the world around them would change as Harbinders would appear, be they changes in the City or the Monstrosities you fought. Players used Playbooks to generate their characters. Each Playbook came with a set of stats and different memories to help differentiate themselves off the bat. Additionally, you had magical Specialties like being a Summoner or Illusionist. In short, the goal of the game was to buff your stats by gaining experience and levelling up your Memories and Bonds while getting rid of Traumas so that at the end of the 2 Months when disaster struck, you'd be able to fend it off. Conveniently, if you lost that fight the game would be able to transition into It'd Take a Miracle.",
       "Timeframe": {
-        "Sortable": "",
-        "Display": "Month Year"
+        "Sortable": "2023-04-30",
+        "Display": "April 2023"
       },
-      "Description": "A brief description of the new project.",
-      "ThumbnailImage": "images/2mmg.jpg",
+      "Description": "A GMless Magical Girl TTRPG where you race against the clock",
+      "ThumbnailImage": "images/2mmg.thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
         "Game Design",
@@ -855,11 +908,35 @@
       ],
       "Images": [
         {
-          "ImageURL": "images/default-image.jpg",
-          "Description": "Default image description."
+          "ImageURL": "images/2mmg.1.jpg",
+          "Description": "The cover page of 2MMG."
+        },
+        {
+          "ImageURL": "images/2mmg.2.png",
+          "Description": "A spread detailing the combat system."
+        },
+        {
+          "ImageURL": "images/2mmg.3.png",
+          "Description": "A spread covering the Dreamer playbook."
+        },
+        {
+          "ImageURL": "images/2mmg.4.png",
+          "Description": "A spread of random roll tables."
+        },
+        {
+          "ImageURL": "images/2mmg.5.png",
+          "Description": "The character sheet that was drafted in Rhino."
+        },
+        {
+          "ImageURL": "images/2mmg.6.png",
+          "Description": "The titular two months that the game covers."
+        },
+        {
+          "ImageURL": "images/2mmg.7.png",
+          "Description": "A look at the game's Itch page."
         }
       ],
-      "Complete": false,
+      "Complete": true,
       "Favorite": false,
       "Hidden": false
     },
@@ -928,13 +1005,13 @@
     },
     {
       "Title": "Magical Girl in Pittsburgh",
-      "BodyContent": "<p>New project content in HTML format.</p>",
+      "BodyContent": "A Magical Girl in PGH was a short text adventure I made starring one of my Original Characters, a magical girl in Pittsburgh named Milena Lenart. This project was the one where object-oriented programming finally clicked for me, since the engine we were using to make the games, Quest, had objects, commands, and rooms as its building blocks. You'd like how commands worked on the room or object, and each room contained objects and connections to other rooms, and so forth. So that was an exciting \"Aha!\" moment.\n<br><br>\nThis was also the first game I made that wasn't a TTRPG that I did playtests of, and in this case it was important seeing how the players engaged with the game. You got to see people problem-solve in different ways, and thorugh that you learned how to make your game more accessible by making multiple methods feasible. When the game starts, you're fighting a witch. What verb to you use? Attack? Hit? Kill? It was things like that that I appreciated in the project. Plus, I got to flesh out one of the characters that had been living in my head for a while.\n<br><br>\nLater on, this experience would become relevant once again when one of my friends wanted to make a visual novel, which is pretty similar to text adventures in their own right. You plot out choices and their consequences, but those just have art while this is just text. That project wouldn't come to fruition, but I was able to help guide the project a bit because of my experience making this game!",
       "Timeframe": {
-        "Sortable": "",
-        "Display": "Month Year"
+        "Sortable": "2020-01-30",
+        "Display": "January 2020"
       },
-      "Description": "A brief description of the new project.",
-      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Description": "A Magical Girl Text Adventure",
+      "ThumbnailImage": "images/mgp.thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
         "Game Design",
@@ -943,11 +1020,23 @@
       ],
       "Images": [
         {
-          "ImageURL": "images/default-image.jpg",
-          "Description": "Default image description."
+          "ImageURL": "images/mgp.1.png",
+          "Description": "The start of the text adventure."
+        },
+        {
+          "ImageURL": "images/mgp.2.png",
+          "Description": "Looking around."
+        },
+        {
+          "ImageURL": "images/mgp.3.jpg",
+          "Description": "The chart showing options and interactions."
+        },
+        {
+          "ImageURL": "images/mgp.4.png",
+          "Description": "My playtest feedback."
         }
       ],
-      "Complete": false,
+      "Complete": true,
       "Favorite": false,
       "Hidden": false
     },
@@ -1024,14 +1113,14 @@
       "Hidden": true
     },
     {
-      "Title": "Kevin Says Sign",
-      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Title": "Kevin Says",
+      "BodyContent": "<p>When I started at the Innovation Co-Lab, I identified that I'd occasionally to leave up short messages, and wanted an opportunity to greet people when they entered the space and make sure they were comfortable asking me questions, and so the \"Kevin Says\" sign came into being. I got to familiarize myself with the Waterjet, cutting out the piece of steel, as well as slot in some wooden legs and laser cut some thick acrylic to act as the dry erase surface. I styled it like a speech bubble and added some flair, and voila!\n<br><br>\nAs mentioned earlier, this was useful in the late/post-pandemic era as people would enter the lab and it'd be pretty empty, and often times they'd go no further than the doorway. I placed this sign on a nearby table, and my default message was \"Let me know if you have any questions!\", and because of that I think people were more willing to step through the threshold. It saw less frequent use once we fully transitioned out of the pandemic and had a lot of student staffers again, but for a while I can say with certainty that this piece of hardware helped further my mission of getting people into the makerspace!</p>",
       "Timeframe": {
-        "Sortable": "",
-        "Display": "Month Year"
+        "Sortable": "2021-10-8",
+        "Display": "October 2021"
       },
-      "Description": "A brief description of the new project.",
-      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Description": "A custom dry-erase sign",
+      "ThumbnailImage": "images/kss.thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
         "Woodworking",
@@ -1043,11 +1132,15 @@
       ],
       "Images": [
         {
-          "ImageURL": "images/default-image.jpg",
-          "Description": "Default image description."
+          "ImageURL": "images/kss.1.jpg",
+          "Description": "The brand new sign in use."
+        },
+        {
+          "ImageURL": "images/kss.2.gif",
+          "Description": "A turntable of the sign."
         }
       ],
-      "Complete": false,
+      "Complete": true,
       "Favorite": false,
       "Hidden": false
     },
@@ -1077,13 +1170,13 @@
     },
     {
       "Title": "Kikuo Standee",
-      "BodyContent": "<p>New project content in HTML format.</p>",
+      "BodyContent": "Kikuo is one of my favorite Vocaloid producers. I drove all the way to Atlanta through a tropical storm to make sure I could catch his first performance ever in the US, and when I saw that his solo tour would have a spot in Charlotte right after my birthday, I knew I had to go. However, that raised a question... If I could get Kikuo to sign something at the VIP Meet and Greet, what would I want him to sign? Well, it was the day of the concert and I decided I wanted to make a custom acrylic standee based on the concert's poster, but the clock was ticking before I had to hit the road.\n<br><br>\nI ended up making the base of the standee that day and shoved it in my pocket. My plan was to get that part signed, and then after that there wouldn't be any sort of deadline to finish the rest! Well, I went to the concert and had a blast and at the very end found myself in the line for the meet and greet, and while Kikuo wasn't doing photos that day, he would sign one thing for each person in line! I went up, got the base signed, and Kikuo said he thought it was cool! I was in heaven! However, with the deadline now past, I took months to finally figure out the rest.\n<br><br>\nI started by finding the full art that was used on the poster. The original image was pretty compressed, but it would have to be good enough. I split the image into layers and sent the stickers to print on sticker paper to be later cut on the Cricut. I had the outline of the designs as well, and after some iterations I was able to get a properly scaled version in Rhino which I laser cut. I tried a few ways of lining the sticker up on the acrylic, but at the end of the day just eyeballing it and placing the cut sticker on the cut acrylic worked best. I gave it some coats of clear spray paint and that was it! However, I ended up going back and revising it, adding fist another layer for just the main mascot charater, since one drawback of the image was that the mascot blended in too well. I also ended up adding on a background layer, and while I couldn't replicate the design on the poster, I could go and make my own version!\n<br><br>\nI still have ideas about making an add-on for the base and edge lighting the acrylic, but for now I'm happy with this the way it is! At the end of the day, if you want a memroable piece of merchandise, you'll do much better making it yourself!",
       "Timeframe": {
-        "Sortable": "",
-        "Display": "Month Year"
+        "Sortable": "2024-08-27",
+        "Display": "August 2024"
       },
-      "Description": "A brief description of the new project.",
-      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Description": "Custom Concert Merch",
+      "ThumbnailImage": "images/ks.thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
         "Laser Cutting",
@@ -1092,11 +1185,31 @@
       ],
       "Images": [
         {
-          "ImageURL": "images/default-image.jpg",
-          "Description": "Default image description."
+          "ImageURL": "images/ks.5.jpg",
+          "Description": "It all started the day of the Kikuo Concert in Charlotte. Take note of the design on the screen!"
+        },
+        {
+          "ImageURL": "images/ks.1.jpg",
+          "Description": "I threw together this file the day of the concert, and after I got Kikuo's signature I covered it with an adhesive acrylic laminate to make sure it wouldn't get scratched off."
+        },
+        {
+          "ImageURL": "images/ks.2.jpg",
+          "Description": "The first iteration, all on one layer of acrylic."
+        },
+        {
+          "ImageURL": "images/ks.3.jpg",
+          "Description": "A view of the final 3-layer acrylic piece."
+        },
+        {
+          "ImageURL": "images/ks.4.jpg",
+          "Description": "A view of the final 3-layer acrylic piece."
+        },
+        {
+          "ImageURL": "images/ks.6.jpg",
+          "Description": "The colors of the background are much more visible in direct sunlight."
         }
       ],
-      "Complete": false,
+      "Complete": true,
       "Favorite": false,
       "Hidden": false
     },
@@ -1416,13 +1529,13 @@
     },
     {
       "Title": "Triangle Rock Club Sign",
-      "BodyContent": "<p>New project content in HTML format.</p>",
+      "BodyContent": "So picture this: It's your brother's birthday. You're at work. You don't have a gift. That's the situation I found myself on in 2023, but I had a makerspace full of tool and scraps to work with.\n<br><br>\nThis was a very fun build, and has one of the highest production qualities out of <i>everything</i> I've ever made. It's all the more remarkable that it was made in one day completely from scraps. One of our users was laser cutting a lot of pre-finished wood floorboards, so I used that scrap to make the body and legs. The edges were pretty charred, so I sanded everything with a random orbit sander and rounded out a lot of the edges. I wrote a note for my brother and took a photo of it so I could vectorize it and engrave it onto the back. The stains on the wood were just watered down acrylic paints, carefully tapped into place. The wood did most of the job absorbing the water, while the lines I had scored into the surface meant that they wouldn't go outside their lines. Inspired by my \"Kevin Says\" sign, I cut some scrap acrylic to make it a dry erase board. The Triangle Rock Club logo I took from online and vectorized in illustrator. I waterjet some of my scraps from the stained glass class I taught to make that triangle behind the logo, and the rest of the logo was white acrylic with the masking paper scored through and selectively removed, with black spray paint doing most of the work. Fun fact, the acrylic is held ont the glass by some double-sided tape I cut to size with the Cricut, and the glass is held to the wood by a similar piece of double-sided tape.\n<br><br>\nSo why TRC? Well, my brother loves rock climbing there. He goes climbing probably every 3rd or 4th day. TRC also has some great visual branding on their holds, which is where I got the color scheme for the build from! I think at the end of the day, the time and care that someone puts into a gift is what matters, not the value of the materials themselves. Even though this was a quick sprint of a project, I think the love and care really shows.",
       "Timeframe": {
-        "Sortable": "",
-        "Display": "Month Year"
+        "Sortable": "2023-07-21",
+        "Display": "July 2023"
       },
-      "Description": "A brief description of the new project.",
-      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Description": "Same-Day Birthday Present",
+      "ThumbnailImage": "images/trc.thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
         "Props",
@@ -1432,11 +1545,31 @@
       ],
       "Images": [
         {
-          "ImageURL": "images/default-image.jpg",
-          "Description": "Default image description."
+          "ImageURL": "images/trc.1.jpg",
+          "Description": "A view of the finished plaque."
+        },
+        {
+          "ImageURL": "images/trc.2.jpg",
+          "Description": "A view of the finished plaque."
+        },
+        {
+          "ImageURL": "images/trc.3.jpg",
+          "Description": "The engraving on the back of the plaque means something to rock climbers."
+        },
+        {
+          "ImageURL": "images/trc.4.jpg",
+          "Description": "A view of the finished plaque."
+        },
+        {
+          "ImageURL": "images/trc.5.gif",
+          "Description": "The plaque on a turntable."
+        },
+        {
+          "ImageURL": "images/trc.6.jpg",
+          "Description": "A random image of TRC Durham from online. You can see what inspired the color scheme!"
         }
       ],
-      "Complete": false,
+      "Complete": true,
       "Favorite": false,
       "Hidden": false
     },
@@ -1510,14 +1643,14 @@
       "Hidden": true
     },
     {
-      "Title": "Dune Bullfighter Statue",
-      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Title": "Dune Matador Statue",
+      "BodyContent": "This was a Christmas gift for my father, who's been a big fan of Dune. He was elated when the new movies came out, and after watching Dune 2021 in Imax there was one prop that really stood out in my mind. The original Matador statue was designed by Luke Massassi, who has a gallery showing how he 3D printed, electroplated, and weathered the prop used on screen. However, he also made the original files available for download so anyone willing to shell out a few bucks can make one! If you want to check that out, the post is linked <a href=\"https://www.artstation.com/artwork/B3mV9z\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>.\n<br><br>\nI made sure to take my time with this one and really put some TLC into it. After the prints were done, I went in with green goop and filled the gaps that were inevitable with overhangs and such. When that was dry I'd go to town with my cabinet scrapers, reapplying green goop as needed. Eventually it was smooth enough that the layer lines were fairly hidden! I wanted the statue to look like copper, so I started with my favorite Rustoleum Oil Rubbed Bronze spray paint, followed by some basic weathering with a black wash and highlighted with a light green wash. At this point, it looked like pretty aged copper! However, the part that really brought it together was the highlights.\n<br><br>\nI diverged from the screen prop here as I imagined a world where Paul had played with this statue throught his youth, and I imagined what areas would see a lot more wear. The head of the matador? The horns of the bull? I hit those areas and the edges with a thin layer of gold Rub'n'Buff, which made the highlights really pop! Plus, the reveal of the shiny gold made it the illusion of copper so much more believable. This was a great prop to build!",
       "Timeframe": {
-        "Sortable": "",
-        "Display": "Month Year"
+        "Sortable": "2022-12-25",
+        "Display": "December 2022"
       },
-      "Description": "A brief description of the new project.",
-      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Description": "A replica of the statue from Dune 2021",
+      "ThumbnailImage": "images/dbf.thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
         "Props",
@@ -1525,11 +1658,43 @@
       ],
       "Images": [
         {
-          "ImageURL": "images/default-image.jpg",
-          "Description": "Default image description."
+          "ImageURL": "images/dbf.0.jpg",
+          "Description": "A still from the movie where you can see the original prop."
+        },
+        {
+          "ImageURL": "images/dbf.1.jpg",
+          "Description": "The finished Matador takes on the bull."
+        },
+        {
+          "ImageURL": "images/dbf.2.jpg",
+          "Description": "An overview of the finished prop."
+        },
+        {
+          "ImageURL": "images/dbf.3.jpg",
+          "Description": "An overview of the finished prop."
+        },
+        {
+          "ImageURL": "images/dbf.5.jpg",
+          "Description": "An overview of the finished prop."
+        },
+        {
+          "ImageURL": "images/dbf.4.jpg",
+          "Description": "After printing, everything was filler puttied and scraped smooth with cabinet scrapers."
+        },
+        {
+          "ImageURL": "images/dbf.6.jpg",
+          "Description": "The base coat of spray paint."
+        },
+        {
+          "ImageURL": "images/dbf.7.jpg",
+          "Description": "A dark wash was applied and wiped off for weathering."
+        },
+        {
+          "ImageURL": "images/dbf.8.jpg",
+          "Description": "Some layers of light green wash were carefully applied to look like copper patina. Highlights of Rub'n'Buff followed."
         }
       ],
-      "Complete": false,
+      "Complete": true,
       "Favorite": false,
       "Hidden": false
     },
@@ -1603,14 +1768,14 @@
       "Hidden": true
     },
     {
-      "Title": "Heaviest D12 Ever",
-      "BodyContent": "<p>New project content in HTML format.</p>",
+      "Title": "Aluminum D12",
+      "BodyContent": "It's appropriate that a single dice is called a die, because I feel like that's what would happen if I threw this at someone.\n<br><br>\nOn the nineteenth of May, I was told to stress test the waterjet. We'd been having a lot of water pressure issues and it'd been a while since we'd really put it to the test. We also had a really nice chunk of half inch think aluminum in our scrap bin. The gears began to turn... Wrapping my head around the file took a bit, but I made sure to measure twice. After coming up with a custom pip pattern, because no way was this going to take numbers well, I generated a toolpath in fusion and threw it on the waterjet for about 45 minutes. We were all worried that there'd be another pump issue, or the water pressure would be too low, or with all of the starts and stops the nozzle would clog, but to our surprise the waterjet worked perfectly fine!\n<br><br>\nSo phase 2 began. I wiped all of the parts dry, but those edges were sharp! I countersunk the holes, just to make them look nice, and started lining everything up. The pieces were a really tight fit so it took a while to get everything lined up for assembly. I grabbed a mallet and started hammering. Turns out hammering while filming was tricky, so after putting the camera down I grabbed a larger dead blow mallet and slammed it until everything was lined up. Now when I say the tolerance was perfect, I mean it. The edges were perfectly aligned and really sharp, which meant that it was painful to hold. I considered sanding down the faces or deburring the edges, but my conclusion was that the perfect, sharp edge was just a testament to my measuring and should be maintained. I also don't think I'd be comfortable rolling the dice on anything other than carpet, because it makes an awful thumping noise since its hollow and the sharp metal edges would scratch up any wood or glass it was rolled on.\n<br><br>\nIs there a moral to this story? I suppose the answer to that is measure twice, cut once, and if you treat your machines well and know how to work them properly, they won't let you down. Alternatively, people may continuously complain about machines having issues but everything will miraculously work when it's the technician.",
       "Timeframe": {
-        "Sortable": "",
-        "Display": "Month Year"
+        "Sortable": "2022-05-19",
+        "Display": "May 2022"
       },
-      "Description": "A brief description of the new project.",
-      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Description": "3 pounds of pain",
+      "ThumbnailImage": "images/d12.thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
         "Gaming",
@@ -1619,35 +1784,80 @@
       ],
       "Images": [
         {
-          "ImageURL": "images/default-image.jpg",
-          "Description": "Default image description."
+          "ImageURL": "images/d12.1.jpg",
+          "Description": "The finished die."
+        },
+        {
+          "ImageURL": "images/d12.2.jpg",
+          "Description": "The finished die."
+        },
+        {
+          "ImageURL": "images/d12.3.jpg",
+          "Description": "The waterjet struggled, but it prevailed."
+        },
+        {
+          "ImageURL": "images/d12.5.jpg",
+          "Description": "The pieces fresh out of the waterjet."
+        },
+        {
+          "ImageURL": "images/d12.4.jpg",
+          "Description": "I countersunk the holes so they'd look nicer."
+        },
+        {
+          "ImageURL": "images/d12.6.jpg",
+          "Description": "Arranging the parts for assembly."
+        },
+        {
+          "ImageURL": "images/d12.7.gif",
+          "Description": "The tolerances were so snug I had to violently hammer everything into place."
         }
       ],
-      "Complete": false,
+      "Complete": true,
       "Favorite": false,
       "Hidden": false
     },
     {
       "Title": "Tracy's Floor Register",
-      "BodyContent": "Talk about the process of teaching someone, and how my belief holds even if that person happens to be my boss' boss' boss' boss.",
+      "BodyContent": "Tracey Futhey is a VP and the CIO of Duke University. That means that as a technician at the Innovation Co-Lab, she was my boss' boss' boss' boss. However, for a few days in early June she was just another user at the Co-Lab.\n<br><br>\nThis project ended up being pretty special for me, not just because it got to humanize the CIO for me but also because it really goes to show that making is for <i>everyone</i>! It was also kind of serendipitous in a way. It turns out we both have backgrounds from Carnegie Mellon, where she got her degree in mathematics with a Computer science concentration before CS was really a thing and while the university was still known as Carnegie Tech. She worked there as a computer consultant and eventually rising to be the CIO there as well.\n<br><br>\nAnyways, Tracy had come in with an interesting project. She was reflooring her bathroom with tiles, and had bought a chameleon hvac register that had slots so you could add your own material to it. She already had the dimensions of the register, but we grabbed some calipers and double checked everything. From there I helped her CAD a model in Fusion and showed her how to toolpath it. We did a few test cuts and she left for the day. She came back a couple of day later and we dialed in tolerances and started cutting the final pieces. I had taught Tracey the process the first day and one that second day she was doing most of the operation herself!\n<br><br>\nWhenever it came up in conversation later on, she'd always say that I did all the work. But believe me, she truly learned the process and was rocking and rolling on her own by the end of it! It's something you see with all sorts of folks. I think of it like teaching someone to ride a bike. You get them on the training wheels and give them a push, and at the end of the ride they might not think they did well, not realizing that you took off the training wheels long ago. Ultimately, it's easy to say that I'll only remember this encounter because it was the CIO, but at the same time I just think she was another person who came in with the right attitude.",
       "Timeframe": {
-        "Sortable": "",
-        "Display": "Month Year"
+        "Sortable": "2022-06-03",
+        "Display": "June 2022"
       },
-      "Description": "A brief description of the new project.",
-      "ThumbnailImage": "images/default-thumbnail.jpg",
-      "Collaborators": [],
+      "Description": "A custom tile hvac register",
+      "ThumbnailImage": "images/tfr.thumbnail.jpg",
+      "Collaborators": [
+        {
+          "Name": "Tracey Futhey",
+          "Role": "Client"
+        }
+      ],
       "Tags": [
         "Teaching",
         "Mini Makes"
       ],
       "Images": [
         {
-          "ImageURL": "images/default-image.jpg",
-          "Description": "Default image description."
+          "ImageURL": "images/tfr.1.jpg",
+          "Description": "The completed floor register."
+        },
+        {
+          "ImageURL": "images/tfr.3.jpg",
+          "Description": "Test parts for figuring out offsets and tolerancing."
+        },
+        {
+          "ImageURL": "images/tfr.2.jpg",
+          "Description": "Tracey operating the waterjet."
+        },
+        {
+          "ImageURL": "images/tfr.4.jpg",
+          "Description": "The waterjet cuts the outer part of the register."
+        },
+        {
+          "ImageURL": "images/tfr.5.jpg",
+          "Description": "Tracey removes a finished part from the waterjet."
         }
       ],
-      "Complete": false,
+      "Complete": true,
       "Favorite": false,
       "Hidden": false
     },

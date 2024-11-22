@@ -173,7 +173,11 @@ nav button.active {
 
 .grid-item:hover .grid-overlay {
     opacity: 1;
-    text-shadow: 0 0 15px gray;
+    text-shadow: 
+        1px 1px 15px black,
+        -1px 1px 15px black,
+        -1px -1px 15px black,
+        1px -1px 15px black;
 }
 
 .favorite-star,

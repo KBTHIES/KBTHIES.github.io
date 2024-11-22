@@ -86,7 +86,6 @@
                 border: 2px solid black;
                 border-radius: 50%;
             }
-            
         </style>
     </head>
     <body>
@@ -141,6 +140,7 @@
                 allProjects.forEach((project, i) => {
                     project.style.display = i === index ? "block" : "none";
                 });
+                console.log(`displaying project at index: ${index}`);
                 document.getElementById("project-title").innerText = projects[index].Title || "Untitled Project";
 
                 document.getElementById("project-index").innerText = `(${index + 1}/${projects.length})`;
@@ -158,16 +158,16 @@
                     const circle = document.createElement("div");
                     circle.classList.add("circle");
 
-        // Determine the color based on priority
-        if (project.Favorite) {
-            circle.style.backgroundColor = "gold";
-        } else if (project.Hidden) {
-            circle.style.backgroundColor = "gray";
-        } else if (project.Complete) {
-            circle.style.backgroundColor = "green";
-        } else {
-            circle.style.backgroundColor = "black";
-        }
+                    // Determine the color based on priority
+                    if (project.Favorite) {
+                        circle.style.backgroundColor = "gold";
+                    } else if (project.Hidden) {
+                        circle.style.backgroundColor = "gray";
+                    } else if (project.Complete) {
+                        circle.style.backgroundColor = "green";
+                    } else {
+                        circle.style.backgroundColor = "black";
+                    }
 
                     // Add active class for the current project
                     if (index === currentIndex) {
@@ -177,8 +177,12 @@
                     // Add the project title as a tooltip
                     circle.setAttribute("title", project.Title);
 
-                    // Add event listener to navigate to the clicked project
-                    circle.addEventListener("click", () => displayProject(index));
+                    // Attach a click event listener to navigate to the clicked project
+                    circle.addEventListener("click", () => {
+                        currentIndex = index; // Update the global currentIndex
+                        displayProject(currentIndex); // Display the clicked project
+                        console.log(currentIndex);
+                    });
 
                     circlesContainer.appendChild(circle);
                 });
@@ -313,12 +317,14 @@
             // Navigate to the previous project
             document.getElementById("prev-btn").addEventListener("click", function () {
                 currentIndex = currentIndex === 0 ? projects.length - 1 : currentIndex - 1; // Loop to last project if at the first
+                console.log(currentIndex);
                 displayProject(currentIndex);
             });
 
             // Navigate to the next project
             document.getElementById("next-btn").addEventListener("click", function () {
                 currentIndex = currentIndex === projects.length - 1 ? 0 : currentIndex + 1; // Loop to first project if at the last
+                console.log(currentIndex);
                 displayProject(currentIndex);
             });
 
