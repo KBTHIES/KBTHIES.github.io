@@ -885,6 +885,10 @@
         {
           "ImageURL": "images/itam.7.png",
           "Description": "A look at the itch.io page."
+        },
+        {
+          "ImageURL": "images/itam.8.png",
+          "Description": "A behind-the-scenes look at the scene I rendered for the cover. I also did a version with textures but this one ended up having more visual weight once it was composited. I also generated a depthmap which was fantastic for masking!"
         }
       ],
       "Complete": true,
@@ -1388,14 +1392,14 @@
       "Hidden": true
     },
     {
-      "Title": "Custom Dice",
-      "BodyContent": "I can talk about my process of wanting to teach > learning how and purchasing > Teaching as well as the community-building aspect of the class",
+      "Title": "Resin Dice",
+      "BodyContent": "A little while after joining the Co-Lab, I volunteered to inherited our resin workshops. At first, I stuck with some conventional classes I had already helped run in the past where we made resin coasters. However, as we were looking to expand the Roots offerings, I suggested we do a dice class with resin. It was readily approved and all we needed to get were the molds.\n<br><br>\nIn my time there, I probably ran 8 of these workshops. I really enjoyed the resin classes since there's a surprising amount of artistry you can get from the mica powders, dyes, pouring techniques, and other add-ins. Plus, while the class was pretty quick we had a lot of time to chat while waiting for bubbles to make their way out of the resin. The class also always attracted a neat crowd as well! I remember one class we had a member of faculty who said their son was getting into D&D and they wanted to make him a set of dice. There were also a mix of graduates and undergrads who had either recently gotten into D&D, had been playing D&D for a while, and those who were playing other systems. This gave them a shared topic to chat about, and usually they'd talk about their characters, what they were like, and fun stories from the tabletop. Regardless of age or program, people just got along well and made connections with those they wouldn't have ever interacted with before. The week afterwards would have the students come back and ink their dice, which is a tedious task which takes a couple of hours for a full set of dice, but once again the repetitive task meant that everyone was really chill and relaxed as they once again got to chat with their fellow students.\n<br><br>\nThe physical takeaway from the class was the dice, yes. However, the less tangible takeaways were far more valuable and special, and that's not just the skills they learned during that journey. The resin dice class perfectly encapsulated why I do what I do, it's to get people in the space, learning skills, and making connections!",
       "Timeframe": {
-        "Sortable": "",
-        "Display": "Month Year"
+        "Sortable": "2024-10-01",
+        "Display": "2022-2024"
       },
-      "Description": "A brief description of the new project.",
-      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Description": "A workshop series fostering a community",
+      "ThumbnailImage": "images/rd.thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
         "Gaming",
@@ -1404,11 +1408,31 @@
       ],
       "Images": [
         {
-          "ImageURL": "images/default-image.jpg",
-          "Description": "Default image description."
+          "ImageURL": "images/rd.1.jpg",
+          "Description": "One of my favorite sets of dice."
+        },
+        {
+          "ImageURL": "images/rd.2.jpg",
+          "Description": "Dice before getting demolded."
+        },
+        {
+          "ImageURL": "images/rd.3.jpg",
+          "Description": "The dice out of the mold."
+        },
+        {
+          "ImageURL": "images/rd.5.jpg",
+          "Description": "two sets of dice and the block made from the excess resin."
+        },
+        {
+          "ImageURL": "images/rd.6.jpg",
+          "Description": "Dice waiting to be capped off and put in the pressure pot."
+        },
+        {
+          "ImageURL": "images/rd.7.jpg",
+          "Description": "Two matched sets of dice."
         }
       ],
-      "Complete": false,
+      "Complete": true,
       "Favorite": false,
       "Hidden": false
     },
@@ -1909,26 +1933,67 @@
     },
     {
       "Title": "Safety Stand",
-      "BodyContent": "<p>New project content in HTML format.</p>",
+      "BodyContent": "The Safety Stand was a project I made because we knew we wanted to make PPE more visible. Our fist aid kits were tucked into drawers and we only sold safety glasses in the vending machine. While it was against university policy to have shared safety glasses (to prevent the spread of pinkeye), we deemed that it was much less safe having people operate drills and saws without eye protection. I decided this was a great time to bring out my skills from the Hoop House project, so I got to designing in Rhino and started printing out my bending guides.\n<br><br>\nThe big thing for this project was it was my first time really diving into Autodesk Fusion. I had used it for a short class before, but Fusion's just better suited for this kind of iterative engineering CAD compared to Rhino. The final Safety stand had a total of 34 3D printed components, all of which I had to iterate a few times. This trial by fire got me up to speed with this new CAD program while also being a very functional and aesthetically pleasing piece.",
       "Timeframe": {
-        "Sortable": "",
-        "Display": "Month Year"
+        "Sortable": "2021-07-07",
+        "Display": "July 2021"
       },
-      "Description": "A brief description of the new project.",
-      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Description": "A stand for PPE and first aid visibility",
+      "ThumbnailImage": "images/ss.thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
         "Makerspace Improvements",
         "3D Printing",
-        "Metalworking"
+        "Metalworking",
+        "3D Modelling"
       ],
       "Images": [
         {
-          "ImageURL": "images/default-image.jpg",
-          "Description": "Default image description."
+          "ImageURL": "images/ss.1.jpg",
+          "Description": "The completed stand."
+        },
+        {
+          "ImageURL": "images/ss.2.jpg",
+          "Description": "A view of the stand's labelled bins and some of the joinery."
+        },
+        {
+          "ImageURL": "images/ss.4.jpg",
+          "Description": "The disinfectant holder was held on with zip ties and rubber pads."
+        },
+        {
+          "ImageURL": "images/ss.5.jpg",
+          "Description": "A blurry view of the hardware holding the ear plug dispenser in place."
+        },
+        {
+          "ImageURL": "images/ss.6.jpg",
+          "Description": "The difference between unsanded and sanded steel conduit. The conduit was sanded at 220 grit to clean the surface and give a satin, almost holographic appearance."
+        },
+        {
+          "ImageURL": "images/ss.7.jpg",
+          "Description": "The first pieces of conduit were bent, forming almost an earplug staff. You can see the tape used to mark where bends would start/end."
+        },
+        {
+          "ImageURL": "images/ss.8.jpg",
+          "Description": "A side view. The compound bends meant that the ear plug dispenser would be centered."
+        },
+        {
+          "ImageURL": "images/ss.9.jpg",
+          "Description": "The body starts to come together, take note of the screws on the green plate. These were what the ear plug dispenser hung from."
+        },
+        {
+          "ImageURL": "images/ss.10.jpg",
+          "Description": "The first bins are mounted and more hardware is added."
+        },
+        {
+          "ImageURL": "images/ss.11.jpg",
+          "Description": "The stand with all bins mounted."
+        },
+        {
+          "ImageURL": "images/ss.12.jpg",
+          "Description": "I added labels on two of the lids so they could hold clean and dirty safety glasses. The 3D printed component slotted into the channels on the lid, but were screwed down to make sure they'd stay."
         }
       ],
-      "Complete": false,
+      "Complete": true,
       "Favorite": false,
       "Hidden": false
     },
@@ -1957,25 +2022,50 @@
     },
     {
       "Title": "CATAN Board",
-      "BodyContent": "<p>New project content in HTML format.</p>",
+      "BodyContent": "Perhaps it was propelled by the pandemic, but after restrictions were lifted there was a year some of the most common laser cut and 3D print files we'd see were CATAN boards. I like a good game of CATAN and even studied it in college, but what bothered me was how simple the design was that people were grabbing from thingiverse, and it was always the same file. I decided that I needed to make a CATAN board file for the Co-Lab, and so of course I went a bit overboard.\n<br><br>\nI love the classic look of the CATAN tiles where it looks like top-down views of the landscape and each tile is unique, so I decided to make grasshopper scripts that could generate these designs. I started with the fields, which took a few lines as input and generated the rows. It was pretty simple, but I liked the look. It looked better with a bit of manual tweaking. I moved on to the forests, and that's where I had a lot of fun. You'd draw the roads and the trees would be automatically generated and pushed away from the road. I ended up tweaking a few to add a pond or make it look like the forest was being cut down. closer to the end I'd make the desert tile which would function in a similar way to look like dunes.\n<br><br>\nThe rest still needed Grasshopper files, but the inputs were more manual. The fields with herds of sheep took curves as input and would generate the little sheep heads and bodies in turn. The mountains took 3D models of mountains and generated topo lines. The quarries for brick were pretty manual and just used the Grasshopper script to generate some lines to try and sell the depth of the quarries.\n<br><br>\nHowever, then we get to the labels! I had a script for making Scrabble tiles already, so I adapted that to automate making the circles with values and pips. My second-favorite script behind the forest generation one was the script that automatically generated the shoreline. It was designed so that the tangent of the splines always lined up the same way, so no matter how you put them together the shoreline would always look seamless. This script truly was automatic, and you could generate a new shoreline with the press of a button!\n<br><br>\nAll in all there were 8 Grasshopper files made for this project! The only drawback with this project.. is that I don't really play CATAN, so I've never used it.",
       "Timeframe": {
-        "Sortable": "",
-        "Display": "Month Year"
+        "Sortable": "2021-12-14",
+        "Display": "December 2021"
       },
-      "Description": "A brief description of the new project.",
-      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Description": "A programmatically generated CATAN board",
+      "ThumbnailImage": "images/cb.thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
         "Laser Cutting",
-        "Programming"
+        "Programming",
+        "Gaming"
       ],
       "Images": [
         {
-          "ImageURL": "images/default-image.jpg",
-          "Description": "Default image description."
+          "ImageURL": "images/cb.1.jpg",
+          "Description": "An overview of the finished CATAN board."
+        },
+        {
+          "ImageURL": "images/cb.2.jpg",
+          "Description": "A close look at the ports."
+        },
+        {
+          "ImageURL": "images/cb.3.jpg",
+          "Description": "A close look at the desert."
+        },
+        {
+          "ImageURL": "images/cb.4.jpg",
+          "Description": "A close look at a port and the shoreline."
+        },
+        {
+          "ImageURL": "images/cb.5.jpg",
+          "Description": "An overview of the finished CATAN board."
+        },
+        {
+          "ImageURL": "images/cb.6.jpg",
+          "Description": "A look at the tiles that were customizable in Grasshopper. The Desert is in that group but not pictured."
+        },
+        {
+          "ImageURL": "images/cb.7.jpg",
+          "Description": "A look at the completed Rhino file."
         }
       ],
-      "Complete": false,
+      "Complete": true,
       "Favorite": false,
       "Hidden": false
     },
@@ -2101,70 +2191,227 @@
     },
     {
       "Title": "Sadbear",
-      "BodyContent": "<p>New project content in HTML format.</p>",
+      "BodyContent": "Sadbear is a mix of a bear and a fish, and while such mash-ups usually create elegant mermaids, a mermaid Sadbear is not. It belongs to neither land nor sea, the fish tail offering no mobility out of water, and the top-heavy bear is unsuited to life underwater. Sadbear is lonely, having nowhere to belong, and he readily seeks companionship or any sort of connection. Sadbear is to be protected, and in uncertain times, the act of protecting another can be a point of stability for both Sadbear and the protector.\n<br><br>\nMaking Sadbear offered up new challenges compared to my other textile projects. First of all, it’s completely felt, and the edge-stitching without seam allowance was certainly different compared to working with woven fabrics, but my improvement can definitely be seen in the stitches. I found that felt allowed for really small and close stitches that had a very handmade yet almost antique quality, and I embraced some of that aesthetic with the satin-stitch nose and using buttons for eyes.\n<br><br>\nCombining the patterns for the bear and fish was also interesting, as they ended up meeting in a way that’s unintuitive on the paper patterns, and so I ended up completing the bear part and then measuring and adapting a mostly-sewn fish tail, which keeps a lot of of the process physical and in-the-moment, and was likely in part due to my comfort in patterning and adapting on the fly.\n<br><br>\nThe biggest time-sink of all was the tail. I think at least eight hours were spent on that tail alone, and while a lot was spent in the intersection of the two beasts, it ended up being mostly the tail fin. I wanted to add a wire so it would be slightly poseable, which meant it had to have two layers, and I kept the stitching as small as I could get it, but to reinforce those small details, I backed both sides with muslin. to keep the fin tight on the wire, I tacked the wire in place on the back side of the fin, and then once both halves were attached, I went over the wire with more stitches to make sure it was held down. What helped was that the wire was hand-twisted from smaller wire, so I was able to have gaps that I could run a needle and thread through the center, which just added extra stability so that it wouldn’t shift longitudinally.\n<br><br>\nIn the end, I’m happy with how Sadbear turned out, and while it was a whole lot of hand sewing, improving my sewing skills was kinda the point. I'd like to believe that my hand sewing became something I can depend on.",
       "Timeframe": {
-        "Sortable": "",
-        "Display": "Month Year"
+        "Sortable": "2020-04-29",
+        "Display": "April 2020"
       },
-      "Description": "A brief description of the new project.",
-      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Description": "A protector and a companion",
+      "ThumbnailImage": "images/sb.thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
         "Textiles"
       ],
       "Images": [
         {
-          "ImageURL": "images/default-image.jpg",
-          "Description": "Default image description."
+          "ImageURL": "images/sb.1.jpg",
+          "Description": "A view of the completed Sadbear."
+        },
+        {
+          "ImageURL": "images/sb.2.jpg",
+          "Description": "A view of the completed Sadbear."
+        },
+        {
+          "ImageURL": "images/sb.3.jpg",
+          "Description": "Sadbear's arms not only looked like they were asking for a hug, but could give a small one."
+        },
+        {
+          "ImageURL": "images/sb.4.jpg",
+          "Description": "A close up view of the detailed tail."
+        },
+        {
+          "ImageURL": "images/sb.5.jpg",
+          "Description": "My initial sketches for Sadbear. It was meant to look like a protector-coded knight, but the helmet would also help protect Sadbear from the sad world outside with a visor that it could use to literally shut out the world."
+        },
+        {
+          "ImageURL": "images/sb.6.jpg",
+          "Description": "The head starts taking shape. The ears were tricky to sew on since they were so small!"
+        },
+        {
+          "ImageURL": "images/sb.7.jpg",
+          "Description": "The body takes shape. Getting the arms to flip inside out afterwards was a challenge, the felt was just too stiff."
+        },
+        {
+          "ImageURL": "images/sb.8.jpg",
+          "Description": "The tail got sewn to the body directly with small stitches."
+        },
+        {
+          "ImageURL": "images/sb.9.jpg",
+          "Description": "The tail began in an embroidery hoop where the delicate felt would have some support. Look at those tight stitches!"
+        },
+        {
+          "ImageURL": "images/sb.10.jpg",
+          "Description": "The tail had to be made twice and the muslin was trimmed back. A wire was added to make the tail posable."
+        },
+        {
+          "ImageURL": "images/sb.11.jpg",
+          "Description": "The tail comes together."
         }
       ],
-      "Complete": false,
+      "Complete": true,
       "Favorite": false,
       "Hidden": false
     },
     {
       "Title": "Library Visitor",
-      "BodyContent": "<p>New project content in HTML format.</p>",
+      "BodyContent": "A tentacled beast raises a crustaceous limb, grasping at an oversized copy of Yayoi Kusama’s work. Clutching the book, it pulls its inflated, meatballish body further down the library stacks, where it continues to strain itself, curling tentacles wrapping around anything in its wake.\n<br><br>\nWhen Cora and I were paired up, we look at each other's work from a previous assignment and were tasked with combining them, placing a scaled-up version within a location at Hunt Library. We each had objects that we enjoyed and took elements from both projects and combined them. From my piece, we enjoyed my alien plant's unveiling of the simple muslin exterior, revealing the pop of color and pattern within. There’s a joyful mystery to it, and it draws the eye to the more exciting bits. There was also a dynamic aspect to the project, where a button on the back could be pulled to open and close the maw. This action became part of one of our tentacles that could curl with the pull of a string. From Cora's project we were inspired by the small feet. They gave the form life, and were a big inspiration in our final design. One of the first ideas we came up with was a mass of feet, and developed from there. Even though the form was amorphous, it still felt alive and seemed to belong to another world. We wanted our large inflatable to give off the same feeling. Funny enough, the sewn tentacles would at times grab nearby objects or chairs as we carried them.\n<br><br>\nWhile digging through the nylon scrap, we found a delightfully vivid and life-like tie dye fabric, almost like the skin of a crab or lobster, and knew we wanted to use it somehow. The white ripstop nylon that made up the creature’s body was in part a material consideration of the project, as it’s what we had the most of, and would contrast with the tie dye fabric. Because the tie dye was red and white, we chose to have additional, red blobs coming out of the form to indicate that they haven’t yet formed into full tentacles.\n<br><br>\nWe had an idea for situating our creature between the rows of books, that its bulbous form could be squished in the claustrophobic stacks. We decided that the main body would  be a sphere, but squished on the sides. We found a preexisting sphere pattern online, which called for six identical slices. We then altered the shape in Photoshop to expand the seams and made only five slices to create the main form. The resulting shape wasn’t quite sphere, but more flower-esque and organic.\n<br><br>\nOnly so much of the design could be done on paper, and so we moved into the physical realm of cutting, altering, and sewing. When creating the red blobs, we wanted them to feel organic. Instead of planning out how each would look, we let the forms take shape naturally as we fed the fabric through the sewing machine. It was a great exercise for moving forward when we dealt with the tentacles and larger blobs.\n<br><br>\nOur tentacle fabric was already pre-dyed and sewn up, so we had to make decisions on how to alter them, both to fit our aesthetic desires for a clean form with hidden seams, as well as to end with our desired tentacle tips. Making the tentacles dynamic was a process of trial and error, and we ended up doing a mix of organic discovery on the sewing machine and sewn ‘tendons’ that were pulled in to curl the tentacles, with a method similar to that of sewing a ruffle.\n<br><br>\nOnce we had our blobs and tentacles, we attached them to our slices. At this point, we had to figure out how much white space we wanted, and where we wanted our tentacles and blobs to be, and how they would be arranged. We ended up doing what felt balanced, and figured out what the fabric wanted to do, and where it wanted to be.\n<br><br>\nWe liked the idea of the creature being neither peaceful nor malevolent. By existing in both worlds, there’s a sense of ambiguity and uncanniness. It has the potential to harm and be disruptive (for instance by pushing books out of the stacks), but is also just confused and struggling to move through our world.\n<br><br>\nChoosing the stacks ended up being a great move, as the tentacles could latch onto and push through the bookshelves. The organic nature of these interactions cemented the creature in our world as a creature instead of a sculpture. Consequently, the inflatable looks best when photographed in and around bookshelves, which made it difficult to fully photograph, and didn’t feel quite right having it in the open against a backdrop.\n<br><br>\nIt was really interesting when the project was revealed to our classmates. People would touch the tentacles sitting atop or coming through the shelves, and many compared it to a monster or a parasite that could hurt someone. However, when asked by our teacher, nobody actually said that it scared them. The form might have uncomfortable aspects, but the inflatable nature and cartoonish aspect of it looking stuck make it more silly. Plus, it loudly announces its presence with the fan that keeps it inflated, and it’s in a brightly lit environment, so it won’t be sneaking up on anyone.\n<br><br>\nOur final piece succeeded in fitting into the world of the mushroom blob, and the two pieces provide more of a view into the world they come from. It would be exciting to see more of the creatures and artifacts of that world, and how they interact in their natural environment. \n<br><br>\nOverall, our project was successful. As its creators, we wanted the form to be fun and live in between the contexts of the library and that other world. If we were to continue working on this, we’d look into moving it into other spaces where it could be more in the way, adapting its form to further bother people and clumsily disrupt them.",
       "Timeframe": {
-        "Sortable": "",
-        "Display": "Month Year"
+        "Sortable": "2020-03-09",
+        "Display": "March 2020"
       },
-      "Description": "A brief description of the new project.",
-      "ThumbnailImage": "images/default-thumbnail.jpg",
-      "Collaborators": [],
+      "Description": "A strange alien creature visits a library",
+      "ThumbnailImage": "images/lv.thumbnail.jpg",
+      "Collaborators": [
+        {
+          "Name": "Cora Hickoff",
+          "Role": ""
+        }
+      ],
       "Tags": [
         "Textiles"
       ],
       "Images": [
         {
-          "ImageURL": "images/default-image.jpg",
-          "Description": "Default image description."
+          "ImageURL": "images/lv.5.jpg",
+          "Description": "The completed inflatable before being installed on site."
+        },
+        {
+          "ImageURL": "images/lv.6.jpg",
+          "Description": "The library visitor in the stacks."
+        },
+        {
+          "ImageURL": "images/lv.7.jpg",
+          "Description": "A detail shot of the library visitor."
+        },
+        {
+          "ImageURL": "images/lv.8.jpg",
+          "Description": "A scenic shot of the library visitor."
+        },
+        {
+          "ImageURL": "images/lv.9.jpg",
+          "Description": "A shot of the library visitor."
+        },
+        {
+          "ImageURL": "images/lv.10.jpg",
+          "Description": "A shot of people approaching the library visitor."
+        },
+        {
+          "ImageURL": "images/lv.11.jpg",
+          "Description": "A shot of people interacting with the library visitor."
+        },
+        {
+          "ImageURL": "images/lv.12.jpg",
+          "Description": "A shot of people interacting with the library visitor."
+        },
+        {
+          "ImageURL": "images/lv.13.jpg",
+          "Description": "A shot of the library visitor."
+        },
+        {
+          "ImageURL": "images/lv.14.jpg",
+          "Description": "A detail shot of the library visitor."
+        },
+        {
+          "ImageURL": "images/lv.15.jpg",
+          "Description": "A shot of the library visitor."
+        },
+        {
+          "ImageURL": "images/lv.16.jpg",
+          "Description": "A detail shot of the library visitor."
+        },
+        {
+          "ImageURL": "images/lv.17.jpg",
+          "Description": "A detail shot of the library visitor."
+        },
+        {
+          "ImageURL": "images/lv.18.jpg",
+          "Description": "A detail shot of the library visitor."
+        },
+        {
+          "ImageURL": "images/lv.19.jpg",
+          "Description": "A detail shot of the library visitor."
+        },
+        {
+          "ImageURL": "images/lv.20.jpg",
+          "Description": "A detailshot of the library visitor."
+        },
+        {
+          "ImageURL": "images/lv.1.jpg",
+          "Description": "To get our basic pattern for the body, we had to use a large sheet of butcher paper and a classroom's projector."
+        },
+        {
+          "ImageURL": "images/lv.2.jpg",
+          "Description": "We then had to trace and cut the pattern out of ripstop."
+        },
+        {
+          "ImageURL": "images/lv.3.png",
+          "Description": "The tentacles and growths were added to the panels before they were all assembled."
+        },
+        {
+          "ImageURL": "images/lv.4.png",
+          "Description": "Our test inflation after everything was sewn together."
+        },
+        {
+          "ImageURL": "images/lv.21.jpg",
+          "Description": "My alien egg that we took inspiration from."
+        },
+        {
+          "ImageURL": "images/lv.22.jpg",
+          "Description": "My alien egg that we took inspiration from."
+        },
+        {
+          "ImageURL": "images/lv.23.jpg",
+          "Description": "Cora's mushroom blob that we took inspiration from."
         }
       ],
-      "Complete": false,
+      "Complete": true,
       "Favorite": false,
       "Hidden": false
     },
     {
       "Title": "Heat Gun Doppelganger",
-      "BodyContent": "<p>New project content in HTML format.</p>",
+      "BodyContent": "I took my trusty heat gun and copied it at a rough 2:1 scale. I chose my heat gun because it’s a tool that I used in cosplay work, taking flat sheets of foam and cutting it based on a pattern and heat-forming curves, a process nearly identical to that of copying the tool itself. It’s the tool that got me familiar with patterning and forming shapes to the human body. It was difficult taking such a geometric yet fluid and ergonomic shape and changing that into flat pattern pieces. As I went, I ended up taking out more and more minute details that at first I thought I’d be able to capture due to the difficulties of scale and having it show up in the final product, like taking out some of the fine detail in the handle and towards the bottom of the grip.\n<br><br>\nThe fabric choice was intended to capture the tool as it is in life. The yellow plastic of the heat gun is softer and more friendly to the hand, while the black is harder and more durable, hence the treated denim material. The hot end evokes heat and the metallic shine, and the sequins give it a distinct texture.\n<br><br>\nIn turning the taped object into pattern pieces, I ended up having to re-draw the pattern in CAD anyways to scale it up, so I decided to use that to laser cut my fabric as well. In the future, I’ll have to use some sort of dotted line or light score to mark the sew line, as in the end I had to go back and re-draw those anyways, having cut the seam allowance, and the pen I used marking those ended up bleeding through the felt. However, it does give it more of a crafted look and less like a finished and polished piece, which is fitting for a practical tool.\n<br><br>\nI’m happy with the final product, and it was a fun working with the tape-pattern process that I’d only used for foam before. the materials certainly have different pattern considerations, which is something to remember. For example, foam is edge-glued, and doesn’t have a seam allowance.",
       "Timeframe": {
-        "Sortable": "",
-        "Display": "Month Year"
+        "Sortable": "2020-03-21",
+        "Display": "March 2020"
       },
-      "Description": "A brief description of the new project.",
-      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Description": "One of my favorite tools is the humble heat gun",
+      "ThumbnailImage": "images/hg.thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
         "Textiles"
       ],
       "Images": [
         {
-          "ImageURL": "images/default-image.jpg",
-          "Description": "Default image description."
+          "ImageURL": "images/hg.1.jpg",
+          "Description": "The doppelganger and the heat gun."
+        },
+        {
+          "ImageURL": "images/hg.2.jpg",
+          "Description": "The doppelganger and the heat gun."
+        },
+        {
+          "ImageURL": "images/hg.3.jpg",
+          "Description": "The doppelganger was pretty unwieldy compared to a heat gun."
+        },
+        {
+          "ImageURL": "images/hg.4.jpg",
+          "Description": "It looks a bit like an oversized sci-fi ray gun or phaser."
+        },
+        {
+          "ImageURL": "images/hg.5.jpg",
+          "Description": "The felt was laser cut after I digitized the pattern I got by wrapping the heat gun in tape and then cutting those. I had to go back and draw the seam allowance anyways."
+        },
+        {
+          "ImageURL": "images/hg.6.jpg",
+          "Description": "Sewing the parts together."
+        },
+        {
+          "ImageURL": "images/hg.7.jpg",
+          "Description": "A very yellow image."
         }
       ],
-      "Complete": false,
+      "Complete": true,
       "Favorite": false,
       "Hidden": false
     },
@@ -2239,25 +2486,90 @@
     },
     {
       "Title": "Head in the Clouds",
-      "BodyContent": "<p>New project content in HTML format.</p>",
+      "BodyContent": "This project was designed as an installation to go into Pittsburgh International Airport. The immersive installation enables airport travelers to experience a personal and connective LED adventure. The team wanted each person to experience a unique world when they entered the box, but be drawn into the individual world by LED shadows from all of the boxes in the atrium.\n<br><br>\nThe individual experience is unique for the installation. The user has to almost duck into a hanging box, and, when he or she is head enters the box, the LED's glow underneath a blanket of cloud-like material. The “cloud” material diffuses the light into an enthralling glow, and allows for the wave of LED colors to flow around the material. The typical colors are soft blues and purples that are capturing and soothing. The user can experience this in anyway, but the team imagined the internal installation as a wave of clouds that envelop the user. \n<br><br>\nThe entire installation would have multiple boxes hanging at different head levels around the atrium. They would be incorporated directly into the floor plan, so travelers can directly interact with the installation. The different heights of the boxes allow anyone to interact with the installation no matter the height of the person. The installation could be compared to small, pop-up kiosks or information panels; however, the installations will be personal LED experiences rather than information or items being sold.\n<br><br>\nThe outside of the installation is a mysterious, engaging element that dims the LEDs, and emits a soft shadow of the lights on the surrounding ground.\n<br><br>\nThe structure of the box are acrylic panels which allow for light to pass throughout the structure. Thus, the outside of the box was covered in the same material as the inside of the box to diffuse light, but also engage travelers.  This allows for users to touch and look at a dulled experience before entering the immersed, cloud world.\n<br><br>\nThis makes travelers interested on the contents of the glowing “box”, and interact with the installation more. However, if the travelers don’t want to be immersed in their own cloud world, the soft glow of the installations add passive, cheerful color to the travelers’ days.\n<hr>\n<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/jglsFZPmXO8?si=rJE96NrhGtORPavW\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe><hr>\nThe team's thought process throughout the design changed dramatically. The vessel to deliver the clouds changed a lot, even though we wanted to keep the idea of a cloud-based structure. \n<br><br>\nThe team initially was thinking of an abstract arch that proudly displayed the clouds. We wanted the structure to alter color by physically changing tension throughout the structure. However, the team deemed the arch as childish, and the physical manipulation of the structure was too hard to prototype.\n<br><br>\nThe team briefly thought of hanging the cloud \"boxes\" or individual structures from the ceiling, but we thought the structure would be too far away from airport travelers to interact with the technology and installation. However, we transitioned the box structures from the ceiling to human head-level. This allowed direct interaction with installation, and a unique take on LED's and architecture. \n<br><br>\nThe outside of the final idea changed the most during the process. We initially wanted the outside of the structure to be a clouded acrylic box that diffused the light. However, due to material and construction constraints, the team decided to emulate the inside of the box to flow onto the outside of the box. This allowed maximum diffusion of the LED's on the outside, and acted as a \"pull\" to travelers to touch and look at the installation.",
       "Timeframe": {
-        "Sortable": "",
-        "Display": "Month Year"
+        "Sortable": "2019-10-12",
+        "Display": "October 2019"
       },
-      "Description": "A brief description of the new project.",
-      "ThumbnailImage": "images/default-thumbnail.jpg",
-      "Collaborators": [],
+      "Description": "An immersive LED experience that captures and enthralls travelers in a cloud-based environment. ",
+      "ThumbnailImage": "images/hic.thumbnail.jpg",
+      "Collaborators": [
+        {
+          "Name": "Russell Orlick",
+          "Role": ""
+        },
+        {
+          "Name": "Alex Wang",
+          "Role": ""
+        },
+        {
+          "Name": "Elizabeth Han",
+          "Role": ""
+        }
+      ],
       "Tags": [
         "Programming",
         "Laser Cutting"
       ],
       "Images": [
         {
-          "ImageURL": "images/default-image.jpg",
-          "Description": "Default image description."
+          "ImageURL": "images/hic.1.jpeg",
+          "Description": "An atmospheric shot of the final installation."
+        },
+        {
+          "ImageURL": "images/hic.2.jpeg",
+          "Description": "An atmospheric shot of the final installation."
+        },
+        {
+          "ImageURL": "images/hic.3.jpeg",
+          "Description": "Russell looks up into the cloud."
+        },
+        {
+          "ImageURL": "images/hic.4.jpeg",
+          "Description": "I experience the cloud."
+        },
+        {
+          "ImageURL": "images/hic.5.jpeg",
+          "Description": "A look into the cloud."
+        },
+        {
+          "ImageURL": "images/hic.6.jpg",
+          "Description": "It started as a laser cut acrylic box."
+        },
+        {
+          "ImageURL": "images/hic.7.jpg",
+          "Description": "The clear acrylic made for some cool reflections! Too bad they've be covered up by cotton."
+        },
+        {
+          "ImageURL": "images/hic.8.jpg",
+          "Description": "The cotton helped diffuse the lighting and added depth, literally and figuratively."
+        },
+        {
+          "ImageURL": "images/hic.9.gif",
+          "Description": "A first test of the lights."
+        },
+        {
+          "ImageURL": "images/hic.10.jpg",
+          "Description": "With the lights on it loses most of its presence."
+        },
+        {
+          "ImageURL": "images/hic.11.jpg",
+          "Description": "A detail shot of the cloud."
+        },
+        {
+          "ImageURL": "images/hic.12.jpg",
+          "Description": "A behind-the-scenes shot of what our documentation process looked like."
+        },
+        {
+          "ImageURL": "images/hic.13.jpg",
+          "Description": "The installation gets presented."
+        },
+        {
+          "ImageURL": "images/hic.14.jpg",
+          "Description": "In the background you can see part of our TouchDesigner script."
         }
       ],
-      "Complete": false,
+      "Complete": true,
       "Favorite": false,
       "Hidden": false
     },
@@ -2305,7 +2617,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "Molded Dagger Handle",
@@ -2679,94 +2991,96 @@
     },
     {
       "Title": "Maine Penitentiary Pencil Case",
-      "BodyContent": "There's a really good story about this being my intro to making",
+      "BodyContent": "Everyone starts somewhere. I didn't know how to laser cut before coming to college, and this here happens to be the project where I learned just that.\n<br><br>\nMy family had recently gone on a family vacation to Maine and we had stopped by the Maine State Prison Showroom, where goods produced by the inmates were being displayed and sold. I saw this really nice pencil case and thought it would make for a great gift for my partner, who was an artist. I asked her to design a celtic knot pattern that I could use for some projects, and from that we get the drawing shown. I took it into Rhino and adapted it to something that would tile well and took measurements of the pencil case, adjusting my design to fit on all six sides. It was just a couple of days after the school year had started, and I knew I had access to a makerspace in Hunt library so I went in and asked the staff member there for help.\n<br><br>\nThat person just so happened to be Cody Soska, who was basically the makerspace technician for all of IDeATe, and we'd end up being great maker friends, especially after I graduated and took up a similar role as him. In a way, he was my inspiration to learn how to help others, but that's getting a bit ahead of myself. But man, that takes me back.\n<br><br>\nCody took his time carefully explaining how to use the laser and helped me figure out how to perfectly align my file and material, focus the laser, and run the file. He helped me try and engrave the two ends even though it became clear it would be too tall for the laser. I don't remember if he helped me for thirty minutes or an hour, but that short amount of time left a lasting impression that would forever change the trajectory of my life. I think after that point, I truly became a maker, and that impression, the impact of discovering the joy of making, would be something that I would try to pay back to the community a hundredfold.",
       "Timeframe": {
-        "Sortable": "",
-        "Display": "Month Year"
+        "Sortable": "2017-08-27",
+        "Display": "August 2017"
       },
-      "Description": "A brief description of the new project.",
-      "ThumbnailImage": "images/default-thumbnail.jpg",
-      "Collaborators": [],
+      "Description": "\"Hello World\"",
+      "ThumbnailImage": "images/mpc.thumbnail.jpg",
+      "Collaborators": [
+        {
+          "Name": "Raven Hughes",
+          "Role": "Designer"
+        }
+      ],
       "Tags": [
         "Laser Cutting",
         "Mini Makes"
       ],
       "Images": [
         {
-          "ImageURL": "images/default-image.jpg",
-          "Description": "Default image description."
+          "ImageURL": "images/mpc.1.jpg",
+          "Description": "The finished pencil case."
+        },
+        {
+          "ImageURL": "images/mpc.2.jpg",
+          "Description": "The bottom of the finished pencil case."
+        },
+        {
+          "ImageURL": "images/mpc.3.jpg",
+          "Description": "The celtic knot pattern my partner designed."
+        },
+        {
+          "ImageURL": "images/mpc.4.jpg",
+          "Description": "A behind-the-scenes view of the file coming together in Rhino."
         }
       ],
-      "Complete": false,
+      "Complete": true,
       "Favorite": false,
       "Hidden": false
     },
     {
       "Title": "Firefly Jar",
-      "BodyContent": "Creative Computing",
+      "BodyContent": "<a href=\"linkedScripts/fireflyJar.js\" target=\"_blank\" rel=\"noopener noreferrer\">Project Source Code</a>\n<iframe src='linkedScripts/fireflyJar.html' width='100%' height='500px' frameborder='0'></iframe>\n<p>I’ve done projects making “flying bugs in a jar” before, and I decided it would be a good time to try and make one with turtles. Getting the turtle to stay inside the jar was more challenging that I expected, mostly because of the way I made the turtle move. However, it responds to the cursor while it’s inside the jar. If I wanted to expand on this project, I would have multiple fireflies in the jar that have some level of collision so that they could act like a swarm.\n<br><br>\nFor reference, turtles are Objects that can move forwards, backwards, and turn. So the firefly isn't being moved around directly by X and Y axis manipulations.\n</p>",
       "Timeframe": {
-        "Sortable": "",
-        "Display": "Month Year"
+        "Sortable": "2018-11-09",
+        "Display": "November 2018"
       },
-      "Description": "A brief description of the new project.",
-      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Description": "It's technically a turtle",
+      "ThumbnailImage": "images/fj.thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
         "Programming"
       ],
-      "Images": [
-        {
-          "ImageURL": "images/default-image.jpg",
-          "Description": "Default image description."
-        }
-      ],
-      "Complete": false,
+      "Images": [],
+      "Complete": true,
       "Favorite": false,
       "Hidden": false
     },
     {
       "Title": "Mountain Roads",
-      "BodyContent": "Could talk about the drive to and from Pittsburgh each year, and how this was a Generative Landscape as well as how it was an exploration into parallax.",
+      "BodyContent": "<a href=\"linkedScripts/mountainRoad.js\" target=\"_blank\" rel=\"noopener noreferrer\">Project Source Code</a>\n<iframe src='linkedScripts/mountainRoad.html' width='100%' height='500px' frameborder='0'></iframe>\n<p> This project was inspired by long car rides through the mountains. Every year I'd make the drive twice - once to move into college and once to move out. I sketched up an idea that involved cars going different directions, but after implementing the moving mountains, I realized I had to simplify my idea. I kept the most important part of that, the mountains, and rebuilt from there. I think having all the layers as parallax helps add some measurable scale to the mountains and trees in the background. Making the objects got tedious, but once I had one and understood how the pieces fit together, it really sped up from there.\n<br><br>\nI’m really satisfied with how it turned out. Staring at it is just like looking out the window of a car on a long drive!</p>\n\n\nCould talk about the drive to and from Pittsburgh each year, and how this was a Generative Landscape as well as how it was an exploration into parallax.",
       "Timeframe": {
-        "Sortable": "",
-        "Display": "Month Year"
+        "Sortable": "2018-10-31",
+        "Display": "October 2018"
       },
-      "Description": "A brief description of the new project.",
-      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Description": "Inspired by my drive back home",
+      "ThumbnailImage": "images/mr.thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
         "Programming"
       ],
-      "Images": [
-        {
-          "ImageURL": "images/default-image.jpg",
-          "Description": "Default image description."
-        }
-      ],
-      "Complete": false,
+      "Images": [],
+      "Complete": true,
       "Favorite": false,
       "Hidden": false
     },
     {
       "Title": "Abstract clock",
-      "BodyContent": "more 15-501",
+      "BodyContent": "<a href=\"linkedScripts/abstractClock.js\" target=\"_blank\" rel=\"noopener noreferrer\">Project Source Code</a>\n<iframe src='linkedScripts/abstractClock.html' width='100%' height='500px' frameborder='0'></iframe>\n<p>Orbit clocks are cool with their circles inside circles, but they’re easy to read and overdone, so I made a clock where each unit orbits the next highest one. The centermost one is hours, orbited by minutes, orbited by seconds, orbited by milliseconds.\n<br><br>\nIt was quite a challenge putting this together, as some arrays were being really finnicky, so even though the hours, minutes, seconds, and milliseconds could have been one operation on an array, I had to brute-force it. However, what would a space-y clock be without some twinkling stars!\n<br><br>\nAs far as clocks go, I like how this ended up looking, even though it would take more effort than I’d be willing to put in to read. </p>",
       "Timeframe": {
-        "Sortable": "",
-        "Display": "Month Year"
+        "Sortable": "2018-10-04",
+        "Display": "October 2018"
       },
-      "Description": "A brief description of the new project.",
-      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Description": "A clock in the form of celestial bodies",
+      "ThumbnailImage": "images/ac.thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
         "Programming"
       ],
-      "Images": [
-        {
-          "ImageURL": "images/default-image.jpg",
-          "Description": "Default image description."
-        }
-      ],
-      "Complete": false,
+      "Images": [],
+      "Complete": true,
       "Favorite": false,
       "Hidden": false
     },
@@ -2991,7 +3305,7 @@
     },
     {
       "Title": "This Website",
-      "BodyContent": "Talk about what I learned making the old portfolio website and how I wanted to restructure it with a more programmatic approach. Also how I built backend tools like the markdown-editor and thought about structuring my images, and is generally more capable as a living webpage that I can continuously edit.",
+      "BodyContent": "Talk about what I learned making the old portfolio website and how I wanted to restructure it with a more programmatic approach. Also how I built backend tools like the markdown-editor and thought about structuring my images, and is generally more capable as a living webpage that I can continuously edit. It was \"started\" on Nov 2nd and acknowledge that it was made with ChatGPT",
       "Timeframe": {
         "Sortable": "",
         "Display": "Month Year"
