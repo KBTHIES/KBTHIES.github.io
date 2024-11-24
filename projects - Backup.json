@@ -2713,13 +2713,13 @@
     },
     {
       "Title": "Walpurgisnacht Ukulele",
-      "BodyContent": "Can talk about the workholding aspect and the trust you gotta have in yourself",
+      "BodyContent": "I played ukulele in high school and college, but with this project I made a unique art piece. If you've looked at my portfolio, it shouldn't be any surprise when I say that the show <i>Puella Magi Madoka Magica</i> is a constant source of inspiration for me, and in the show Walpurgisnacht shows up near the end as a heavily teased foe and there's a cool fight. I was thinking that between the front and back of my ukulele, I had two canvases to work with.\n<br><br>\nWalpurgisnacht has a sigil behind it that's never fully shown in the show, and it's very mandala-like. I figured that would be a good match for the front of the ukulele, and would be pretty low-key. After all, who would see a flowery petally design and think it came from anime? On the back there was a lot more space to work with, so I decided to do the full sigil as well as a destroyed cityscape, the setting of the climactic fight. Admittedly I traced the skyline and flames and adjusted them to fit the canvas of the ukulele.\n<br><br>\nNext up I needed to get the shape of the ukulele. I took a photo and did my best to trace the shape of the ukulele and the hole in the center. I knew the only way I would line this up perfectly would be to cut a hole in something like cardboard and squish my ukulele into the void. I also wanted to add some outlines to the back of the ukulele. I took my file and tried a test cut, and the fit was quite loose but very close! I had to end up tweaking a few of the curves but eventually I got it to a point where the ukulele was snugly held in place. I put masking tape of the ukulele to reduce charring, crossed my fingers, and hit \"start\". With rapid movements the laser sprung into action! The score was perfect! It was dark enough to leave a mark but not enough to cut through the exceptionally thin wood.\n<br><br>\nFlipping the ukulele over to the other side, I noticed an issue. With the fretboard and bridge, it wouldn't lat flat. I also needed to stack and trim more cardboard to account for the neck. After some adjustments to the file and a new void cut, I double checked that it really was laying flat. I applied masking tape again, crossed my fingers harder, and once again pressed \"start\"!\n<br><br>\nWeeding the tape took a while, and afterwards I realized that the back could use a bit more contrast. I decided to hit the flames with a super light gray Copic marker and the skyline with a couple of coats of the light gray. I decided that the sigil had plenty of visual weight as was and adding marker would just muddy things up more, as well as being a lot of work. While I could tell that the outline wasn't <i>perfect</i>, it was more than serviceable! The takeaway here is to measure thrice, because you might only get one chance to cut, and I only had the one ukulele. After that project I felt way better about my ability to line files up and that I could trust my skills!",
       "Timeframe": {
-        "Sortable": "",
-        "Display": "Month Year"
+        "Sortable": "2019-03-12",
+        "Display": "March 2019"
       },
-      "Description": "A brief description of the new project.",
-      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Description": "An exercise in trusting my measurements and workholding",
+      "ThumbnailImage": "images/wu.thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
         "Anime",
@@ -2728,11 +2728,47 @@
       ],
       "Images": [
         {
-          "ImageURL": "images/default-image.jpg",
-          "Description": "Default image description."
+          "ImageURL": "images/wu.1.jpg",
+          "Description": "The back of the ukulele features a destroyed skyline and the glyph of Walpurgisnacht. It was also colored in with some Copic markers to add contrast."
+        },
+        {
+          "ImageURL": "images/wu.2.jpg",
+          "Description": "The front of the ukulele without strings for a clearer view of the design."
+        },
+        {
+          "ImageURL": "images/wu.10.webp",
+          "Description": "A still of Walpurgisnacht. You can see the sigil behind it, as well as floating skyscraper debris and flames."
+        },
+        {
+          "ImageURL": "images/wu.3.jpg",
+          "Description": "First iteration on the workholding. Take note of the gaps around the ukulele."
+        },
+        {
+          "ImageURL": "images/wu.4.jpg",
+          "Description": "Second iteration on the workholding."
+        },
+        {
+          "ImageURL": "images/wu.5.jpg",
+          "Description": "Third and final iteration. The laser was run was a score and ran perfectly the first time."
+        },
+        {
+          "ImageURL": "images/wu.6.jpg",
+          "Description": "The workholding file only needed minor tweaks to fit the ukulele, but the setup was much more involved. More care had to be put into lining everything up and making it flush, especially with all the bits that stick out on the front of the ukulele."
+        },
+        {
+          "ImageURL": "images/wu.7.jpg",
+          "Description": "Then began the tedious process of weeding. The front looked great though!"
+        },
+        {
+          "ImageURL": "images/wu.8.jpg",
+          "Description": "Then began the tedious process of weeding. The back looked even better!"
+        },
+        {
+          "ImageURL": "images/wu.9.jpg",
+          "Description": "The skyline didn't contrast much, while the main sigil was perfect as it was."
         }
       ],
-      "Complete": false,
+      "Complete": true,
       "Favorite": false,
       "Hidden": false
     },
@@ -3109,71 +3145,106 @@
     },
     {
       "Title": "Consumables Tracker",
-      "BodyContent": "Duke spreadsheet",
+      "BodyContent": "I know, of all the projects to include in this website, a spreadsheet makes the cut? Well, I like to think I made a pretty big impact during my years at the Innovation Co-Lab, but I firmly believe that the most valuable document I ever produced was this one.\n<br><br>\nBefore I joined, the printing engagement was low and the one technician was able to keep track of things pretty well in their head. However, I realized a few months in as classes stopped being remote and people were coming back to the lab that we'd need to keep an eye on the number of prints. They would only ever trend upwards from there.\n<br><br>\nI love building beautiful and effective spreadsheets, and that's exactly what this was. As the sole maintainer of the spreadsheet, I would check our locations' stock and take note in the spreadsheet at the start of each month. From there I could derive the amount of usage of each space, and we could figure out how we would need to distribute and redistribute supplies based on demand. After we built up a few years of historic data, I made a script that would estimate when we would run out of spare filament which was crucial in timing our filament orders. Before we'd just have to wait to run out of material as the supplier took a month to spool up production and we had to shut down printers and field complaints that we were running out of filament. This sheet also let us see the amount of printing increase over the years and our rule of thumb changed from \"one big filament order before Fall and Spring semesters\" to \"one big filament order each season\". I also started tracking other critical non-filament materials, which for us was waterjet abrasive and laser cutter plywood. I went in and grabbed historic data out of curiosity and could identify bad updates with increased printer errors or number of aborted prints. My rule of thumb was that 70% of prints succeeded, and I was able to actually track that value over time, seeing if our changes to the backend of the 3D printing system would increase or decrease the value, as seen in image three.\n<br><br>\nBut that wouldn't be everything. This sheet became our makerspace bible as I compiled all of our machines' maintenance schedules and running machine reservations. As shown in the second image, I added a tracker for special maintenance. We performed weekly maintnence as standard and ad-hoc maintenance as needed, but in this sheet we tracked issues of particular concern, like when we'd do something that would require deploying a spare part, swapping a filter in the waterjet, or other weird things. For a while, we saw a ton of bowden tube issues that was tied to wear in the collet clip. I started tracking the issue and we brought it up to the manufacturer and received 30 spare collet assemblies. In early 2024 we started seeing a rise in AA print core floods, and because of my historic data I was able to chart a very real increase in errors that we used to make a special funding request for spares, as seen in the fourth image.\n<br><br>\nI value documentation, and I think with this project I learned how keeping good records is part of that as well. I can clearly see the statistics of before and after I joined and see that I really did make a difference, but the real value was the peace of mind I gained by being able to predict the future with these forecasts.",
       "Timeframe": {
-        "Sortable": "",
-        "Display": "Month Year"
+        "Sortable": "2024-11-01",
+        "Display": "September 2021 - November 2024"
       },
-      "Description": "A brief description of the new project.",
-      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Description": "A spreadsheet to forecast consumables and log repairs",
+      "ThumbnailImage": "images/ccs.thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
         "Programming",
         "Makerspace Improvements",
-        "Technical"
+        "Technical",
+        "Big Builds"
       ],
       "Images": [
         {
-          "ImageURL": "images/default-image.jpg",
-          "Description": "Default image description."
+          "ImageURL": "images/ccs.1.png",
+          "Description": "An overview of the main sheet."
+        },
+        {
+          "ImageURL": "images/ccs.2.png",
+          "Description": "The tab covering concerning machine repairs."
+        },
+        {
+          "ImageURL": "images/ccs.3.png",
+          "Description": "The tab covering printing statistics."
+        },
+        {
+          "ImageURL": "images/ccs.4.png",
+          "Description": "The tab covering AA core losses."
         }
       ],
-      "Complete": false,
+      "Complete": true,
       "Favorite": false,
       "Hidden": false
     },
     {
       "Title": "Roots Workshops",
-      "BodyContent": "Teaching at Duke",
+      "BodyContent": "The Innovation Co-Lab had a program called Roots, where members of the Co-Lab would run workshops on different topics. Our dev team ran a bunch related to programming and hardware, some of my coworkers ran workshops about robots and VR, and others ran workshops about 3D modelling and 3D printing. The first semester I started, I taught 3 workshops. My absolute peak was in the Spring 2024 semester where I singlehandedly ran 14 workshops. I had already known that I had a passion for teaching, but this turned that spark into a burning drive. While I don't have the hard numbers as a result of our system constantly improving over time, based on the information I contributed to over 70 workshops during my time at Duke, and that would have impacted over 400 students. I loved helping people learn new things and I loved the opportunity to utilize my broad set of maker skills! I realized that with a lot of my classes, Sometimes I'd end up staying later than the expected ending time helping people finish their projects, but instead of leaving, the students would stay as well. They valued what I was teaching them more than they might in class or working on homework. That's how I knew I was getting people in the door, succeeding at my goal of helping people find the joy of making! My classes also hit record levels of enrollment and waitlist length, and in a program where there would usually be room for walk-ins from the waitlist, there were unfortunately times where I had to turn people away\n<br><br>\nThe Roots workshops were very flexible for instructors, and I quickly took over a large market share of the program. On average, a Co-Lab FTE might have been expected to run between 1 and 2 classes a semester. 14 is a lot more than that.\n<br><br>\nWhile I won't go over every class I ever ran or co-developed, here are the ones I developed from scratch:\n<ul>\n<li>Chainmail</li>\n<li>Co-Lab Cosplay Co-op: The Series</li>\n<li>Design and Laser Cut Jewelry in Rhino</li>\n<li>Digitized Embroidery</li>\n<li>E-Textiles: Light Up Your Clothing</li>\n<li>E-Textiles: Soft Sensors</li>\n<li>Epoxy Pouring: Make Your Own Dice</li>\n<li>Foamsmithing</li>\n<li>Professionally Photograph Your Projects</li>\n<li>Props, Paint, and 3D Prints</li>\n<li>Screen Printing</li>\n<li>Screen Printing in the Digital Era</li>\n<li>Stained Glass on the Waterjet</li>\n</ul>",
       "Timeframe": {
-        "Sortable": "",
-        "Display": "Month Year"
+        "Sortable": "2024-10-30",
+        "Display": "August 2021 - October 2024"
       },
-      "Description": "A brief description of the new project.",
-      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Description": "About 70 workshops ran impacting over 400 students",
+      "ThumbnailImage": "images/rw.thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
         "Teaching",
-        "Makerspace Improvements"
+        "Makerspace Improvements",
+        "Big Builds"
       ],
       "Images": [
         {
-          "ImageURL": "images/default-image.jpg",
-          "Description": "Default image description."
+          "ImageURL": "images/rw.1.jpg",
+          "Description": "The only class photo I got was for my final ever Roots class."
         }
       ],
-      "Complete": false,
-      "Favorite": false,
+      "Complete": true,
+      "Favorite": true,
       "Hidden": false
     },
     {
       "Title": "Wilson Lab Makerspace",
-      "BodyContent": "Collab with Tobey",
+      "BodyContent": "The host of our East Campus location of the Innovation Co-Lab, Lilly library, was closing for renovations for two years. After that, we'd have a brand new shiny space! But... what would we do in the meantime?\n<br><br>\nOn East Campus there was an old computer lab full of iMacs that was underutilized. It was in a building owned by Campus Housing and was physically in between the East Campus student union/dining hall and the Wilson Dorm, so we had to talk to housing to get everything planned. They agreed to let us use the space as a makerspace for the two years that Lilly was undergoing renovations. Everything was going great! It was the end of June and the space just had new wooden flooring installed andthe floor got a fresh coat of paint. However, my boss, the Makerspace Manager, had resigned and we were scheduled to have the makerspace open on the first day of class in late August. My fellow technician, Tobey Southworth, and I realized that if this space were going to open, it'd be solely on us to make it happen. However, we had almost complete freedom to do so. And we wanted to focus on mindful making, making as meditation, rest, and recovery.\n<br><br>\nThankfully, we didn't just have the equipment from Lilly Library, but we essentially had a blank check to make it happen and we were passionate about making the best makerspace we could! We started planning and got to work. We got to spend a lot of time in the space brainstorming what the needs would be, and what furniture would best fit those goals. I put together a bill of materials and made some hand renders imagining what it could be like. The Wilson lab was going to be where all the freshmen lived, so we knew it had to be welcoming and an effective first exposure to not just the Co-Lab, but makerspaces as a whole. We wanted our staffers to be comfortable, so we got a water cooler and a dedicated desk with all the chargers they would need. We welcomed all the natural light we got and make the atmosphere even more welcoming by adding plants. We made sure wheelchairs could get around the tables and added an adjustable-height desk that could go lower than the stool-height worktables. We wanted all the tools to be visible, so we opted for colorful pegboard instead of the existing tool bench we had. We wanted all of the tools to be conveniently located, so we hung sewing tools next to our sewing station and vinyl weeding tools next to the Cricut. All in all, it was a pretty great place. I'd argue that going off vibes alone, it was a better workspace than our other two locations and felt more cohesive.\n<br><br>\nThis project Was a great experience that called on a lot of the skills I had gained in the past with architecture, but pointed towards the kinds of problems I wanted to solve! I could call this a dry run for any makerspaces I help steer in the future, since I had done plenty of makerspace design and optimization with our other locations but always building off a framework someone else developed. Wilson wasn't a compromise with the past, but unfortunately it was still a compromise with the future. Since we still had to do the rest of our jobs while also making sure this space came together, there was a lot we didn't have time to implement. At the end of the day, whether I'm satisfied with it or not the space would only be open for two years, so there was always going to be a limit to what we could do. While we would have really loved to do a deep dive on mindfulness and make the space as much a wellness space as a makerspace, it just wasn't in the cards.",
       "Timeframe": {
-        "Sortable": "",
-        "Display": "Month Year"
+        "Sortable": "2024-08-20",
+        "Display": "July & August 2024"
       },
-      "Description": "A brief description of the new project.",
-      "ThumbnailImage": "images/default-thumbnail.jpg",
-      "Collaborators": [],
+      "Description": "Making a mindful makerspace in two months",
+      "ThumbnailImage": "images/wl.thumbnail.jpg",
+      "Collaborators": [
+        {
+          "Name": "Tobey Southworth",
+          "Role": ""
+        }
+      ],
       "Tags": [
         "Makerspace Improvements",
         "Architecture"
       ],
       "Images": [
         {
-          "ImageURL": "images/default-image.jpg",
-          "Description": "Default image description."
+          "ImageURL": "images/wl.1.jpg",
+          "Description": "A photo of the new makerspace days before opening."
+        },
+        {
+          "ImageURL": "images/wl.5.jpg",
+          "Description": "The outside of the site we had to work with. It was located between a major dining hall and a residence hall."
+        },
+        {
+          "ImageURL": "images/wl.2.jpg",
+          "Description": "My plan for the main studio space."
+        },
+        {
+          "ImageURL": "images/wl.3.jpg",
+          "Description": "My plan for the tool wall and staff on duty desk."
+        },
+        {
+          "ImageURL": "images/wl.4.jpg",
+          "Description": "My plan for the entryway."
         }
       ],
       "Complete": false,
@@ -3287,7 +3358,7 @@
         "Display": "Month Year"
       },
       "Description": "A brief description of the new project.",
-      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "ThumbnailImage": "images/opw.thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
         "Programming",
@@ -3311,7 +3382,7 @@
         "Display": "Month Year"
       },
       "Description": "A brief description of the new project.",
-      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "ThumbnailImage": "images/npw.thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
         "Programming",
