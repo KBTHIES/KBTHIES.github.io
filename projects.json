@@ -3247,7 +3247,7 @@
           "Description": "My plan for the entryway."
         }
       ],
-      "Complete": false,
+      "Complete": true,
       "Favorite": false,
       "Hidden": false
     },
@@ -3352,12 +3352,12 @@
     },
     {
       "Title": "Previous Portfolio Website",
-      "BodyContent": "<p>New project content in HTML format.</p>",
+      "BodyContent": "<p>In my sophomore year of college, I was assigned to make a portfolio website using the foundation framework. I didn't really know what I was doing, but I had a vision and I made it work. However, I ended up setting myself up for failure since it was structured in a way where every individual project was an individual HTML file. If I wanted to change the nav bar and footer for my website, I'd have to copy+paste the change across all of my project pages. As a result, I never ended up adding too much to it. That being said, that failure proved to be an invaluable lesson, as when I came back to make this website, I knew what to avoid. You can still view a slightly broken version of the old website <a href=\"https://www.kevinbthies.com/FoundationPortfolio/\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>!</p>",
       "Timeframe": {
-        "Sortable": "",
-        "Display": "Month Year"
+        "Sortable": "2017-03-29",
+        "Display": "March 2017"
       },
-      "Description": "A brief description of the new project.",
+      "Description": "My first portfolio website",
       "ThumbnailImage": "images/opw.thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
@@ -3366,35 +3366,60 @@
       ],
       "Images": [
         {
-          "ImageURL": "images/default-image.jpg",
-          "Description": "Default image description."
+          "ImageURL": "images/opw.1.png",
+          "Description": "A view of my old portfolio website."
         }
       ],
-      "Complete": false,
+      "Complete": true,
       "Favorite": false,
       "Hidden": false
     },
     {
       "Title": "This Website",
-      "BodyContent": "Talk about what I learned making the old portfolio website and how I wanted to restructure it with a more programmatic approach. Also how I built backend tools like the markdown-editor and thought about structuring my images, and is generally more capable as a living webpage that I can continuously edit. It was \"started\" on Nov 2nd and acknowledge that it was made with ChatGPT",
+      "BodyContent": "<p>When I made my original website back in 2017, I had an image in my mind of how I wanted it to look and function. My old project website took way to much manual work, since back then I had an html file for every single page that I was copy+pasting but then hand-linking those to the nav bar of every other file. Basically, it was so cumbersome to use and update that I just ended up not adding anything to it. That was almost a decade ago, and there's two things going for me now. 1 - I can code. 2 - ChatGPT exists.\n<br><br>\nWhen making this website, I knew I wanted to take a programmatic approach to things and make sure that everything was as automated as it could be, so I started this project with three firm pillars:</p>\n<b>The website would only have one html file that everything would display in.</b>\n<p>This meant that all of my JavaScript and CSS would only have to worry about the page loading once, and meant that my various tabs would just be shoing or hiding divs.</p>\n<b>My projects would be stored as JSON objects that the website would pull information from, and they would all be part of one large file.</b>\n<p>This meant that I wouldn't need to format every project individually and adding a new project to my portfolio would be as easy as entering in a JSON file. However, it meant I had to be very considerate of what properties I'd want every project to have, since once I started entering information in it'd be difficult to add more properties and update every single project. Additionally, I needed to make sure that my program would be able to handle different edge cases, like how would it display a project with 20 photos? 1 photo? 0 photos? I had to keep some of the display options pretty flexible. For example, if I have no collaborators, then the website doesn't display that section. If I do have a collaborator, then it shows a collaborator section and adds some text. If there are multiple, then it formats those names with commas and an \"and\". If I want to call out specific roles for my collaborators, then it'll append that information on the back of each person's name.</p>\n<b>No frameworks allowed.</b>\n<p>The website would be built in raw HTML, CSS, and Javascript. Frameworks are convenient, but one thing I learned from a co-worker during my time at the Innovation Co-Lab was that frameworks come with limitations. In my case, I knew that I'd lose convenience but it was the best way to make sure I could actually create what I was imagining. Additionally, knowing that I would extensively use ChatGPT to rapidly iterate on my website I made sure to interact with as few outside systems as I could. In my experience, ChatGPT has a lot of trouble when you tell it to program using specific plug-ins. When I was working with it in Foundry, it'd regularly mix in code from versions that were too old or too new and thus were incompatible with my needs.</p>\n<p>\nWith those in mind, I got to work! A lot of my early work on this project was on making tools. I started work on the main website with the three working tabs as a proof of concept. markdown-editor.html was a critical file because it gave me a friendly UI to edit my projects.json file, and later on I added functionality to track my progress on entering in projects. As expected, ChatGPT was tricky to wrangle, but because I could work on elements of the project separately it was much easier to manage. For example, my project with the markdown-editor.html never had to actually touch the styles.css file since it had its own CSS styles baked into the html file, and the same was true of the Javascript running inside it. \nEventually, my script.js file did get too long to copy+paste it into the ChatGPT prompt box, but I could instead work one function at a time. While I'd say I'm now generally anti-generative AI, ChatGPT proved to be an invaluable tool in this process, with it allowing me to go beyond my limits and implement code I didn't understand until I saw everything run. On the flip side, since I knew enough to see what the code was doing, I was able to edit and revise the code ChatGPT was giving me and fully integrate everything, basically making a website that ChatGPT would be incapable of generating on its own. In a way, part of my role in this project was to act as the website's Designer, but I also got to work a bit as a Prompt Engineer, as much as that term makes me cringe. This also meant that I could manage to create this entire website from a blank HTML file in under a month, given I started really working on it on November 2nd and all that was left to do was data entry as of the 25th.\n</p>\n<hr>\n<b>Now, let's talk about how everything's structured.</b>\n<p>The website pulls project data from projects.json and sorts them by a sortable date attached to each file. All images are stored in a single folder and have name \"coded\" the project. For example, Resin Dice has images starting with \"rd\" and the Catan Board has images starting with \"cb\". Each projects thumbnail is .thumbnail, while all of the images are just integers. So resin dice has images rd.thumbnail, rd.1.jpg, rd.2.jpg, etc. The main portfolio tab pulls every project's thumbnail image and populates their hover text with the project name and a short description. When you click on a project, the website references another html file, lightbox-template.html, and replaces the information from that generic popup with the information from projects.json. There's a few attributes from projects.json that don't render if nothing's input, like collaborators or images. Otherwise, the body of the project is raw HTML, so I have the freedom to embed iframes or images if I wish. A lot of time was spent making sure the lightbox for each project would render properly and that the images would be relatively usable. The website also references another file when you go to the about tab, about-data.json. This way, if I ever want to edit any of my skills or add a new category, all I have to do is make a change to a single JSON file. Of course, to edit my projects I use my custom editor, markdown-editor.html which can then output a new JSON file that I have to manually override the old projects.json with. When everything's done, I save the project and head over to Github. The website is published thorugh Github Pages, so I just commit my mew code and push it to main and the website automatically updates in a few minutes. One other benefit of working with Github is that I could have my repo on multiple devices so I could edit it anywhere. Additionally, I have version control for when ChatGPT is being exceptionally fussy and I need to revert large chunks of code. Finally, editing the website is as easy as making some changes to my JSON files, hitting save, and then pushing that to the main branch.</p>\n<p>So I can firmly say that I learned a whole lot from my old website and was able to finally realize the vision that I have back in sophomore year. From this project, I stress tested my existing knowledge of HTML and CSS and learned a whole lot from ChatGPT's code. The website still has plenty of room for optimization and improvement, but it's a fantastic skeleton to be working with!</p>",
       "Timeframe": {
-        "Sortable": "",
-        "Display": "Month Year"
+        "Sortable": "2024-11-02",
+        "Display": "November 2024"
       },
-      "Description": "A brief description of the new project.",
+      "Description": "A revised portfolio website",
       "ThumbnailImage": "images/npw.thumbnail.jpg",
-      "Collaborators": [],
+      "Collaborators": [
+        {
+          "Name": "ChatGPT",
+          "Role": ""
+        }
+      ],
       "Tags": [
         "Programming",
         "Technical"
       ],
       "Images": [
         {
-          "ImageURL": "images/default-image.jpg",
-          "Description": "Default image description."
+          "ImageURL": "images/npw.1.png",
+          "Description": "A look at my dev environment."
+        },
+        {
+          "ImageURL": "images/npw.2.png",
+          "Description": "markdown-editor.html is my workspace for updating and adding new projects. I can also track the status of the projects I've entered with backend tags like Complete, Favorite, and Hidden without that interfacing with my actual tags system."
+        },
+        {
+          "ImageURL": "images/npw.6.png",
+          "Description": "A look at how projects.json is actually laid out. Every project is in that one json file, which is why I need markdown-editor.html to interface with it."
+        },
+        {
+          "ImageURL": "images/npw.3.png",
+          "Description": "The lightbox template helps reduce the amount of HTML that the Javascript file has to generate, making it easier to preview elements in my website without being forced to click through my website a few times."
+        },
+        {
+          "ImageURL": "images/npw.4.png",
+          "Description": "A look at my file structure, including supporting documents like lightbox-template.html and markdown-editor.html to really small things like my Tpis.txt that help remind me about my workflow."
+        },
+        {
+          "ImageURL": "images/npw.5.png",
+          "Description": "A look at how these images are named and organized."
         }
       ],
-      "Complete": false,
+      "Complete": true,
       "Favorite": false,
       "Hidden": false
     },
@@ -3422,14 +3447,14 @@
       "Hidden": false
     },
     {
-      "Title": "Screenprinting in the Digital Era",
-      "BodyContent": "My final roots class",
+      "Title": "Screen printing in the Digital Era",
+      "BodyContent": "<p>\nAt the Innovation Co-Lab I learned and refined my screen printing technique. While doing it the traditional way with negatives and photo-sensitive emulsions would be the nicest way to do it, that didn't engage with the technology we had at the makerspace. I started by using our Cricut, first by cutting vinyl sheets and applying it to the screens. However, those took a while to weed and would fall off after a rinse or two. From there I moved on to heat-transfer vinyl, which similar to an emulsion would bond to the mesh of the screen itself. However, sizes were limited unless you were willing to disassemble the screen, and complicated designs could lead to a painful weeding process. However, I'd eventually learn of XTool's new screen printing system, where there was a frame designed for hot-swappable screens, and their screens came precoated with an emulsion that could be laser engraved away. It was great! You'd gain all the accuracy of the emulsion with the speed of the laser cutter. However, since we didn't use XTool lasers, it was on me to figure out the settings.\n</p>\n<p>\nFiguring out the settings for our Epilog lasers was easy enough, and you can see that process in the first image. I started planning how I would run this as a class. The trick to a good Roots workshop is you want the students to learn something without them knowing that they're learning something. I decided that for this class, we'd not only go through the entire screen printing process, but we'd have room for students to design their own file with a sneaky addition of showing them how to figure out laser settings for unknown materials. I decided that being very familiar with the process, I didn't need to formally write down the process we'd go through as a class. \n</p>\n<p>\nIt was the day of the class, and everything was great. We had full attendance and I had reserved the Trotec laser, which has a smaller focal distance of 2\" which meant it engraved fine details way better than the 4\" lens of our Epilog. However, when it came time to figure out the settings by sending a test square, engraving it, and then checking how the engraving did, it ended up taking a lot of iterations. The process was also inconsistent, with narrower areas engraving better than wider ones. I realized that the tight focal distance meant that the material was too wrinkled and the fine dot meant it wouldn't fully cover every part of the screen without increasing the DPI, and thus the engraving time per student. For what it's worth, I was able to solve the issue by offsetting the focus and slowing down the sped, but I was doing this all in front of a class, so my nerves were a little bit rattled to say the least.\n</p>\n<p>\nHowever, after that everything ran great! My students enjoyed getting hands-on in the class, and they learned how to send and iterate laser cutter files, how to figure out settings for an unknown material, and also how to use the XTool screen printing station, which at the time I was the only one in the lab who knew how to use it. I also learned a valuable lesson in doing test runs and final runs with the same machine, but at the very least after that we had settings for both lasers. Importantly, there's another aspect of not letting your nerves who too much when you're in a class. It's ok to acknowledge that things don't always go as planned, even with machines you're intimately familiar with. Luckily I'm able to put on a pretty good public speaking face, but it just goes to show that \"measure twice, cut once\" still applies in the classroom.\n</p>",
       "Timeframe": {
-        "Sortable": "",
-        "Display": "Month Year"
+        "Sortable": "2024-10-30",
+        "Display": "October 2024"
       },
-      "Description": "A brief description of the new project.",
-      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Description": "Screen printing with laser cutters",
+      "ThumbnailImage": "images/sde.thumbnail.jpg",
       "Collaborators": [],
       "Tags": [
         "Printmaking",
@@ -3438,11 +3463,15 @@
       ],
       "Images": [
         {
-          "ImageURL": "images/default-image.jpg",
-          "Description": "Default image description."
+          "ImageURL": "images/sde.1.jpg",
+          "Description": "My test cuts for the Epilog laser. Note the circled power and speed combo.."
+        },
+        {
+          "ImageURL": "images/rw.1.jpg",
+          "Description": "The only class photo I got was for this, my final ever Roots class."
         }
       ],
-      "Complete": false,
+      "Complete": true,
       "Favorite": false,
       "Hidden": false
     },
@@ -3459,6 +3488,29 @@
       "Tags": [
         "Game Design",
         "LARP"
+      ],
+      "Images": [
+        {
+          "ImageURL": "images/default-image.jpg",
+          "Description": "Default image description."
+        }
+      ],
+      "Complete": false,
+      "Favorite": false,
+      "Hidden": true
+    },
+    {
+      "Title": "The Amberjack",
+      "BodyContent": "Board Game",
+      "Timeframe": {
+        "Sortable": "",
+        "Display": "Month Year"
+      },
+      "Description": "A brief description of the new project.",
+      "ThumbnailImage": "images/default-thumbnail.jpg",
+      "Collaborators": [],
+      "Tags": [
+        "Default Tag"
       ],
       "Images": [
         {

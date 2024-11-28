@@ -3247,7 +3247,7 @@
           "Description": "My plan for the entryway."
         }
       ],
-      "Complete": false,
+      "Complete": true,
       "Favorite": false,
       "Hidden": false
     },
