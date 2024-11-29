@@ -1341,7 +1341,7 @@
       ],
       "Complete": false,
       "Favorite": true,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "Graduation Gifts",
@@ -2139,7 +2139,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "Glowforge Cart",
@@ -2164,7 +2164,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "Kukanno Kami Figure",
@@ -3321,7 +3321,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "ISEKAI TTRPG",
@@ -3348,7 +3348,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "Previous Portfolio Website",
@@ -3444,7 +3444,7 @@
       ],
       "Complete": false,
       "Favorite": false,
-      "Hidden": false
+      "Hidden": true
     },
     {
       "Title": "Screen printing in the Digital Era",
